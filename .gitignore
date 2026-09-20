@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Tooling and local caches
+.cache/
+.coverage
+htmlcov/
+*.egg-info/
+.idea/
+.vscode/
+
+# Data and generated outputs
+data/
+datasets/
+outputs/
+runs/
+examples/egoverse_example_data_label/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.zarr/
+*.hdf5
+*.h5
+*.ckpt
+*.pt
+*.pth
+*.pkl
+*.zip
+
+# Local machine files
+.DS_Store
+*.log

@@ -1,0 +1,3 @@
+[submodule "vitra"]
+	path = vendor/hand_reconstruction
+	url = https://github.com/microsoft/VITRA.git

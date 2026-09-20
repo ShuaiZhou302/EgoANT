@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use EgoANT, please cite this software release."
+title: "EgoANT: Egocentric Video Segmentation and Annotation with Open-Weight Vision-Language Models"
+type: software
+version: 5.1.0
+date-released: 2026-09-20
+authors:
+  - family-names: Zhou
+    given-names: Shuai
+    alias: ShuaiZhou302
+repository-code: "https://github.com/ShuaiZhou302/EgoANT"
+url: "https://www.shuai-zhou.com/egoant-report/?lang=en"
+license: MIT

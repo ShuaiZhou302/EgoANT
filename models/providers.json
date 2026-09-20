@@ -1,0 +1,20 @@
+{
+  "openai_compatible": {
+    "base_url": "https://api.example.com/v1",
+    "caption_model": "your-vision-language-model",
+    "judge_model": "your-vision-language-model",
+    "rewrite_model": "your-vision-language-model",
+    "api_key_env": "ANNOTATION_API_KEY",
+    "disable_thinking": false,
+    "check_endpoint": false
+  },
+  "local_vllm": {
+    "base_url": "http://127.0.0.1:8000/v1",
+    "caption_model": "Qwen/Qwen3.5-397B-A17B-FP8",
+    "judge_model": "Qwen/Qwen3.5-397B-A17B-FP8",
+    "rewrite_model": "Qwen/Qwen3.5-397B-A17B-FP8",
+    "api_key_env": "LOCAL_MODEL_API_KEY",
+    "disable_thinking": true,
+    "check_endpoint": true
+  }
+}
