@@ -1,0 +1,41 @@
+{
+  "id": "homer_37",
+  "instruction": "chop the left tomato into dices on the cutting board",
+  "duration_sec": 66.13333333333334,
+  "n_sheets": 7,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 3,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 24.5,
+      "subtask": "slice the tomato into strips"
+    },
+    {
+      "start_sec": 24.5,
+      "end_sec": 25,
+      "subtask": "rearrange the tomato strips"
+    },
+    {
+      "start_sec": 25,
+      "end_sec": 62,
+      "subtask": "dice the tomato strips"
+    },
+    {
+      "start_sec": 62,
+      "end_sec": 62.5,
+      "subtask": "chop the left tomato into dices on the cutting board"
+    },
+    {
+      "start_sec": 62.5,
+      "end_sec": 64.5,
+      "subtask": "transfer diced tomato to a bowl"
+    },
+    {
+      "start_sec": 64.5,
+      "end_sec": 66.13,
+      "subtask": "place knife on cutting board"
+    }
+  ]
+}

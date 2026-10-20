@@ -1,0 +1,178 @@
+{
+  "id": "homer_29",
+  "instruction": "dice an onion",
+  "duration_sec": 84.93333333333332,
+  "n_sheets": 9,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 6,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 3,
+      "subtask": "cut the onion",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "cut the onion",
+        "rawprior": "cut the onion",
+        "seed": "pick up the knife",
+        "ffmpeg": "open the container"
+      },
+      "candidate_select_meta": {
+        "fps": 28.999215070643643,
+        "nframes": 2463,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 3,
+      "end_sec": 30,
+      "subtask": "peel onion",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "peel onion",
+        "rawprior": "peel onion",
+        "seed": "peel the onion",
+        "ffmpeg": "peel onion"
+      },
+      "candidate_select_meta": {
+        "fps": 28.999215070643643,
+        "nframes": 2463,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 30,
+      "end_sec": 33,
+      "subtask": "cut onion",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "cut onion",
+        "rawprior": "cut onion",
+        "seed": "place the onion on the cutting board",
+        "ffmpeg": "peel the onion"
+      },
+      "candidate_select_meta": {
+        "fps": 28.999215070643643,
+        "nframes": 2463,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 33,
+      "end_sec": 37.5,
+      "subtask": "Dispose of onion peels in the trash bin",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Dispose of onion peels in the trash bin",
+        "rawprior": "Dispose of onion peels in the trash bin",
+        "seed": "dispose of the onion peel",
+        "ffmpeg": "Throw onion peels in trash bin"
+      },
+      "candidate_select_meta": {
+        "fps": 28.999215070643643,
+        "nframes": 2463,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 37.5,
+      "end_sec": 39,
+      "subtask": "return to the counter",
+      "candidate_select_source": "C",
+      "candidate_labels": {
+        "raw": "Peel the onion",
+        "rawprior": "Peel the onion",
+        "seed": "return to the counter",
+        "ffmpeg": "Peel the onion"
+      },
+      "candidate_select_meta": {
+        "fps": 28.999215070643643,
+        "nframes": 2463,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 39,
+      "end_sec": 74,
+      "subtask": "dice the onion",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "dice the onion",
+        "rawprior": "dice the onion",
+        "seed": "dice the onion",
+        "ffmpeg": "Dice the onion on the cutting board"
+      },
+      "candidate_select_meta": {
+        "fps": 28.999215070643643,
+        "nframes": 2463,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 74,
+      "end_sec": 75,
+      "subtask": "chop onion on cutting board",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "chop onion on cutting board",
+        "rawprior": "chop onion on cutting board",
+        "seed": "pick up the cutting board",
+        "ffmpeg": "move the chopping board"
+      },
+      "candidate_select_meta": {
+        "fps": 28.999215070643643,
+        "nframes": 2463,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 75,
+      "end_sec": 82.5,
+      "subtask": "transfer onion to bowl",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "transfer onion to bowl",
+        "rawprior": "transfer onion to bowl",
+        "seed": "transfer the diced onion to a bowl",
+        "ffmpeg": "put the onion in the bowl"
+      },
+      "candidate_select_meta": {
+        "fps": 28.999215070643643,
+        "nframes": 2463,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 82.5,
+      "end_sec": 84.93,
+      "subtask": "place the knife on the cutting board",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "place the knife on the cutting board",
+        "rawprior": "place the knife on the cutting board",
+        "seed": "place the cutting board on the counter",
+        "ffmpeg": "place the knife on the cutting board"
+      },
+      "candidate_select_meta": {
+        "fps": 28.999215070643643,
+        "nframes": 2463,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    }
+  ],
+  "candidate_select_recipe": {
+    "name": "raw_rawprior_seed_ffmpeg_neighbor_selector_397B",
+    "frames_per_sheet": 5,
+    "image_max_side": 1120
+  }
+}

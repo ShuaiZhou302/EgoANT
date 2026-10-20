@@ -33,7 +33,6 @@ Accept if:
 - Source, destination, direction, or spatial relation is correct when central to the event.
 - Wording can differ; synonyms are fine.
 - It may be slightly less detailed than the gold label if it is still useful.
-
 Reject if:
 - The action is wrong.
 - The main object is wrong.

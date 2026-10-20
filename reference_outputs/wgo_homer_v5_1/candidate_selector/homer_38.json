@@ -1,0 +1,232 @@
+{
+  "id": "homer_38",
+  "instruction": "set a table",
+  "duration_sec": 90.79440000000001,
+  "n_sheets": 10,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 4,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 2,
+      "subtask": "pick up the stack of plates",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "pick up the stack of plates",
+        "rawprior": "pick up the stack of plates",
+        "seed": "pick up stack of plates",
+        "ffmpeg": "Pick up the stack of plates"
+      },
+      "candidate_select_meta": {
+        "fps": 29.858669697690605,
+        "nframes": 2711,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 2,
+      "end_sec": 6,
+      "subtask": "Place the stack of plates on the table",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the stack of plates on the table",
+        "rawprior": "Place the stack of plates on the table",
+        "seed": "transport plates to table",
+        "ffmpeg": "Place the stack of plates on the table"
+      },
+      "candidate_select_meta": {
+        "fps": 29.858669697690605,
+        "nframes": 2711,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 6,
+      "end_sec": 8.5,
+      "subtask": "Place the plate on the table",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the plate on the table",
+        "rawprior": "Place the plate on the table",
+        "seed": "place first plate on table",
+        "ffmpeg": "place the plate on the table"
+      },
+      "candidate_select_meta": {
+        "fps": 29.858669697690605,
+        "nframes": 2711,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 8.5,
+      "end_sec": 12,
+      "subtask": "Place the plate on the table",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the plate on the table",
+        "rawprior": "Place the plate on the table",
+        "seed": "place second plate on table",
+        "ffmpeg": "Place the plate on the table"
+      },
+      "candidate_select_meta": {
+        "fps": 29.858669697690605,
+        "nframes": 2711,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 12,
+      "end_sec": 15.5,
+      "subtask": "Place the plate on the table",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the plate on the table",
+        "rawprior": "Place the plate on the table",
+        "seed": "place third plate on table",
+        "ffmpeg": "Place the plate on the table"
+      },
+      "candidate_select_meta": {
+        "fps": 29.858669697690605,
+        "nframes": 2711,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 15.5,
+      "end_sec": 18.5,
+      "subtask": "place plate on table",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "place plate on table",
+        "rawprior": "place plate on table",
+        "seed": "place fourth plate on table",
+        "ffmpeg": "Place the plate on the table"
+      },
+      "candidate_select_meta": {
+        "fps": 29.858669697690605,
+        "nframes": 2711,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 23,
+      "end_sec": 29.5,
+      "subtask": "place glasses on table",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "place glasses on table",
+        "rawprior": "place glasses on table",
+        "seed": "carry glasses to table",
+        "ffmpeg": "Place glasses on table"
+      },
+      "candidate_select_meta": {
+        "fps": 29.858669697690605,
+        "nframes": 2711,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 29.5,
+      "end_sec": 37.5,
+      "subtask": "Place the glass on the table",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the glass on the table",
+        "rawprior": "Place the glass on the table",
+        "seed": "place glasses on the table",
+        "ffmpeg": "stack the glass on the other glass"
+      },
+      "candidate_select_meta": {
+        "fps": 29.858669697690605,
+        "nframes": 2711,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 37.5,
+      "end_sec": 42,
+      "subtask": "Place the glass on the table",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the glass on the table",
+        "rawprior": "Place the glass on the table",
+        "seed": "adjust plates",
+        "ffmpeg": "Place the glass on the table"
+      },
+      "candidate_select_meta": {
+        "fps": 29.858669697690605,
+        "nframes": 2711,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 47.5,
+      "end_sec": 51.5,
+      "subtask": "open the drawer",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "open the drawer",
+        "rawprior": "open the drawer",
+        "seed": "open drawer",
+        "ffmpeg": "open the drawer"
+      },
+      "candidate_select_meta": {
+        "fps": 29.858669697690605,
+        "nframes": 2711,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 51.5,
+      "end_sec": 66,
+      "subtask": "take cutlery from drawer",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "take cutlery from drawer",
+        "rawprior": "take cutlery from drawer",
+        "seed": "pick up cutlery",
+        "ffmpeg": "Take out the cutlery from the drawer"
+      },
+      "candidate_select_meta": {
+        "fps": 29.858669697690605,
+        "nframes": 2711,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 66.5,
+      "end_sec": 89.5,
+      "subtask": "Place cutlery on the table",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place cutlery on the table",
+        "rawprior": "Place cutlery on the table",
+        "seed": "place cutlery on the table",
+        "ffmpeg": "place cutlery on table"
+      },
+      "candidate_select_meta": {
+        "fps": 29.858669697690605,
+        "nframes": 2711,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    }
+  ],
+  "candidate_select_recipe": {
+    "name": "raw_rawprior_seed_ffmpeg_neighbor_selector_397B",
+    "frames_per_sheet": 5,
+    "image_max_side": 1120
+  }
+}

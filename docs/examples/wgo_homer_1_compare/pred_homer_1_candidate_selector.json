@@ -3,7 +3,7 @@
   "instruction": "use pitcher to pour water into tall glass and wine glass",
   "duration_sec": 161.18333333333334,
   "n_sheets": 17,
-  "prompt_variant": "refine_local_v1",
+  "prompt_variant": "refine_full_cover_v1",
   "coarse_dir": "outputs/datasets/WGO_Bench_HomER/expB_recipe_aligned",
   "n_windows_refined": 10,
   "segments": [

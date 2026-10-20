@@ -1,0 +1,21 @@
+{
+  "id": "homer_52",
+  "instruction": "",
+  "duration_sec": 37.98537777777778,
+  "n_sheets": 4,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 1,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 31.5,
+      "subtask": "tying shoelaces"
+    },
+    {
+      "start_sec": 36.5,
+      "end_sec": 37.98537777777778,
+      "subtask": "adjusting shoe"
+    }
+  ]
+}

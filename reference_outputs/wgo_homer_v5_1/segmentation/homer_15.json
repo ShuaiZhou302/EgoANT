@@ -1,0 +1,56 @@
+{
+  "id": "homer_15",
+  "instruction": "fold the laundry items neatly",
+  "duration_sec": 132.3,
+  "n_sheets": 14,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 4,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 29.5,
+      "subtask": "folding the white cloth"
+    },
+    {
+      "start_sec": 30,
+      "end_sec": 39.5,
+      "subtask": "unfolding the patterned cloth"
+    },
+    {
+      "start_sec": 39.5,
+      "end_sec": 61.5,
+      "subtask": "folding the patterned cloth"
+    },
+    {
+      "start_sec": 62,
+      "end_sec": 69.5,
+      "subtask": "picking up and unfolding the blue cloth"
+    },
+    {
+      "start_sec": 69.5,
+      "end_sec": 79.5,
+      "subtask": "laying the blue cloth flat and smoothing it"
+    },
+    {
+      "start_sec": 79.5,
+      "end_sec": 87.5,
+      "subtask": "folding the blue cloth in half"
+    },
+    {
+      "start_sec": 87.5,
+      "end_sec": 92,
+      "subtask": "rolling the blue cloth"
+    },
+    {
+      "start_sec": 92,
+      "end_sec": 96.5,
+      "subtask": "picking up the rolled blue cloth"
+    },
+    {
+      "start_sec": 101.5,
+      "end_sec": 132.3,
+      "subtask": "folding the striped cloth"
+    }
+  ]
+}

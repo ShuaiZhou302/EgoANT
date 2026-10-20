@@ -1,35 +1,40 @@
 # WGO Candidate Selector Prompt
 
-Source of truth: `SYSTEM_PROMPT` and `USER_PROMPT_TEMPLATE` in
-`scripts/wgo_bench/run_wgo_candidate_selector.py`.
+Source of truth for the reported V5.1 result: `SYSTEM` and `PROMPT` in
+`scripts/wgo_bench/select_pred_segment_candidates.py`.
 
 ## Image Inputs
 
-The selector is given the current segment visual evidence used for candidate
-generation, typically current-segment contact sheets or raw-frame evidence.
-Candidate labels are provided as text. Gold labels are never provided.
+The selector receives three images in order: a five-frame PREV contact sheet,
+a five-frame CURRENT contact sheet, and a five-frame NEXT contact sheet. It
+also receives four text candidates. Gold labels are never provided.
 
 ## System Prompt
 
 ```text
-You select the best subtask label for a fixed egocentric video segment.
+You choose the best subtask label for an egocentric manipulation video segment. Return one concise imperative phrase. Do not narrate the actor. Reply with ONLY JSON: {"label": "...", "source": "A|B|C|D|corrected"}.
 ```
 
 ## User Prompt Template
 
 ```text
-You are selecting the best subtask label for a fixed video segment.
+I will send PREV, CURRENT, and NEXT contact sheets for one predicted segment.
+Choose the best label for the CURRENT segment only.
 
-Segment time: [{start_sec}, {end_sec}]
-Episode instruction: {instruction}
+Candidate labels:
+A raw-frame label: {raw_label}
+B raw-prior neighbor label: {rawprior_label}
+C segmentation-prior neighbor label: {seed_label}
+D ffmpeg raw-frame label: {ffmpeg_label}
 
-Candidates:
-{candidate_list}
+Candidate A is usually the most stable. Prefer A unless the CURRENT sheet clearly supports another candidate.
+Use PREV and NEXT only to understand what changed at the boundaries.
+If all candidates miss an obvious action, output a corrected short label.
 
-Pick the single candidate that best names the completed manipulation event visible in the segment.
-Prefer concrete object + action + destination/state. Prefer candidates that do not invent unseen objects.
-If several are equivalent, prefer the more concise imperative phrasing, usually the raw-frame candidate.
-
-Return JSON only:
-{"selected_key": "raw", "label": "the chosen label text", "reason": "one short sentence"}
+Episode task, for context only:
+{instruction}
 ```
+
+`scripts/wgo_bench/run_wgo_candidate_selector.py` remains available as a
+generic two-stage selector, but it is not the exact selector used for the
+reported `0.1542` result.

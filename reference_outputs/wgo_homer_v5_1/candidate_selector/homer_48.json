@@ -1,0 +1,322 @@
+{
+  "id": "homer_48",
+  "instruction": "",
+  "duration_sec": 55.989266666666666,
+  "n_sheets": 6,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 4,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 2.5,
+      "subtask": "Pick up the green lid",
+      "candidate_select_source": "D",
+      "candidate_labels": {
+        "raw": "Close the container with the lid",
+        "rawprior": "Close the container with the lid",
+        "seed": "pick up green container",
+        "ffmpeg": "Pick up the green lid"
+      },
+      "candidate_select_meta": {
+        "fps": 29.97002997002997,
+        "nframes": 1678,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 2.5,
+      "end_sec": 4.5,
+      "subtask": "Place the green lid on the table",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the green lid on the table",
+        "rawprior": "Place the green lid on the table",
+        "seed": "place green lid on dish rack",
+        "ffmpeg": "Place the green lid on the table"
+      },
+      "candidate_select_meta": {
+        "fps": 29.97002997002997,
+        "nframes": 1678,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 4.5,
+      "end_sec": 9,
+      "subtask": "Place the container on the table",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the container on the table",
+        "rawprior": "Place the container on the table",
+        "seed": "close green container",
+        "ffmpeg": "Stack the container on the other container"
+      },
+      "candidate_select_meta": {
+        "fps": 29.97002997002997,
+        "nframes": 1678,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 9,
+      "end_sec": 11,
+      "subtask": "pick up the container with the green lid",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "pick up the container with the green lid",
+        "rawprior": "pick up the container with the green lid",
+        "seed": "Pick up the green container",
+        "ffmpeg": "Pick up the green container"
+      },
+      "candidate_select_meta": {
+        "fps": 29.97002997002997,
+        "nframes": 1678,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 11,
+      "end_sec": 14.5,
+      "subtask": "stack the container",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "stack the container",
+        "rawprior": "stack the container",
+        "seed": "stack green containers",
+        "ffmpeg": "Stack the green-lidded container on top of the other containers"
+      },
+      "candidate_select_meta": {
+        "fps": 29.97002997002997,
+        "nframes": 1678,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 15,
+      "end_sec": 17.5,
+      "subtask": "Place the plastic container on the counter",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the plastic container on the counter",
+        "rawprior": "Place the plastic container on the counter",
+        "seed": "place the white rectangular container on the counter",
+        "ffmpeg": "Place the container on the counter"
+      },
+      "candidate_select_meta": {
+        "fps": 29.97002997002997,
+        "nframes": 1678,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 17.5,
+      "end_sec": 22.5,
+      "subtask": "stack the container",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "stack the container",
+        "rawprior": "stack the container",
+        "seed": "place the white container on the stack",
+        "ffmpeg": "stack the container"
+      },
+      "candidate_select_meta": {
+        "fps": 29.97002997002997,
+        "nframes": 1678,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 22.5,
+      "end_sec": 25,
+      "subtask": "pick up the white rectangular container",
+      "candidate_select_source": "C",
+      "candidate_labels": {
+        "raw": "put container on the table",
+        "rawprior": "put container on the table",
+        "seed": "pick up the white rectangular container",
+        "ffmpeg": "Place the container on the counter"
+      },
+      "candidate_select_meta": {
+        "fps": 29.97002997002997,
+        "nframes": 1678,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 25,
+      "end_sec": 29,
+      "subtask": "Stack the white container on the other containers",
+      "candidate_select_source": "D",
+      "candidate_labels": {
+        "raw": "Stack the container on the counter",
+        "rawprior": "Stack the container on the counter",
+        "seed": "Place the white container on the stack",
+        "ffmpeg": "Stack the white container on the other containers"
+      },
+      "candidate_select_meta": {
+        "fps": 29.97002997002997,
+        "nframes": 1678,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 29,
+      "end_sec": 30.5,
+      "subtask": "Stack the container on top of another container",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Stack the container on top of another container",
+        "rawprior": "Stack the container on top of another container",
+        "seed": "place the yellow lid on the container",
+        "ffmpeg": "Place the container on the stack"
+      },
+      "candidate_select_meta": {
+        "fps": 29.97002997002997,
+        "nframes": 1678,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 30.5,
+      "end_sec": 33.5,
+      "subtask": "Stack the container on the pile",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Stack the container on the pile",
+        "rawprior": "Stack the container on the pile",
+        "seed": "place the yellow lid on the container",
+        "ffmpeg": "Stack the container on the pile"
+      },
+      "candidate_select_meta": {
+        "fps": 29.97002997002997,
+        "nframes": 1678,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 34,
+      "end_sec": 39.5,
+      "subtask": "stack the container",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "stack the container",
+        "rawprior": "stack the container",
+        "seed": "place small white container on stack",
+        "ffmpeg": "Place the container on the stack"
+      },
+      "candidate_select_meta": {
+        "fps": 29.97002997002997,
+        "nframes": 1678,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 40,
+      "end_sec": 44.5,
+      "subtask": "Open the container",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Open the container",
+        "rawprior": "Open the container",
+        "seed": "open orange container",
+        "ffmpeg": "Open the container"
+      },
+      "candidate_select_meta": {
+        "fps": 29.97002997002997,
+        "nframes": 1678,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 44.5,
+      "end_sec": 47,
+      "subtask": "put container on top of other containers",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "put container on top of other containers",
+        "rawprior": "put container on top of other containers",
+        "seed": "place container on shelf",
+        "ffmpeg": "Place the container on the shelf"
+      },
+      "candidate_select_meta": {
+        "fps": 29.97002997002997,
+        "nframes": 1678,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 47,
+      "end_sec": 51,
+      "subtask": "Stack the yellow container on the other containers",
+      "candidate_select_source": "D",
+      "candidate_labels": {
+        "raw": "Stack the orange container on the other containers.",
+        "rawprior": "Stack the orange container on the other containers.",
+        "seed": "stack container on top of another",
+        "ffmpeg": "Stack the yellow container on the other containers"
+      },
+      "candidate_select_meta": {
+        "fps": 29.97002997002997,
+        "nframes": 1678,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 51,
+      "end_sec": 53,
+      "subtask": "Pick up the container",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Pick up the container",
+        "rawprior": "Stack the container on the blender",
+        "seed": "stack the orange container on the blender",
+        "ffmpeg": "Pick up the container"
+      },
+      "candidate_select_meta": {
+        "fps": 29.97002997002997,
+        "nframes": 1678,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 53,
+      "end_sec": 55.989266666666666,
+      "subtask": "Stack the container on the stack",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Stack the container on the stack",
+        "rawprior": "Stack the container on the stack",
+        "seed": "stack second container on top of stack",
+        "ffmpeg": "Stack the container on the pile"
+      },
+      "candidate_select_meta": {
+        "fps": 29.97002997002997,
+        "nframes": 1678,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    }
+  ],
+  "candidate_select_recipe": {
+    "name": "raw_rawprior_seed_ffmpeg_neighbor_selector_397B",
+    "frames_per_sheet": 5,
+    "image_max_side": 1120
+  }
+}

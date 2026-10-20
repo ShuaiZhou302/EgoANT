@@ -1,0 +1,176 @@
+{
+  "id": "homer_11",
+  "instruction": "open, inspect and close all containers, bottles and jars in front of you",
+  "duration_sec": 131.685,
+  "n_sheets": 14,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 9,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 6.5,
+      "subtask": "open small jar with brown lid"
+    },
+    {
+      "start_sec": 6.5,
+      "end_sec": 12,
+      "subtask": "close small jar with brown lid"
+    },
+    {
+      "start_sec": 12,
+      "end_sec": 14,
+      "subtask": "open small jar with white powder"
+    },
+    {
+      "start_sec": 14,
+      "end_sec": 15,
+      "subtask": "place lid on table"
+    },
+    {
+      "start_sec": 15,
+      "end_sec": 23.5,
+      "subtask": "inspect small jar with white powder"
+    },
+    {
+      "start_sec": 23.5,
+      "end_sec": 24,
+      "subtask": "pick up lid"
+    },
+    {
+      "start_sec": 24,
+      "end_sec": 26.5,
+      "subtask": "open small jar with brown seeds"
+    },
+    {
+      "start_sec": 26.5,
+      "end_sec": 32.5,
+      "subtask": "close small jar with brown seeds"
+    },
+    {
+      "start_sec": 32.5,
+      "end_sec": 34,
+      "subtask": "place small jar with brown seeds"
+    },
+    {
+      "start_sec": 34,
+      "end_sec": 35.5,
+      "subtask": "place jar on tray"
+    },
+    {
+      "start_sec": 35.5,
+      "end_sec": 42,
+      "subtask": "open pink water bottle"
+    },
+    {
+      "start_sec": 42,
+      "end_sec": 49.5,
+      "subtask": "close pink water bottle"
+    },
+    {
+      "start_sec": 49.5,
+      "end_sec": 50,
+      "subtask": "place pink water bottle on tray"
+    },
+    {
+      "start_sec": 50,
+      "end_sec": 54,
+      "subtask": "pick up large jar with orange lid"
+    },
+    {
+      "start_sec": 54,
+      "end_sec": 62,
+      "subtask": "open large jar with orange lid"
+    },
+    {
+      "start_sec": 62,
+      "end_sec": 69,
+      "subtask": "inspect contents of large jar"
+    },
+    {
+      "start_sec": 69,
+      "end_sec": 75,
+      "subtask": "close large jar with orange lid"
+    },
+    {
+      "start_sec": 75,
+      "end_sec": 76,
+      "subtask": "place large jar with orange lid on table"
+    },
+    {
+      "start_sec": 76,
+      "end_sec": 77,
+      "subtask": "close jar with orange lid"
+    },
+    {
+      "start_sec": 77,
+      "end_sec": 82.5,
+      "subtask": "open jar with green lid"
+    },
+    {
+      "start_sec": 82.5,
+      "end_sec": 89.5,
+      "subtask": "inspect jar with green lid"
+    },
+    {
+      "start_sec": 89.5,
+      "end_sec": 95.5,
+      "subtask": "close jar with green lid"
+    },
+    {
+      "start_sec": 95.5,
+      "end_sec": 96,
+      "subtask": "place jar with green lid"
+    },
+    {
+      "start_sec": 96,
+      "end_sec": 97,
+      "subtask": "place jar on table"
+    },
+    {
+      "start_sec": 97,
+      "end_sec": 101,
+      "subtask": "open small jar with brown seeds"
+    },
+    {
+      "start_sec": 101,
+      "end_sec": 109,
+      "subtask": "close small jar with brown seeds"
+    },
+    {
+      "start_sec": 109,
+      "end_sec": 110,
+      "subtask": "place jar on table"
+    },
+    {
+      "start_sec": 110,
+      "end_sec": 114.5,
+      "subtask": "open small jar with white powder"
+    },
+    {
+      "start_sec": 114.5,
+      "end_sec": 118,
+      "subtask": "close small jar with white powder"
+    },
+    {
+      "start_sec": 118,
+      "end_sec": 120,
+      "subtask": "pick up small jar with brown seeds"
+    },
+    {
+      "start_sec": 120,
+      "end_sec": 124.5,
+      "subtask": "open small jar with brown seeds"
+    },
+    {
+      "start_sec": 124.5,
+      "end_sec": 129.5,
+      "subtask": "close small jar with brown seeds"
+    },
+    {
+      "start_sec": 129.5,
+      "end_sec": 131.685,
+      "subtask": "place small jar on tray"
+    }
+  ]
+}

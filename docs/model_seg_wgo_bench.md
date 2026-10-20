@@ -45,7 +45,8 @@ The experimental script follows Refiner/WGO-Bench defaults:
 - visible timestamp badge on each tile
 - prompt asks the model to segment only completed manipulation events
 
-Run:
+The following single-video command is a lightweight exploratory path, not the
+two-stage recipe used for the V5.1 result:
 
 ```bash
 LOCAL_MODEL_API_KEY=local-vllm python scripts/model_segment_contact_sheets.py \
@@ -56,7 +57,8 @@ LOCAL_MODEL_API_KEY=local-vllm python scripts/model_segment_contact_sheets.py \
   --disable-thinking
 ```
 
-Evaluate:
+Its generic diagnostic evaluator reports IoU 0.3 and boundary-tolerance
+metrics:
 
 ```bash
 python scripts/evaluate_subtask_segments.py \
@@ -71,6 +73,32 @@ Primary metrics:
 - `segment_f1`: predicted/gold segment matching at IoU >= `0.3`
 - `mean_matched_iou`
 - `mean_text_similarity`
+
+## Exact V5.1 HomER Recipe
+
+For the reported Segment F1 `0.2031`, run the complete coarse + S2 full-cover
+pipeline:
+
+```bash
+export SEGMENT_BASE_URL=http://127.0.0.1:8000/v1
+export SEGMENT_MODEL=Qwen/Qwen3.6-27B
+export LABEL_BASE_URL=http://127.0.0.1:8001/v1
+export LABEL_MODEL=Qwen/Qwen3.5-397B-A17B-FP8
+bash scripts/reproduce_wgo_homer_v5_1.sh /path/to/WGO_Bench
+```
+
+The reported temporal metric has a separate entry point:
+
+```bash
+python scripts/wgo_bench/score_segmentation.py \
+  --gold-dir /path/to/WGO_Bench/annotations/homer \
+  --pred-dir reference_outputs/wgo_homer_v5_1/segmentation \
+  --out /tmp/egoant_homer_segment_f1.json
+```
+
+It uses greedy one-to-one segment matching at IoU >= `0.75`, snaps only the
+first predicted start and final predicted end to the gold episode extent, and
+aggregates counts with micro precision and recall.
 
 ## Next Hypotheses
 

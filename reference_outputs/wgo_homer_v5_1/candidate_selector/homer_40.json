@@ -1,0 +1,70 @@
+{
+  "id": "homer_40",
+  "instruction": "Spray and wipe countertop, clean stovetop, wipe dining table",
+  "duration_sec": 61.507799999999996,
+  "n_sheets": 7,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 2,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 3.5,
+      "subtask": "Spray and wipe table",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Spray and wipe table",
+        "rawprior": "Spray and wipe table",
+        "seed": "spray cleaning solution on the table",
+        "ffmpeg": "Spray the table"
+      },
+      "candidate_select_meta": {
+        "fps": 29.947421302664054,
+        "nframes": 1842,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 3.5,
+      "end_sec": 59.5,
+      "subtask": "Wipe the table with a cloth",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Wipe the table with a cloth",
+        "rawprior": "Wipe the table with a cloth",
+        "seed": "wipe the table with a cloth",
+        "ffmpeg": "Wipe the table with a cloth"
+      },
+      "candidate_select_meta": {
+        "fps": 29.947421302664054,
+        "nframes": 1842,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 59.5,
+      "end_sec": 61.5,
+      "subtask": "place spray bottle on table",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "place spray bottle on table",
+        "rawprior": "place spray bottle on table",
+        "seed": "place the cloth on the table",
+        "ffmpeg": "Place spray bottle on table"
+      },
+      "candidate_select_meta": {
+        "fps": 29.947421302664054,
+        "nframes": 1842,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    }
+  ],
+  "candidate_select_recipe": {
+    "name": "raw_rawprior_seed_ffmpeg_neighbor_selector_397B",
+    "frames_per_sheet": 5,
+    "image_max_side": 1120
+  }
+}

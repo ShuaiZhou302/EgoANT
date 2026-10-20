@@ -111,8 +111,8 @@ full-cover prompt S2:   pred=308, precision=0.2565, recall=0.1681
 
 ## Open Items
 
-- Port the full-cover prompt into the main model-segmentation script behind an
-  explicit flag.
+- The full-cover prompt is available as `--refine-prompt
+  refine_full_cover_v1` in `scripts/wgo_bench/seg_opt_ideas.py`.
 - Evaluate whether the full-cover segmentation can replace or only propose
   candidate intervals for the production wrist-minima segmenter.
 - Keep raw-frame captioning as the production-safe label input. Use the

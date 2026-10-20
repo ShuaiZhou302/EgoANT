@@ -1,0 +1,718 @@
+{
+  "id": "homer_12",
+  "instruction": "open, inspect and close all containers, bottles and jars in front of you",
+  "duration_sec": 124.66043333333334,
+  "n_sheets": 13,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 22,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 4.5,
+      "subtask": "Open the blue container",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Open the blue container",
+        "rawprior": "Open the blue container",
+        "seed": "open blue round container",
+        "ffmpeg": "Open the blue container"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 4.5,
+      "end_sec": 10.5,
+      "subtask": "Close the blue container",
+      "candidate_select_source": "B",
+      "candidate_labels": {
+        "raw": "Close the container",
+        "rawprior": "Close the blue container",
+        "seed": "close blue round container",
+        "ffmpeg": "Close the container"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 11.5,
+      "end_sec": 15.5,
+      "subtask": "open the jar",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "open the jar",
+        "rawprior": "open the jar",
+        "seed": "open red jar",
+        "ffmpeg": "Open the jar"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 15.5,
+      "end_sec": 16,
+      "subtask": "Inspect coffee jar",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Inspect coffee jar",
+        "rawprior": "Inspect coffee jar",
+        "seed": "inspect red jar",
+        "ffmpeg": "open the jar"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 16,
+      "end_sec": 17.5,
+      "subtask": "Close the jar with the red lid",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the jar with the red lid",
+        "rawprior": "Close the jar with the red lid",
+        "seed": "close red jar",
+        "ffmpeg": "Close the jar with the red lid"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 17.5,
+      "end_sec": 20.5,
+      "subtask": "Close the red-lidded jar",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the red-lidded jar",
+        "rawprior": "Close the red-lidded jar",
+        "seed": "close red jar",
+        "ffmpeg": "Close the red-lidded jar"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 22.5,
+      "end_sec": 25,
+      "subtask": "Open the jar",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Open the jar",
+        "rawprior": "Open the jar",
+        "seed": "open black jar",
+        "ffmpeg": "open the jar"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 25,
+      "end_sec": 26.5,
+      "subtask": "Close the jar with the lid",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the jar with the lid",
+        "rawprior": "Close the jar with the lid",
+        "seed": "inspect black jar",
+        "ffmpeg": "Close the jar with the lid"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 26.5,
+      "end_sec": 29,
+      "subtask": "Close the jar",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the jar",
+        "rawprior": "Close the jar",
+        "seed": "close black jar",
+        "ffmpeg": "Close the jar"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 29.5,
+      "end_sec": 33.5,
+      "subtask": "open the container",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "open the container",
+        "rawprior": "open the container",
+        "seed": "open orange lid container",
+        "ffmpeg": "Close the pink-lidded jar"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 33.5,
+      "end_sec": 34,
+      "subtask": "remove the lid from the container",
+      "candidate_select_source": "B",
+      "candidate_labels": {
+        "raw": "open the container",
+        "rawprior": "remove the lid from the container",
+        "seed": "inspect orange lid container",
+        "ffmpeg": "open the container"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 34,
+      "end_sec": 38.5,
+      "subtask": "Close the container with the orange lid",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the container with the orange lid",
+        "rawprior": "Close the container with the orange lid",
+        "seed": "close orange lid container",
+        "ffmpeg": "Close the container with the orange lid"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 39.5,
+      "end_sec": 41.5,
+      "subtask": "Open the container",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Open the container",
+        "rawprior": "Open the container",
+        "seed": "open blue rectangular container",
+        "ffmpeg": "Open the container"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 41.5,
+      "end_sec": 44,
+      "subtask": "Close the container with the blue lid",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the container with the blue lid",
+        "rawprior": "Close the container with the blue lid",
+        "seed": "close blue rectangular container",
+        "ffmpeg": "Close the container with the blue lid"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 44,
+      "end_sec": 47,
+      "subtask": "Close the container with the blue lid",
+      "candidate_select_source": "B",
+      "candidate_labels": {
+        "raw": "Open the container with the blue lid",
+        "rawprior": "Close the container with the blue lid",
+        "seed": "close blue rectangular container",
+        "ffmpeg": "Open the container"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 47,
+      "end_sec": 50,
+      "subtask": "Close the container with the blue lid",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the container with the blue lid",
+        "rawprior": "Close the container with the blue lid",
+        "seed": "close blue rectangular container",
+        "ffmpeg": "Close the container with the blue lid"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 51,
+      "end_sec": 54.5,
+      "subtask": "Close the container",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the container",
+        "rawprior": "Close the container",
+        "seed": "open silver container",
+        "ffmpeg": "Close the container"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 54.5,
+      "end_sec": 59.5,
+      "subtask": "Open the metal container",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Open the metal container",
+        "rawprior": "Open the metal container",
+        "seed": "close silver container",
+        "ffmpeg": "Open the metal container"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 59.5,
+      "end_sec": 61,
+      "subtask": "place the container on the countertop",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "place the container on the countertop",
+        "rawprior": "place the container on the countertop",
+        "seed": "place silver container",
+        "ffmpeg": "Close the silver container"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 62,
+      "end_sec": 64.5,
+      "subtask": "Close the bottle with the pink lid",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the bottle with the pink lid",
+        "rawprior": "Close the bottle with the pink lid",
+        "seed": "open pink lid container",
+        "ffmpeg": "Close the bottle with the pink lid"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 64.5,
+      "end_sec": 67,
+      "subtask": "Open the bottle",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Open the bottle",
+        "rawprior": "Open the bottle",
+        "seed": "inspect pink lid container",
+        "ffmpeg": "Open the bottle"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 67,
+      "end_sec": 72,
+      "subtask": "Close the bottle with the pink lid",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the bottle with the pink lid",
+        "rawprior": "Close the bottle with the pink lid",
+        "seed": "close pink lid container",
+        "ffmpeg": "Close the bottle with the pink lid"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 73,
+      "end_sec": 77.5,
+      "subtask": "Open the green bottle",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Open the green bottle",
+        "rawprior": "Open the green bottle",
+        "seed": "open green bottle",
+        "ffmpeg": "Close the green bottle"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 77.5,
+      "end_sec": 78,
+      "subtask": "Inspect green cup",
+      "candidate_select_source": "B",
+      "candidate_labels": {
+        "raw": "Inspect green bottle",
+        "rawprior": "Inspect green cup",
+        "seed": "inspect green cup",
+        "ffmpeg": "Inspect the green cap"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 78,
+      "end_sec": 82.5,
+      "subtask": "Close the green bottle",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the green bottle",
+        "rawprior": "Close the green bottle",
+        "seed": "close green bottle",
+        "ffmpeg": "Close the green bottle"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 82.5,
+      "end_sec": 83,
+      "subtask": "Place the green bottle on the table",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the green bottle on the table",
+        "rawprior": "Place the green bottle on the table",
+        "seed": "place green bottle",
+        "ffmpeg": "Place the green bottle on the table"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 84.5,
+      "end_sec": 86.5,
+      "subtask": "Open the blue container",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Open the blue container",
+        "rawprior": "Open the blue container",
+        "seed": "open blue round container",
+        "ffmpeg": "Open the blue container"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 86.5,
+      "end_sec": 88.5,
+      "subtask": "Close the blue container",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the blue container",
+        "rawprior": "Close the blue container",
+        "seed": "close blue round container",
+        "ffmpeg": "Close the blue container"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 89,
+      "end_sec": 91,
+      "subtask": "place the blue container on the table",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "place the blue container on the table",
+        "rawprior": "place the blue container on the table",
+        "seed": "place blue round container on table",
+        "ffmpeg": "Place the blue container on the table"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 92,
+      "end_sec": 94.5,
+      "subtask": "Open the blue-lidded container",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Open the blue-lidded container",
+        "rawprior": "Open the blue-lidded container",
+        "seed": "open blue rectangular container",
+        "ffmpeg": "Open the container"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 94.5,
+      "end_sec": 98,
+      "subtask": "Close the container with the blue lid",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the container with the blue lid",
+        "rawprior": "Close the container with the blue lid",
+        "seed": "close blue rectangular container",
+        "ffmpeg": "Close the container with the blue lid"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 99,
+      "end_sec": 102,
+      "subtask": "Close the bottle with the pink lid",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the bottle with the pink lid",
+        "rawprior": "Close the bottle with the pink lid",
+        "seed": "open pink lid container",
+        "ffmpeg": "Close the bottle"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 102,
+      "end_sec": 104,
+      "subtask": "Close the bottle with the pink lid",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the bottle with the pink lid",
+        "rawprior": "Close the bottle with the pink lid",
+        "seed": "open pink lid container",
+        "ffmpeg": "Close the bottle with the pink lid"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 104,
+      "end_sec": 108.5,
+      "subtask": "Close the bottle with the pink lid",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the bottle with the pink lid",
+        "rawprior": "Close the bottle with the pink lid",
+        "seed": "close pink lid container",
+        "ffmpeg": "Close the bottle with the pink lid"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 110,
+      "end_sec": 114,
+      "subtask": "Open the red-lidded jar",
+      "candidate_select_source": "D",
+      "candidate_labels": {
+        "raw": "Open the jar",
+        "rawprior": "Open the jar",
+        "seed": "open red jar",
+        "ffmpeg": "Open the red-lidded jar"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 114,
+      "end_sec": 117.5,
+      "subtask": "Close the jar with the red lid",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the jar with the red lid",
+        "rawprior": "Close the jar with the red lid",
+        "seed": "Close the red jar",
+        "ffmpeg": "Close the jar with the red lid"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 120,
+      "end_sec": 121.5,
+      "subtask": "Open the metal container",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Open the metal container",
+        "rawprior": "Open the metal container",
+        "seed": "open silver container",
+        "ffmpeg": "Open the metal container"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 121.5,
+      "end_sec": 123,
+      "subtask": "Close the container",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the container",
+        "rawprior": "Close the container",
+        "seed": "close silver container",
+        "ffmpeg": "Close the container with the lid"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 123,
+      "end_sec": 124.66,
+      "subtask": "Close the silver container",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the silver container",
+        "rawprior": "Close the silver container",
+        "seed": "close silver container",
+        "ffmpeg": "Close the container"
+      },
+      "candidate_select_meta": {
+        "fps": 30.017543657931558,
+        "nframes": 3742,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    }
+  ],
+  "candidate_select_recipe": {
+    "name": "raw_rawprior_seed_ffmpeg_neighbor_selector_397B",
+    "frames_per_sheet": 5,
+    "image_max_side": 1120
+  }
+}

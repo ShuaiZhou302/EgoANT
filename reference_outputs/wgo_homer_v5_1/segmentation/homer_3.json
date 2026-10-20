@@ -1,0 +1,26 @@
+{
+  "id": "homer_3",
+  "instruction": "use a spoon to stir contents in a bowl",
+  "duration_sec": 137.48544444444443,
+  "n_sheets": 14,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 3,
+  "segments": [
+    {
+      "start_sec": 2.5,
+      "end_sec": 9.5,
+      "subtask": "pouring powder from a green packet into the bowl"
+    },
+    {
+      "start_sec": 13.5,
+      "end_sec": 18.5,
+      "subtask": "pouring liquid from a white cup into the bowl"
+    },
+    {
+      "start_sec": 20.5,
+      "end_sec": 137.48544444444443,
+      "subtask": "stirring the mixture in the bowl with a white spoon"
+    }
+  ]
+}

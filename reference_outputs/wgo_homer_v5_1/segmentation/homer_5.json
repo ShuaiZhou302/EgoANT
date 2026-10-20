@@ -1,0 +1,36 @@
+{
+  "id": "homer_5",
+  "instruction": "use a cloth to dust white shelf",
+  "duration_sec": 129.465,
+  "n_sheets": 13,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 9,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 66,
+      "subtask": "wipe the shelf"
+    },
+    {
+      "start_sec": 66,
+      "end_sec": 74,
+      "subtask": "wipe the bottom shelf"
+    },
+    {
+      "start_sec": 74,
+      "end_sec": 91,
+      "subtask": "wipe the shelf"
+    },
+    {
+      "start_sec": 91,
+      "end_sec": 107.5,
+      "subtask": "wipe the bottom shelf"
+    },
+    {
+      "start_sec": 107.5,
+      "end_sec": 129.465,
+      "subtask": "wipe the shelf"
+    }
+  ]
+}

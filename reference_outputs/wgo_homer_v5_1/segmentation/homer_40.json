@@ -1,0 +1,26 @@
+{
+  "id": "homer_40",
+  "instruction": "Spray and wipe countertop, clean stovetop, wipe dining table",
+  "duration_sec": 61.507799999999996,
+  "n_sheets": 7,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 2,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 3.5,
+      "subtask": "spray cleaning solution on the table"
+    },
+    {
+      "start_sec": 3.5,
+      "end_sec": 59.5,
+      "subtask": "wipe the table with a cloth"
+    },
+    {
+      "start_sec": 59.5,
+      "end_sec": 61.5,
+      "subtask": "place the cloth on the table"
+    }
+  ]
+}

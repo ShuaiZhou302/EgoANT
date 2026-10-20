@@ -128,53 +128,81 @@ This creates:
   manifest.json
 ```
 
-Run contact-sheet segmentation on one episode:
+Run the complete V5.1 HomER recipe against your own OpenAI-compatible model
+deployments:
 
 ```bash
-python scripts/model_segment_contact_sheets.py \
-  --video /path/to/WGO_Bench/videos/homer/homer_1.mp4 \
-  --output-dir outputs/model_seg/homer_1 \
-  --base-url http://127.0.0.1:8000/v1 \
-  --model Qwen/Qwen3.6-27B \
-  --api-key-env LOCAL_MODEL_API_KEY \
-  --disable-thinking
+export SEGMENT_BASE_URL=http://127.0.0.1:8000/v1
+export SEGMENT_MODEL=Qwen/Qwen3.6-27B
+export LABEL_BASE_URL=http://127.0.0.1:8001/v1
+export LABEL_MODEL=Qwen/Qwen3.5-397B-A17B-FP8
+export LOCAL_MODEL_API_KEY=local-vllm
+
+bash scripts/reproduce_wgo_homer_v5_1.sh \
+  /path/to/WGO_Bench \
+  outputs/wgo_homer_v5_1
 ```
 
-Evaluate its temporal boundaries:
+This runs the actual sequence used by the reported experiment:
+
+1. create generation inputs containing only the episode ID and instruction;
+2. whole-episode, timestamped contact-sheet segmentation with the GEPA-style
+   completed-event prompt;
+3. S2 local refinement with `pad=0` and the full-cover prompt;
+4. raw, ffmpeg-raw, segmentation-prior neighbor, and raw-prior neighbor label
+   candidates;
+5. the Qwen3.5-397B PREV/CURRENT/NEXT candidate selector;
+6. WGO temporal scoring and, when `GEMINI_API_KEY` is set, semantic E2E
+   scoring.
+
+Gold boundaries and gold subtask labels are removed before generation. The
+segmentation, labeling, and selector stages receive only video, episode ID,
+episode instruction, and earlier model predictions. Gold segments are opened
+again only by the final evaluation stage.
+
+Here `pad=0` means that the declared S2 interval is not expanded and returned
+boundaries are clipped to the coarse interval. S2 reuses precomputed contact
+sheets at 20-tile granularity, so the first or last overlapping sheet can show
+neighboring timestamps outside that interval. This is the behavior used for
+the reported result.
+
+The exact S2 implementation is
+[`scripts/wgo_bench/seg_opt_ideas.py`](scripts/wgo_bench/seg_opt_ideas.py), and
+the exact selector is
+[`scripts/wgo_bench/select_pred_segment_candidates.py`](scripts/wgo_bench/select_pred_segment_candidates.py).
+Prompts are also published separately in [`prompts/`](prompts/).
+
+Re-evaluate the released predictions without making any model calls:
 
 ```bash
-python scripts/evaluate_subtask_segments.py \
-  --gold /path/to/WGO_Bench/annotations/homer/homer_1.json \
-  --pred outputs/model_seg/homer_1/model_segments.json \
-  --output outputs/model_seg/homer_1/eval.json
-```
-
-Run a fixed-boundary raw-frame labeling pass over HomER:
-
-```bash
-python scripts/wgo_bench/label_gold_segments.py \
+python scripts/wgo_bench/score_segmentation.py \
   --gold-dir /path/to/WGO_Bench/annotations/homer \
-  --video-root /path/to/WGO_Bench/videos \
-  --out-dir outputs/wgo/raw_labels \
-  --caption-input raw \
-  --base-url http://127.0.0.1:8000/v1 \
-  --model Qwen/Qwen3.6-27B
+  --pred-dir reference_outputs/wgo_homer_v5_1/segmentation \
+  --out /tmp/egoant_homer_segment_f1.json
 ```
 
-The candidate selector consumes episode JSON files whose segments contain a
-`candidate_labels` mapping. Its exact prompt is versioned in
-`prompts/wgo_candidate_selector.md`.
+Expected micro result: `79/308/470`, Segment F1 `0.2030848329`. The older
+`scripts/evaluate_subtask_segments.py` is a generic diagnostic utility with a
+configurable threshold; it is not the entry point used for the reported WGO
+numbers.
+
+The exact four-candidate selector loads aligned label directories directly.
+For a separate assembly step, create the `candidate_labels` JSON consumed by
+the generic selector with:
 
 ```bash
-python scripts/wgo_bench/run_wgo_candidate_selector.py \
-  --candidate-dir /path/to/candidate_episode_jsons \
-  --output-dir outputs/wgo/selected \
-  --image-root /path/to/selector_images \
-  --base-url http://127.0.0.1:8000/v1 \
-  --model Qwen/Qwen3.5-397B-A17B-FP8 \
-  --api-key-env LOCAL_MODEL_API_KEY \
-  --disable-thinking
+python scripts/wgo_bench/assemble_candidate_labels.py \
+  --boundary-dir outputs/wgo_homer_v5_1/02_s2_full_cover \
+  --candidate \
+    raw=outputs/wgo_homer_v5_1/03_candidate_raw \
+    rawprior=outputs/wgo_homer_v5_1/03_candidate_rawprior_neighbor \
+    seed=outputs/wgo_homer_v5_1/03_candidate_seed_neighbor \
+    ffmpeg=outputs/wgo_homer_v5_1/03_candidate_ffmpeg \
+  --output-dir outputs/wgo_homer_v5_1/03_candidates_assembled
 ```
+
+All 25 released predictions and both recorded score files are under
+[`reference_outputs/wgo_homer_v5_1/`](reference_outputs/wgo_homer_v5_1/).
 
 See [the v5.1 results ledger](docs/wgo_bench_v5_1_results.md) for the complete
 ablation table and [the full report](docs/egoant_pipeline_v5_1_report.md) for
@@ -206,8 +234,9 @@ The normalized dataset layout and hand-asset schema are documented in
 
 This public repository is a clean release snapshot derived from the private
 development branch `Ver_5.1` at source commit
-`dd803ebbe7d50e48e3ac4b39c93c386ad1ebc95e`. Generated outputs, example
-videos, credentials, and private development history were intentionally
+`dd803ebbe7d50e48e3ac4b39c93c386ad1ebc95e`. Reference JSON predictions and
+score artifacts for HomER are included under `reference_outputs/`; videos,
+credentials, provider configuration, and private development history are
 excluded. The original contributors are acknowledged in [AUTHORS.md](AUTHORS.md).
 
 ## Citation

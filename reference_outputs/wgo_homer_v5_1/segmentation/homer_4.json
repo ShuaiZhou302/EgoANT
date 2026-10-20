@@ -1,0 +1,66 @@
+{
+  "id": "homer_4",
+  "instruction": "Clean tables, desks, or shelves with a cloth",
+  "duration_sec": 130.03333333333333,
+  "n_sheets": 14,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 8,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 23.5,
+      "subtask": "Wipe the top surface and exterior sides of the wooden cabinet"
+    },
+    {
+      "start_sec": 23.5,
+      "end_sec": 24.5,
+      "subtask": "Open the top drawer of the cabinet"
+    },
+    {
+      "start_sec": 24.5,
+      "end_sec": 26.5,
+      "subtask": "Wipe the inside of the drawer"
+    },
+    {
+      "start_sec": 26.5,
+      "end_sec": 45,
+      "subtask": "Wipe the interior of the open drawer"
+    },
+    {
+      "start_sec": 45,
+      "end_sec": 46.5,
+      "subtask": "Close the top drawer"
+    },
+    {
+      "start_sec": 46.5,
+      "end_sec": 54.5,
+      "subtask": "Wipe the top surface of the cabinet"
+    },
+    {
+      "start_sec": 54.5,
+      "end_sec": 59.5,
+      "subtask": "Unfold and adjust the cleaning cloth"
+    },
+    {
+      "start_sec": 59.5,
+      "end_sec": 79.5,
+      "subtask": "Wipe the top surface and front exterior of the cabinet"
+    },
+    {
+      "start_sec": 79.5,
+      "end_sec": 87.5,
+      "subtask": "Open the middle drawer of the cabinet"
+    },
+    {
+      "start_sec": 87.5,
+      "end_sec": 89.5,
+      "subtask": "Close the middle drawer"
+    },
+    {
+      "start_sec": 89.5,
+      "end_sec": 130.03,
+      "subtask": "Wipe the top surface of the cabinet thoroughly"
+    }
+  ]
+}

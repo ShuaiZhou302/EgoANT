@@ -1,0 +1,61 @@
+{
+  "id": "homer_9",
+  "instruction": "wash the two glasses in the sink",
+  "duration_sec": 171.06333333333333,
+  "n_sheets": 18,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 3,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 2.5,
+      "subtask": "pick up the first glass"
+    },
+    {
+      "start_sec": 2.5,
+      "end_sec": 40,
+      "subtask": "wash the first glass"
+    },
+    {
+      "start_sec": 40,
+      "end_sec": 42,
+      "subtask": "place the first glass in the drying rack"
+    },
+    {
+      "start_sec": 42,
+      "end_sec": 44,
+      "subtask": "pick up the second glass"
+    },
+    {
+      "start_sec": 44,
+      "end_sec": 105,
+      "subtask": "wash the glass"
+    },
+    {
+      "start_sec": 105,
+      "end_sec": 107,
+      "subtask": "place the glass in the sink"
+    },
+    {
+      "start_sec": 107,
+      "end_sec": 131,
+      "subtask": "wash the second glass"
+    },
+    {
+      "start_sec": 131,
+      "end_sec": 133,
+      "subtask": "place the second glass in the sink"
+    },
+    {
+      "start_sec": 133,
+      "end_sec": 168.5,
+      "subtask": "wash the second glass"
+    },
+    {
+      "start_sec": 168.5,
+      "end_sec": 171.06,
+      "subtask": "place the second glass in the drying rack"
+    }
+  ]
+}

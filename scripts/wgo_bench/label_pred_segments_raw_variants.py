@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import subprocess
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -176,7 +177,7 @@ def main() -> int:
     ap.add_argument("--base-url", default="http://127.0.0.1:18001/v1")
     ap.add_argument("--base-urls", nargs="*", default=None)
     ap.add_argument("--model", default="qwen3.6-27b")
-    ap.add_argument("--api-key", default="local-vllm")
+    ap.add_argument("--api-key", default=os.environ.get("LOCAL_MODEL_API_KEY", "local-vllm"))
     ap.add_argument("--timeout", type=float, default=600)
     ap.add_argument("--retries", type=int, default=3)
     ap.add_argument("--segment-workers", type=int, default=4)

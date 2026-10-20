@@ -1,0 +1,52 @@
+{
+  "id": "homer_52",
+  "instruction": "",
+  "duration_sec": 37.98537777777778,
+  "n_sheets": 4,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 1,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 31.5,
+      "subtask": "Tie shoelaces on sneaker",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Tie shoelaces on sneaker",
+        "rawprior": "Tie shoelaces on sneaker",
+        "seed": "Tie shoelaces",
+        "ffmpeg": "Tie shoelaces"
+      },
+      "candidate_select_meta": {
+        "fps": 30.011548303382238,
+        "nframes": 1140,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 36.5,
+      "end_sec": 37.98537777777778,
+      "subtask": "Hold shoe",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Hold shoe",
+        "rawprior": "Hold shoe",
+        "seed": "adjusting shoe",
+        "ffmpeg": "Hold shoe"
+      },
+      "candidate_select_meta": {
+        "fps": 30.011548303382238,
+        "nframes": 1140,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    }
+  ],
+  "candidate_select_recipe": {
+    "name": "raw_rawprior_seed_ffmpeg_neighbor_selector_397B",
+    "frames_per_sheet": 5,
+    "image_max_side": 1120
+  }
+}

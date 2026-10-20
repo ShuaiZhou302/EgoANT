@@ -1,0 +1,116 @@
+{
+  "id": "homer_59",
+  "instruction": "Record yourself picking a single item from a home shelf, bookcase, or closet. Show the full reach-and-grab motion with your hands visible.",
+  "duration_sec": 60.666666666666664,
+  "n_sheets": 7,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 8,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 1.5,
+      "subtask": "pick up a book from the table"
+    },
+    {
+      "start_sec": 1.5,
+      "end_sec": 4.5,
+      "subtask": "place a book on the shelf"
+    },
+    {
+      "start_sec": 4.5,
+      "end_sec": 7,
+      "subtask": "pick the book from the shelf"
+    },
+    {
+      "start_sec": 7,
+      "end_sec": 11.5,
+      "subtask": "place the book on the shelf"
+    },
+    {
+      "start_sec": 12,
+      "end_sec": 15.5,
+      "subtask": "pick up a book from the table"
+    },
+    {
+      "start_sec": 15.5,
+      "end_sec": 18,
+      "subtask": "place the book on the shelf"
+    },
+    {
+      "start_sec": 18.5,
+      "end_sec": 22,
+      "subtask": "pick up a book from the table"
+    },
+    {
+      "start_sec": 22,
+      "end_sec": 25.5,
+      "subtask": "place the book on the shelf"
+    },
+    {
+      "start_sec": 26,
+      "end_sec": 29.5,
+      "subtask": "pick up a book from the table"
+    },
+    {
+      "start_sec": 29.5,
+      "end_sec": 30,
+      "subtask": "place a book on the shelf"
+    },
+    {
+      "start_sec": 30,
+      "end_sec": 33,
+      "subtask": "place the book on the shelf"
+    },
+    {
+      "start_sec": 33.5,
+      "end_sec": 36,
+      "subtask": "pick up a book from the table"
+    },
+    {
+      "start_sec": 36,
+      "end_sec": 38.5,
+      "subtask": "place the book on the shelf"
+    },
+    {
+      "start_sec": 39,
+      "end_sec": 40.5,
+      "subtask": "pick up a book from the table"
+    },
+    {
+      "start_sec": 40.5,
+      "end_sec": 44,
+      "subtask": "place the book on the shelf"
+    },
+    {
+      "start_sec": 44.5,
+      "end_sec": 47,
+      "subtask": "pick up a book from the table"
+    },
+    {
+      "start_sec": 47,
+      "end_sec": 49,
+      "subtask": "place the book on the shelf"
+    },
+    {
+      "start_sec": 49.5,
+      "end_sec": 52,
+      "subtask": "pick up a book from the table"
+    },
+    {
+      "start_sec": 52,
+      "end_sec": 54,
+      "subtask": "place the book on the shelf"
+    },
+    {
+      "start_sec": 54.5,
+      "end_sec": 57,
+      "subtask": "pick up a book from the table"
+    },
+    {
+      "start_sec": 57,
+      "end_sec": 59,
+      "subtask": "place the book on the shelf"
+    }
+  ]
+}

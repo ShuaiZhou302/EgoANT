@@ -1,0 +1,26 @@
+{
+  "id": "homer_10",
+  "instruction": "clean the countertop and stovetop with a cloth",
+  "duration_sec": 120.83333333333333,
+  "n_sheets": 13,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 3,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 17.5,
+      "subtask": "wipe the countertop"
+    },
+    {
+      "start_sec": 17.5,
+      "end_sec": 109.5,
+      "subtask": "wipe the dining table surface"
+    },
+    {
+      "start_sec": 109.5,
+      "end_sec": 120.83,
+      "subtask": "wipe the stovetop"
+    }
+  ]
+}

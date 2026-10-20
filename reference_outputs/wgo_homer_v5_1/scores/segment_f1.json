@@ -1,0 +1,704 @@
+{
+  "metric": "segment_f1@0.75_with_outer_snap",
+  "n_episodes": 25,
+  "micro": {
+    "precision": 0.2564935064935065,
+    "recall": 0.16808510638297872,
+    "f1": 0.2030848329048843,
+    "n_match": 79,
+    "n_pred": 308,
+    "n_gold": 470
+  },
+  "macro_f1": 0.18528003769377133,
+  "per_episode": [
+    {
+      "n_pred": 17,
+      "n_gold": 20,
+      "n_match": 8,
+      "precision": 0.47058823529411764,
+      "recall": 0.4,
+      "f1": 0.4324324324324324,
+      "pairs": [
+        {
+          "pred_i": 4,
+          "gold_j": 6,
+          "iou": 0.9788961506348428
+        },
+        {
+          "pred_i": 16,
+          "gold_j": 19,
+          "iou": 0.9601769911504411
+        },
+        {
+          "pred_i": 12,
+          "gold_j": 13,
+          "iou": 0.8885375774908075
+        },
+        {
+          "pred_i": 10,
+          "gold_j": 11,
+          "iou": 0.8804039688164403
+        },
+        {
+          "pred_i": 6,
+          "gold_j": 9,
+          "iou": 0.8261666666666679
+        },
+        {
+          "pred_i": 11,
+          "gold_j": 12,
+          "iou": 0.7945919126767547
+        },
+        {
+          "pred_i": 0,
+          "gold_j": 0,
+          "iou": 0.7708999999999999
+        },
+        {
+          "pred_i": 2,
+          "gold_j": 2,
+          "iou": 0.7621765226803108
+        }
+      ],
+      "id": "homer_1",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_1.json"
+    },
+    {
+      "n_pred": 3,
+      "n_gold": 10,
+      "n_match": 2,
+      "precision": 0.6666666666666666,
+      "recall": 0.2,
+      "f1": 0.30769230769230765,
+      "pairs": [
+        {
+          "pred_i": 2,
+          "gold_j": 9,
+          "iou": 0.9089450461291613
+        },
+        {
+          "pred_i": 0,
+          "gold_j": 1,
+          "iou": 0.8351500749083021
+        }
+      ],
+      "id": "homer_10",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_10.json"
+    },
+    {
+      "n_pred": 33,
+      "n_gold": 41,
+      "n_match": 9,
+      "precision": 0.2727272727272727,
+      "recall": 0.21951219512195122,
+      "f1": 0.24324324324324323,
+      "pairs": [
+        {
+          "pred_i": 15,
+          "gold_j": 18,
+          "iou": 0.8831995571547199
+        },
+        {
+          "pred_i": 2,
+          "gold_j": 3,
+          "iou": 0.8670318725099604
+        },
+        {
+          "pred_i": 11,
+          "gold_j": 14,
+          "iou": 0.8669333333333337
+        },
+        {
+          "pred_i": 14,
+          "gold_j": 17,
+          "iou": 0.8637500000000005
+        },
+        {
+          "pred_i": 20,
+          "gold_j": 23,
+          "iou": 0.8372305682560425
+        },
+        {
+          "pred_i": 1,
+          "gold_j": 2,
+          "iou": 0.8194545454545454
+        },
+        {
+          "pred_i": 10,
+          "gold_j": 13,
+          "iou": 0.7985314364387333
+        },
+        {
+          "pred_i": 16,
+          "gold_j": 19,
+          "iou": 0.7867935932305828
+        },
+        {
+          "pred_i": 29,
+          "gold_j": 36,
+          "iou": 0.7658321060382904
+        }
+      ],
+      "id": "homer_11",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_11.json"
+    },
+    {
+      "n_pred": 39,
+      "n_gold": 58,
+      "n_match": 11,
+      "precision": 0.28205128205128205,
+      "recall": 0.1896551724137931,
+      "f1": 0.2268041237113402,
+      "pairs": [
+        {
+          "pred_i": 24,
+          "gold_j": 36,
+          "iou": 0.9446864111498247
+        },
+        {
+          "pred_i": 35,
+          "gold_j": 52,
+          "iou": 0.9270833333333357
+        },
+        {
+          "pred_i": 38,
+          "gold_j": 57,
+          "iou": 0.910240963855421
+        },
+        {
+          "pred_i": 22,
+          "gold_j": 35,
+          "iou": 0.8539119804400981
+        },
+        {
+          "pred_i": 6,
+          "gold_j": 11,
+          "iou": 0.8454315637414238
+        },
+        {
+          "pred_i": 27,
+          "gold_j": 40,
+          "iou": 0.8010000000000019
+        },
+        {
+          "pred_i": 33,
+          "gold_j": 48,
+          "iou": 0.7933333333333318
+        },
+        {
+          "pred_i": 15,
+          "gold_j": 22,
+          "iou": 0.7900000000000015
+        },
+        {
+          "pred_i": 34,
+          "gold_j": 51,
+          "iou": 0.7773190869354049
+        },
+        {
+          "pred_i": 12,
+          "gold_j": 19,
+          "iou": 0.7651109410864584
+        },
+        {
+          "pred_i": 21,
+          "gold_j": 32,
+          "iou": 0.7507999999999981
+        }
+      ],
+      "id": "homer_12",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_12.json"
+    },
+    {
+      "n_pred": 9,
+      "n_gold": 26,
+      "n_match": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "pairs": [],
+      "id": "homer_15",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_15.json"
+    },
+    {
+      "n_pred": 28,
+      "n_gold": 30,
+      "n_match": 4,
+      "precision": 0.14285714285714285,
+      "recall": 0.13333333333333333,
+      "f1": 0.1379310344827586,
+      "pairs": [
+        {
+          "pred_i": 15,
+          "gold_j": 20,
+          "iou": 0.9643333333333336
+        },
+        {
+          "pred_i": 12,
+          "gold_j": 16,
+          "iou": 0.9499840306611306
+        },
+        {
+          "pred_i": 22,
+          "gold_j": 26,
+          "iou": 0.88310648518815
+        },
+        {
+          "pred_i": 5,
+          "gold_j": 8,
+          "iou": 0.7635294117647058
+        }
+      ],
+      "id": "homer_2",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_2.json"
+    },
+    {
+      "n_pred": 9,
+      "n_gold": 13,
+      "n_match": 4,
+      "precision": 0.4444444444444444,
+      "recall": 0.3076923076923077,
+      "f1": 0.3636363636363637,
+      "pairs": [
+        {
+          "pred_i": 8,
+          "gold_j": 12,
+          "iou": 0.999581589958157
+        },
+        {
+          "pred_i": 5,
+          "gold_j": 9,
+          "iou": 0.9250099155759531
+        },
+        {
+          "pred_i": 7,
+          "gold_j": 11,
+          "iou": 0.9091999999999985
+        },
+        {
+          "pred_i": 0,
+          "gold_j": 0,
+          "iou": 0.9030000000000001
+        }
+      ],
+      "id": "homer_29",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_29.json"
+    },
+    {
+      "n_pred": 3,
+      "n_gold": 9,
+      "n_match": 1,
+      "precision": 0.3333333333333333,
+      "recall": 0.1111111111111111,
+      "f1": 0.16666666666666666,
+      "pairs": [
+        {
+          "pred_i": 2,
+          "gold_j": 7,
+          "iou": 0.9612308117110041
+        }
+      ],
+      "id": "homer_3",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_3.json"
+    },
+    {
+      "n_pred": 5,
+      "n_gold": 8,
+      "n_match": 1,
+      "precision": 0.2,
+      "recall": 0.125,
+      "f1": 0.15384615384615385,
+      "pairs": [
+        {
+          "pred_i": 1,
+          "gold_j": 4,
+          "iou": 0.7850449716380958
+        }
+      ],
+      "id": "homer_33",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_33.json"
+    },
+    {
+      "n_pred": 6,
+      "n_gold": 6,
+      "n_match": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "pairs": [],
+      "id": "homer_37",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_37.json"
+    },
+    {
+      "n_pred": 12,
+      "n_gold": 19,
+      "n_match": 4,
+      "precision": 0.3333333333333333,
+      "recall": 0.21052631578947367,
+      "f1": 0.2580645161290323,
+      "pairs": [
+        {
+          "pred_i": 0,
+          "gold_j": 0,
+          "iou": 0.9280000000000002
+        },
+        {
+          "pred_i": 3,
+          "gold_j": 2,
+          "iou": 0.9128245892951778
+        },
+        {
+          "pred_i": 4,
+          "gold_j": 3,
+          "iou": 0.8812939521800279
+        },
+        {
+          "pred_i": 5,
+          "gold_j": 4,
+          "iou": 0.7585387585387579
+        }
+      ],
+      "id": "homer_38",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_38.json"
+    },
+    {
+      "n_pred": 22,
+      "n_gold": 36,
+      "n_match": 6,
+      "precision": 0.2727272727272727,
+      "recall": 0.16666666666666666,
+      "f1": 0.20689655172413793,
+      "pairs": [
+        {
+          "pred_i": 5,
+          "gold_j": 9,
+          "iou": 0.9535918626827715
+        },
+        {
+          "pred_i": 21,
+          "gold_j": 35,
+          "iou": 0.8945419103313846
+        },
+        {
+          "pred_i": 4,
+          "gold_j": 8,
+          "iou": 0.8639999999999995
+        },
+        {
+          "pred_i": 3,
+          "gold_j": 6,
+          "iou": 0.8533862565120319
+        },
+        {
+          "pred_i": 13,
+          "gold_j": 26,
+          "iou": 0.8425760286225384
+        },
+        {
+          "pred_i": 10,
+          "gold_j": 16,
+          "iou": 0.7862679955703217
+        }
+      ],
+      "id": "homer_39",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_39.json"
+    },
+    {
+      "n_pred": 11,
+      "n_gold": 15,
+      "n_match": 4,
+      "precision": 0.36363636363636365,
+      "recall": 0.26666666666666666,
+      "f1": 0.30769230769230765,
+      "pairs": [
+        {
+          "pred_i": 3,
+          "gold_j": 3,
+          "iou": 0.9491891891891889
+        },
+        {
+          "pred_i": 5,
+          "gold_j": 5,
+          "iou": 0.812125
+        },
+        {
+          "pred_i": 8,
+          "gold_j": 9,
+          "iou": 0.7804293455606505
+        },
+        {
+          "pred_i": 6,
+          "gold_j": 6,
+          "iou": 0.7631257631257632
+        }
+      ],
+      "id": "homer_4",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_4.json"
+    },
+    {
+      "n_pred": 3,
+      "n_gold": 13,
+      "n_match": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "pairs": [],
+      "id": "homer_40",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_40.json"
+    },
+    {
+      "n_pred": 6,
+      "n_gold": 7,
+      "n_match": 1,
+      "precision": 0.16666666666666666,
+      "recall": 0.14285714285714285,
+      "f1": 0.15384615384615383,
+      "pairs": [
+        {
+          "pred_i": 3,
+          "gold_j": 3,
+          "iou": 0.7939955285851167
+        }
+      ],
+      "id": "homer_41",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_41.json"
+    },
+    {
+      "n_pred": 17,
+      "n_gold": 27,
+      "n_match": 2,
+      "precision": 0.11764705882352941,
+      "recall": 0.07407407407407407,
+      "f1": 0.0909090909090909,
+      "pairs": [
+        {
+          "pred_i": 0,
+          "gold_j": 0,
+          "iou": 0.9672000000000001
+        },
+        {
+          "pred_i": 1,
+          "gold_j": 1,
+          "iou": 0.9107468123861567
+        }
+      ],
+      "id": "homer_48",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_48.json"
+    },
+    {
+      "n_pred": 5,
+      "n_gold": 10,
+      "n_match": 3,
+      "precision": 0.6,
+      "recall": 0.3,
+      "f1": 0.4,
+      "pairs": [
+        {
+          "pred_i": 4,
+          "gold_j": 9,
+          "iou": 0.993801465930685
+        },
+        {
+          "pred_i": 3,
+          "gold_j": 8,
+          "iou": 0.978941070894406
+        },
+        {
+          "pred_i": 2,
+          "gold_j": 7,
+          "iou": 0.975645198790979
+        }
+      ],
+      "id": "homer_5",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_5.json"
+    },
+    {
+      "n_pred": 11,
+      "n_gold": 27,
+      "n_match": 6,
+      "precision": 0.5454545454545454,
+      "recall": 0.2222222222222222,
+      "f1": 0.3157894736842105,
+      "pairs": [
+        {
+          "pred_i": 6,
+          "gold_j": 19,
+          "iou": 0.9676527508985354
+        },
+        {
+          "pred_i": 10,
+          "gold_j": 26,
+          "iou": 0.934413580246914
+        },
+        {
+          "pred_i": 1,
+          "gold_j": 5,
+          "iou": 0.8618524332810046
+        },
+        {
+          "pred_i": 4,
+          "gold_j": 12,
+          "iou": 0.8254999999999999
+        },
+        {
+          "pred_i": 8,
+          "gold_j": 22,
+          "iou": 0.8073196986006441
+        },
+        {
+          "pred_i": 9,
+          "gold_j": 24,
+          "iou": 0.7660000000000018
+        }
+      ],
+      "id": "homer_50",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_50.json"
+    },
+    {
+      "n_pred": 2,
+      "n_gold": 6,
+      "n_match": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "pairs": [],
+      "id": "homer_52",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_52.json"
+    },
+    {
+      "n_pred": 2,
+      "n_gold": 12,
+      "n_match": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "pairs": [],
+      "id": "homer_53",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_53.json"
+    },
+    {
+      "n_pred": 7,
+      "n_gold": 9,
+      "n_match": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "pairs": [],
+      "id": "homer_56",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_56.json"
+    },
+    {
+      "n_pred": 21,
+      "n_gold": 20,
+      "n_match": 4,
+      "precision": 0.19047619047619047,
+      "recall": 0.2,
+      "f1": 0.1951219512195122,
+      "pairs": [
+        {
+          "pred_i": 2,
+          "gold_j": 2,
+          "iou": 0.9509319132750097
+        },
+        {
+          "pred_i": 3,
+          "gold_j": 3,
+          "iou": 0.9502222222222225
+        },
+        {
+          "pred_i": 1,
+          "gold_j": 1,
+          "iou": 0.8375430539609644
+        },
+        {
+          "pred_i": 14,
+          "gold_j": 13,
+          "iou": 0.8195582030280458
+        }
+      ],
+      "id": "homer_59",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_59.json"
+    },
+    {
+      "n_pred": 17,
+      "n_gold": 18,
+      "n_match": 3,
+      "precision": 0.17647058823529413,
+      "recall": 0.16666666666666666,
+      "f1": 0.17142857142857143,
+      "pairs": [
+        {
+          "pred_i": 16,
+          "gold_j": 17,
+          "iou": 0.9689784627543964
+        },
+        {
+          "pred_i": 7,
+          "gold_j": 9,
+          "iou": 0.9497098646034821
+        },
+        {
+          "pred_i": 4,
+          "gold_j": 5,
+          "iou": 0.8278000000000005
+        }
+      ],
+      "id": "homer_60",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_60.json"
+    },
+    {
+      "n_pred": 10,
+      "n_gold": 10,
+      "n_match": 3,
+      "precision": 0.3,
+      "recall": 0.3,
+      "f1": 0.3,
+      "pairs": [
+        {
+          "pred_i": 5,
+          "gold_j": 5,
+          "iou": 0.9554616384915473
+        },
+        {
+          "pred_i": 0,
+          "gold_j": 1,
+          "iou": 0.8661779035775602
+        },
+        {
+          "pred_i": 4,
+          "gold_j": 4,
+          "iou": 0.8613
+        }
+      ],
+      "id": "homer_7",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_7.json"
+    },
+    {
+      "n_pred": 10,
+      "n_gold": 20,
+      "n_match": 3,
+      "precision": 0.3,
+      "recall": 0.15,
+      "f1": 0.2,
+      "pairs": [
+        {
+          "pred_i": 6,
+          "gold_j": 14,
+          "iou": 0.8919166666666664
+        },
+        {
+          "pred_i": 7,
+          "gold_j": 15,
+          "iou": 0.8244023083264578
+        },
+        {
+          "pred_i": 1,
+          "gold_j": 4,
+          "iou": 0.7731733333333334
+        }
+      ],
+      "id": "homer_9",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/segmentation/homer_9.json"
+    }
+  ]
+}

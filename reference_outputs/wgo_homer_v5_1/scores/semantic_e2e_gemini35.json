@@ -1,0 +1,3242 @@
+{
+  "metric": "WGO-style end_to_end_semantic_segment_f1: greedy IoU>=0.75 with outer snap, then Gemini semantic label match on matched pairs",
+  "judge_model": "gemini-3.5-flash",
+  "source_score_json": "reference_outputs/wgo_homer_v5_1/scores/segment_f1.json",
+  "pred_dir": "reference_outputs/wgo_homer_v5_1/candidate_selector",
+  "n_episodes": 25,
+  "micro": {
+    "n_pred": 308,
+    "n_gold": 470,
+    "n_iou_match": 79,
+    "n_semantic_match": 60,
+    "seg_precision": 0.2564935064935065,
+    "seg_recall": 0.16808510638297872,
+    "seg_f1": 0.2030848329048843,
+    "e2e_precision": 0.19480519480519481,
+    "e2e_recall": 0.1276595744680851,
+    "e2e_f1": 0.1542416452442159
+  },
+  "per_episode": [
+    {
+      "id": "homer_1",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_1.json",
+      "n_pred": 17,
+      "n_gold": 20,
+      "n_iou_match": 8,
+      "n_semantic_match": 4,
+      "seg_precision": 0.47058823529411764,
+      "seg_recall": 0.4,
+      "e2e_precision": 0.23529411764705882,
+      "e2e_recall": 0.2,
+      "e2e_f1": 0.2162162162162162,
+      "pairs": [
+        {
+          "pred_i": 4,
+          "gold_j": 6,
+          "iou": 0.9788961506348428,
+          "judge_job": 0,
+          "gold_label": "pour water from the pitcher into the wine glass",
+          "pred_label": "Pour water into wine glass",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 16,
+          "gold_j": 19,
+          "iou": 0.9601769911504411,
+          "judge_job": 1,
+          "gold_label": "place the pitcher on the center part of the table between the two glasses",
+          "pred_label": "move pitcher to center of table",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 12,
+          "gold_j": 13,
+          "iou": 0.8885375774908075,
+          "judge_job": 2,
+          "gold_label": "pour water from the pitcher into the tall glass until it's almost full",
+          "pred_label": "Pour water from pitcher into tall glass",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 10,
+          "gold_j": 11,
+          "iou": 0.8804039688164403,
+          "judge_job": 3,
+          "gold_label": "pour a bit of water from the pitcher into the tall glass",
+          "pred_label": "pour water into wine glass",
+          "semantic_match": false,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 6,
+          "gold_j": 9,
+          "iou": 0.8261666666666679,
+          "judge_job": 4,
+          "gold_label": "twist the pitcher lid to open it slightly",
+          "pred_label": "close pitcher lid",
+          "semantic_match": false,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 11,
+          "gold_j": 12,
+          "iou": 0.7945919126767547,
+          "judge_job": 5,
+          "gold_label": "move the glass wine 7cm to the left",
+          "pred_label": "pour water into wine glass",
+          "semantic_match": false,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 0,
+          "gold_j": 0,
+          "iou": 0.7708999999999999,
+          "judge_job": 6,
+          "gold_label": "twist open the pitcher lid",
+          "pred_label": "Close the pitcher lid",
+          "semantic_match": false,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 2,
+          "gold_j": 2,
+          "iou": 0.7621765226803108,
+          "judge_job": 7,
+          "gold_label": "pour water from the pitcher into the wine glass",
+          "pred_label": "pour water into wine glass",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "id": "homer_10",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_10.json",
+      "n_pred": 3,
+      "n_gold": 10,
+      "n_iou_match": 2,
+      "n_semantic_match": 2,
+      "seg_precision": 0.6666666666666666,
+      "seg_recall": 0.2,
+      "e2e_precision": 0.6666666666666666,
+      "e2e_recall": 0.2,
+      "e2e_f1": 0.30769230769230765,
+      "pairs": [
+        {
+          "pred_i": 2,
+          "gold_j": 9,
+          "iou": 0.9089450461291613,
+          "judge_job": 8,
+          "gold_label": "wipe the black glass stovetop with a yellow cloth",
+          "pred_label": "Wipe the stovetop with the cloth",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 0,
+          "gold_j": 1,
+          "iou": 0.8351500749083021,
+          "judge_job": 9,
+          "gold_label": "wipe the wooden countertop with a yellow cloth",
+          "pred_label": "Wipe the countertop with the cloth",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "id": "homer_11",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_11.json",
+      "n_pred": 33,
+      "n_gold": 41,
+      "n_iou_match": 9,
+      "n_semantic_match": 7,
+      "seg_precision": 0.2727272727272727,
+      "seg_recall": 0.21951219512195122,
+      "e2e_precision": 0.21212121212121213,
+      "e2e_recall": 0.17073170731707318,
+      "e2e_f1": 0.18918918918918917,
+      "pairs": [
+        {
+          "pred_i": 15,
+          "gold_j": 18,
+          "iou": 0.8831995571547199,
+          "judge_job": 10,
+          "gold_label": "scoop white powder from the clear container using an orange measuring spoon",
+          "pred_label": "scoop contents from large jar",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 2,
+          "gold_j": 3,
+          "iou": 0.8670318725099604,
+          "judge_job": 11,
+          "gold_label": "place the small jar with a pink lid you are holding on the left bottom side of tray",
+          "pred_label": "Close the jar with the lid",
+          "semantic_match": false,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 11,
+          "gold_j": 14,
+          "iou": 0.8669333333333337,
+          "judge_job": 12,
+          "gold_label": "close the black-pink bottle you are holding",
+          "pred_label": "Close the bottle",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 14,
+          "gold_j": 17,
+          "iou": 0.8637500000000005,
+          "judge_job": 13,
+          "gold_label": "unscrew the lid from the container you are holding",
+          "pred_label": "Open the container with the orange lid",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 20,
+          "gold_j": 23,
+          "iou": 0.8372305682560425,
+          "judge_job": 14,
+          "gold_label": "stir the sugar with a spoon",
+          "pred_label": "Stir the contents of the jar with a spoon",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 1,
+          "gold_j": 2,
+          "iou": 0.8194545454545454,
+          "judge_job": 15,
+          "gold_label": "close small jar containing coffee beans in your hand with the pink lid you are holding",
+          "pred_label": "Close the jar with the lid",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 10,
+          "gold_j": 13,
+          "iou": 0.7985314364387333,
+          "judge_job": 16,
+          "gold_label": "open the bottle you are holding",
+          "pred_label": "open pink water bottle",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 16,
+          "gold_j": 19,
+          "iou": 0.7867935932305828,
+          "judge_job": 17,
+          "gold_label": "press the orange lid onto the clear plastic container to close it",
+          "pred_label": "Close the container with the orange lid",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 29,
+          "gold_j": 36,
+          "iou": 0.7658321060382904,
+          "judge_job": 18,
+          "gold_label": "pick up small jar containing coffee beans from the bottom left of the tray",
+          "pred_label": "Open the jar of beans",
+          "semantic_match": false,
+          "judge_model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "id": "homer_12",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_12.json",
+      "n_pred": 39,
+      "n_gold": 58,
+      "n_iou_match": 11,
+      "n_semantic_match": 10,
+      "seg_precision": 0.28205128205128205,
+      "seg_recall": 0.1896551724137931,
+      "e2e_precision": 0.2564102564102564,
+      "e2e_recall": 0.1724137931034483,
+      "e2e_f1": 0.2061855670103093,
+      "pairs": [
+        {
+          "pred_i": 24,
+          "gold_j": 36,
+          "iou": 0.9446864111498247,
+          "judge_job": 19,
+          "gold_label": "screw the green cap onto the green bottle",
+          "pred_label": "Close the green bottle",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 35,
+          "gold_j": 52,
+          "iou": 0.9270833333333357,
+          "judge_job": 20,
+          "gold_label": "screw the red lid onto the nescafe container",
+          "pred_label": "Close the jar with the red lid",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 38,
+          "gold_j": 57,
+          "iou": 0.910240963855421,
+          "judge_job": 21,
+          "gold_label": "place the metal container on the black countertop to the right of container with blue lid",
+          "pred_label": "Close the silver container",
+          "semantic_match": false,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 22,
+          "gold_j": 35,
+          "iou": 0.8539119804400981,
+          "judge_job": 22,
+          "gold_label": "unscrew and remove the green cap from the green bottle",
+          "pred_label": "Open the green bottle",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 6,
+          "gold_j": 11,
+          "iou": 0.8454315637414238,
+          "judge_job": 23,
+          "gold_label": "unscrew and remove the black lid from the glass jar",
+          "pred_label": "Open the jar",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 27,
+          "gold_j": 40,
+          "iou": 0.8010000000000019,
+          "judge_job": 24,
+          "gold_label": "close the blue lid of the plastic container",
+          "pred_label": "Close the blue container",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 33,
+          "gold_j": 48,
+          "iou": 0.7933333333333318,
+          "judge_job": 25,
+          "gold_label": "place the pink lid onto the bottle to close it",
+          "pred_label": "Close the bottle with the pink lid",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 15,
+          "gold_j": 22,
+          "iou": 0.7900000000000015,
+          "judge_job": 26,
+          "gold_label": "close the plastic food container with the light blue lid",
+          "pred_label": "Close the container with the blue lid",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 34,
+          "gold_j": 51,
+          "iou": 0.7773190869354049,
+          "judge_job": 27,
+          "gold_label": "unscrew and remove the red lid from the coffee jar",
+          "pred_label": "Open the red-lidded jar",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 12,
+          "gold_j": 19,
+          "iou": 0.7651109410864584,
+          "judge_job": 28,
+          "gold_label": "remove the blue lid from the rectangular food storage container",
+          "pred_label": "Open the container",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 21,
+          "gold_j": 32,
+          "iou": 0.7507999999999981,
+          "judge_job": 29,
+          "gold_label": "screw the pink lid onto the plastic bottle",
+          "pred_label": "Close the bottle with the pink lid",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "id": "homer_15",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_15.json",
+      "n_pred": 9,
+      "n_gold": 26,
+      "n_iou_match": 0,
+      "n_semantic_match": 0,
+      "seg_precision": 0,
+      "seg_recall": 0,
+      "e2e_precision": 0,
+      "e2e_recall": 0,
+      "e2e_f1": 0,
+      "pairs": []
+    },
+    {
+      "id": "homer_2",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_2.json",
+      "n_pred": 28,
+      "n_gold": 30,
+      "n_iou_match": 4,
+      "n_semantic_match": 3,
+      "seg_precision": 0.14285714285714285,
+      "seg_recall": 0.13333333333333333,
+      "e2e_precision": 0.10714285714285714,
+      "e2e_recall": 0.1,
+      "e2e_f1": 0.10344827586206898,
+      "pairs": [
+        {
+          "pred_i": 15,
+          "gold_j": 20,
+          "iou": 0.9643333333333336,
+          "judge_job": 30,
+          "gold_label": "scrub the white saucer with a sponge under running water in the sink",
+          "pred_label": "wash the plate",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 12,
+          "gold_j": 16,
+          "iou": 0.9499840306611306,
+          "judge_job": 31,
+          "gold_label": "scrub and rinse a clear glass under running water in the sink",
+          "pred_label": "Rinse the glass under running water",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 22,
+          "gold_j": 26,
+          "iou": 0.88310648518815,
+          "judge_job": 32,
+          "gold_label": "rinse the white spatula under running water in the sink",
+          "pred_label": "Rinse the cup under running water",
+          "semantic_match": false,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 5,
+          "gold_j": 8,
+          "iou": 0.7635294117647058,
+          "judge_job": 33,
+          "gold_label": "wash the glass mug with a sponge under running water",
+          "pred_label": "wash the glass",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "id": "homer_29",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_29.json",
+      "n_pred": 9,
+      "n_gold": 13,
+      "n_iou_match": 4,
+      "n_semantic_match": 2,
+      "seg_precision": 0.4444444444444444,
+      "seg_recall": 0.3076923076923077,
+      "e2e_precision": 0.2222222222222222,
+      "e2e_recall": 0.15384615384615385,
+      "e2e_f1": 0.18181818181818185,
+      "pairs": [
+        {
+          "pred_i": 8,
+          "gold_j": 12,
+          "iou": 0.999581589958157,
+          "judge_job": 34,
+          "gold_label": "place the white cutting board with the knife on the counter next to the sink",
+          "pred_label": "place the knife on the cutting board",
+          "semantic_match": false,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 5,
+          "gold_j": 9,
+          "iou": 0.9250099155759531,
+          "judge_job": 35,
+          "gold_label": "dice the red onion on the cutting board",
+          "pred_label": "dice the onion",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 7,
+          "gold_j": 11,
+          "iou": 0.9091999999999985,
+          "judge_job": 36,
+          "gold_label": "scrape the diced onions from the cutting board into the bowl",
+          "pred_label": "transfer onion to bowl",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 0,
+          "gold_j": 0,
+          "iou": 0.9030000000000001,
+          "judge_job": 37,
+          "gold_label": "pick up the onion and the knife",
+          "pred_label": "cut the onion",
+          "semantic_match": false,
+          "judge_model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "id": "homer_3",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_3.json",
+      "n_pred": 3,
+      "n_gold": 9,
+      "n_iou_match": 1,
+      "n_semantic_match": 0,
+      "seg_precision": 0.3333333333333333,
+      "seg_recall": 0.1111111111111111,
+      "e2e_precision": 0,
+      "e2e_recall": 0,
+      "e2e_f1": 0,
+      "pairs": [
+        {
+          "pred_i": 2,
+          "gold_j": 7,
+          "iou": 0.9612308117110041,
+          "judge_job": 38,
+          "gold_label": "stir the brown liquid in the pan using a white spatula",
+          "pred_label": "stir the liquid in the bowl",
+          "semantic_match": false,
+          "judge_model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "id": "homer_33",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_33.json",
+      "n_pred": 5,
+      "n_gold": 8,
+      "n_iou_match": 1,
+      "n_semantic_match": 1,
+      "seg_precision": 0.2,
+      "seg_recall": 0.125,
+      "e2e_precision": 0.2,
+      "e2e_recall": 0.125,
+      "e2e_f1": 0.15384615384615385,
+      "pairs": [
+        {
+          "pred_i": 1,
+          "gold_j": 4,
+          "iou": 0.7850449716380958,
+          "judge_job": 39,
+          "gold_label": "peel the red onion with a knife",
+          "pred_label": "peel onion skin",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "id": "homer_37",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_37.json",
+      "n_pred": 6,
+      "n_gold": 6,
+      "n_iou_match": 0,
+      "n_semantic_match": 0,
+      "seg_precision": 0,
+      "seg_recall": 0,
+      "e2e_precision": 0,
+      "e2e_recall": 0,
+      "e2e_f1": 0,
+      "pairs": []
+    },
+    {
+      "id": "homer_38",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_38.json",
+      "n_pred": 12,
+      "n_gold": 19,
+      "n_iou_match": 4,
+      "n_semantic_match": 4,
+      "seg_precision": 0.3333333333333333,
+      "seg_recall": 0.21052631578947367,
+      "e2e_precision": 0.3333333333333333,
+      "e2e_recall": 0.21052631578947367,
+      "e2e_f1": 0.2580645161290323,
+      "pairs": [
+        {
+          "pred_i": 0,
+          "gold_j": 0,
+          "iou": 0.9280000000000002,
+          "judge_job": 40,
+          "gold_label": "pick up the stack of white plates from the counter",
+          "pred_label": "pick up the stack of plates",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 3,
+          "gold_j": 2,
+          "iou": 0.9128245892951778,
+          "judge_job": 41,
+          "gold_label": "place the bottom white plate on the table in front of the nearest chair to the right",
+          "pred_label": "Place the plate on the table",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 4,
+          "gold_j": 3,
+          "iou": 0.8812939521800279,
+          "judge_job": 42,
+          "gold_label": "place the bottom white plate on the table in front of the nearest chair to the right",
+          "pred_label": "Place the plate on the table",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 5,
+          "gold_j": 4,
+          "iou": 0.7585387585387579,
+          "judge_job": 43,
+          "gold_label": "place the bottom white plate to the head of table closer to you",
+          "pred_label": "place plate on table",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "id": "homer_39",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_39.json",
+      "n_pred": 22,
+      "n_gold": 36,
+      "n_iou_match": 6,
+      "n_semantic_match": 5,
+      "seg_precision": 0.2727272727272727,
+      "seg_recall": 0.16666666666666666,
+      "e2e_precision": 0.22727272727272727,
+      "e2e_recall": 0.1388888888888889,
+      "e2e_f1": 0.1724137931034483,
+      "pairs": [
+        {
+          "pred_i": 5,
+          "gold_j": 9,
+          "iou": 0.9535918626827715,
+          "judge_job": 44,
+          "gold_label": "wipe the countertop with a blue grey cloth",
+          "pred_label": "Wipe the countertop with a cloth",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 21,
+          "gold_j": 35,
+          "iou": 0.8945419103313846,
+          "judge_job": 45,
+          "gold_label": "wipe the granite countertop with a blue grey cloth",
+          "pred_label": "Wipe the countertop with a cloth",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 4,
+          "gold_j": 8,
+          "iou": 0.8639999999999995,
+          "judge_job": 46,
+          "gold_label": "pick up the beige container from the countertop",
+          "pred_label": "Pick up the jar",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 3,
+          "gold_j": 6,
+          "iou": 0.8533862565120319,
+          "judge_job": 47,
+          "gold_label": "wipe the granite countertop with a blue grey sponge next to the fruit bowl",
+          "pred_label": "Wipe countertop with cloth",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 13,
+          "gold_j": 26,
+          "iou": 0.8425760286225384,
+          "judge_job": 48,
+          "gold_label": "pick up the rolling board",
+          "pred_label": "Wipe the countertop with a cloth",
+          "semantic_match": false,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 10,
+          "gold_j": 16,
+          "iou": 0.7862679955703217,
+          "judge_job": 49,
+          "gold_label": "wipe the countertop with a blue grey cloth",
+          "pred_label": "Wipe the countertop with a cloth",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "id": "homer_4",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_4.json",
+      "n_pred": 11,
+      "n_gold": 15,
+      "n_iou_match": 4,
+      "n_semantic_match": 3,
+      "seg_precision": 0.36363636363636365,
+      "seg_recall": 0.26666666666666666,
+      "e2e_precision": 0.2727272727272727,
+      "e2e_recall": 0.2,
+      "e2e_f1": 0.23076923076923075,
+      "pairs": [
+        {
+          "pred_i": 3,
+          "gold_j": 3,
+          "iou": 0.9491891891891889,
+          "judge_job": 50,
+          "gold_label": "wipe the inside of the nightstand drawer with a cloth",
+          "pred_label": "Wipe the drawer interior with a cloth",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 5,
+          "gold_j": 5,
+          "iou": 0.812125,
+          "judge_job": 51,
+          "gold_label": "wipe the top surface of the wooden nightstand with a white cloth",
+          "pred_label": "Wipe the table with a cloth",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 8,
+          "gold_j": 9,
+          "iou": 0.7804293455606505,
+          "judge_job": 52,
+          "gold_label": "wipe the drawer handle of the wooden nightstand with a white cloth",
+          "pred_label": "Wipe the drawer handle with a cloth",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 6,
+          "gold_j": 6,
+          "iou": 0.7631257631257632,
+          "judge_job": 53,
+          "gold_label": "fold the cloth",
+          "pred_label": "Unfold the cloth",
+          "semantic_match": false,
+          "judge_model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "id": "homer_40",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_40.json",
+      "n_pred": 3,
+      "n_gold": 13,
+      "n_iou_match": 0,
+      "n_semantic_match": 0,
+      "seg_precision": 0,
+      "seg_recall": 0,
+      "e2e_precision": 0,
+      "e2e_recall": 0,
+      "e2e_f1": 0,
+      "pairs": []
+    },
+    {
+      "id": "homer_41",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_41.json",
+      "n_pred": 6,
+      "n_gold": 7,
+      "n_iou_match": 1,
+      "n_semantic_match": 1,
+      "seg_precision": 0.16666666666666666,
+      "seg_recall": 0.14285714285714285,
+      "e2e_precision": 0.16666666666666666,
+      "e2e_recall": 0.14285714285714285,
+      "e2e_f1": 0.15384615384615383,
+      "pairs": [
+        {
+          "pred_i": 3,
+          "gold_j": 3,
+          "iou": 0.7939955285851167,
+          "judge_job": 54,
+          "gold_label": "carry the plastic water bottle and place it on the gas stove",
+          "pred_label": "Place the water bottle on the stove",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "id": "homer_48",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_48.json",
+      "n_pred": 17,
+      "n_gold": 27,
+      "n_iou_match": 2,
+      "n_semantic_match": 0,
+      "seg_precision": 0.11764705882352941,
+      "seg_recall": 0.07407407407407407,
+      "e2e_precision": 0,
+      "e2e_recall": 0,
+      "e2e_f1": 0,
+      "pairs": [
+        {
+          "pred_i": 0,
+          "gold_j": 0,
+          "iou": 0.9672000000000001,
+          "judge_job": 55,
+          "gold_label": "pick up the plastic container with green lid",
+          "pred_label": "Pick up the green lid",
+          "semantic_match": false,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 1,
+          "gold_j": 1,
+          "iou": 0.9107468123861567,
+          "judge_job": 56,
+          "gold_label": "place the plastic container with green lid on the counter",
+          "pred_label": "Place the green lid on the table",
+          "semantic_match": false,
+          "judge_model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "id": "homer_5",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_5.json",
+      "n_pred": 5,
+      "n_gold": 10,
+      "n_iou_match": 3,
+      "n_semantic_match": 3,
+      "seg_precision": 0.6,
+      "seg_recall": 0.3,
+      "e2e_precision": 0.6,
+      "e2e_recall": 0.3,
+      "e2e_f1": 0.4,
+      "pairs": [
+        {
+          "pred_i": 4,
+          "gold_j": 9,
+          "iou": 0.993801465930685,
+          "judge_job": 57,
+          "gold_label": "wipe the white shelf surface with a purple cloth",
+          "pred_label": "Wipe the shelf with a cloth",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 3,
+          "gold_j": 8,
+          "iou": 0.978941070894406,
+          "judge_job": 58,
+          "gold_label": "wipe the middle shelf of the white cabinet with a purple cloth",
+          "pred_label": "Wipe the shelf with a cloth",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 2,
+          "gold_j": 7,
+          "iou": 0.975645198790979,
+          "judge_job": 59,
+          "gold_label": "wipe the white shelf surface around the decorative items with a purple cloth",
+          "pred_label": "Wipe the shelf with a cloth",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "id": "homer_50",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_50.json",
+      "n_pred": 11,
+      "n_gold": 27,
+      "n_iou_match": 6,
+      "n_semantic_match": 5,
+      "seg_precision": 0.5454545454545454,
+      "seg_recall": 0.2222222222222222,
+      "e2e_precision": 0.45454545454545453,
+      "e2e_recall": 0.18518518518518517,
+      "e2e_f1": 0.2631578947368421,
+      "pairs": [
+        {
+          "pred_i": 6,
+          "gold_j": 19,
+          "iou": 0.9676527508985354,
+          "judge_job": 60,
+          "gold_label": "use a green screwdriver to tighten the screw on the toy excavator's wheel",
+          "pred_label": "Tighten screw on toy truck wheel",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 10,
+          "gold_j": 26,
+          "iou": 0.934413580246914,
+          "judge_job": 61,
+          "gold_label": "tighten the screw on the wheel of the yellow toy excavator using a green screwdriver",
+          "pred_label": "Tighten screw on toy truck wheel",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 1,
+          "gold_j": 5,
+          "iou": 0.8618524332810046,
+          "judge_job": 62,
+          "gold_label": "use a green screwdriver to tighten the screw on the toy excavator's wheel",
+          "pred_label": "Screw the wheel onto the toy truck",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 4,
+          "gold_j": 12,
+          "iou": 0.8254999999999999,
+          "judge_job": 63,
+          "gold_label": "use a green screwdriver to tighten the screw on the toy excavator's wheel",
+          "pred_label": "Screw the wheel onto the toy truck",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 8,
+          "gold_j": 22,
+          "iou": 0.8073196986006441,
+          "judge_job": 64,
+          "gold_label": "push a black tire onto the left-front wheel hub of the yellow toy excavator",
+          "pred_label": "Attach wheel to toy truck",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 9,
+          "gold_j": 24,
+          "iou": 0.7660000000000018,
+          "judge_job": 65,
+          "gold_label": "secure the black wheel with the orange screw",
+          "pred_label": "Insert wheel into toy truck",
+          "semantic_match": false,
+          "judge_model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "id": "homer_52",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_52.json",
+      "n_pred": 2,
+      "n_gold": 6,
+      "n_iou_match": 0,
+      "n_semantic_match": 0,
+      "seg_precision": 0,
+      "seg_recall": 0,
+      "e2e_precision": 0,
+      "e2e_recall": 0,
+      "e2e_f1": 0,
+      "pairs": []
+    },
+    {
+      "id": "homer_53",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_53.json",
+      "n_pred": 2,
+      "n_gold": 12,
+      "n_iou_match": 0,
+      "n_semantic_match": 0,
+      "seg_precision": 0,
+      "seg_recall": 0,
+      "e2e_precision": 0,
+      "e2e_recall": 0,
+      "e2e_f1": 0,
+      "pairs": []
+    },
+    {
+      "id": "homer_56",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_56.json",
+      "n_pred": 7,
+      "n_gold": 9,
+      "n_iou_match": 0,
+      "n_semantic_match": 0,
+      "seg_precision": 0,
+      "seg_recall": 0,
+      "e2e_precision": 0,
+      "e2e_recall": 0,
+      "e2e_f1": 0,
+      "pairs": []
+    },
+    {
+      "id": "homer_59",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_59.json",
+      "n_pred": 21,
+      "n_gold": 20,
+      "n_iou_match": 4,
+      "n_semantic_match": 3,
+      "seg_precision": 0.19047619047619047,
+      "seg_recall": 0.2,
+      "e2e_precision": 0.14285714285714285,
+      "e2e_recall": 0.15,
+      "e2e_f1": 0.14634146341463414,
+      "pairs": [
+        {
+          "pred_i": 2,
+          "gold_j": 2,
+          "iou": 0.9509319132750097,
+          "judge_job": 66,
+          "gold_label": "pick the first three books from the case, starting from the left",
+          "pred_label": "Pick up a book from the stack",
+          "semantic_match": false,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 3,
+          "gold_j": 3,
+          "iou": 0.9502222222222225,
+          "judge_job": 67,
+          "gold_label": "place the three books onto the shelf right next to existing books",
+          "pred_label": "Place books on shelf",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 1,
+          "gold_j": 1,
+          "iou": 0.8375430539609644,
+          "judge_job": 68,
+          "gold_label": "place them three books on to the empty shelf",
+          "pred_label": "Place books on shelf",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 14,
+          "gold_j": 13,
+          "iou": 0.8195582030280458,
+          "judge_job": 69,
+          "gold_label": "place the three books onto the shelf right next to existing books",
+          "pred_label": "Place books on shelf",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "id": "homer_60",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_60.json",
+      "n_pred": 17,
+      "n_gold": 18,
+      "n_iou_match": 3,
+      "n_semantic_match": 3,
+      "seg_precision": 0.17647058823529413,
+      "seg_recall": 0.16666666666666666,
+      "e2e_precision": 0.17647058823529413,
+      "e2e_recall": 0.16666666666666666,
+      "e2e_f1": 0.17142857142857143,
+      "pairs": [
+        {
+          "pred_i": 16,
+          "gold_j": 17,
+          "iou": 0.9689784627543964,
+          "judge_job": 70,
+          "gold_label": "place the four books onto the middle shelf of the white cabinet",
+          "pred_label": "Place books on shelf",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 7,
+          "gold_j": 9,
+          "iou": 0.9497098646034821,
+          "judge_job": 71,
+          "gold_label": "place five books onto the middle shelf of the white cabinet",
+          "pred_label": "Place books on shelf",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 4,
+          "gold_j": 5,
+          "iou": 0.8278000000000005,
+          "judge_job": 72,
+          "gold_label": "place three books onto the middle shelf of the white cabinet",
+          "pred_label": "Place books on shelf",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "id": "homer_7",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_7.json",
+      "n_pred": 10,
+      "n_gold": 10,
+      "n_iou_match": 3,
+      "n_semantic_match": 2,
+      "seg_precision": 0.3,
+      "seg_recall": 0.3,
+      "e2e_precision": 0.2,
+      "e2e_recall": 0.2,
+      "e2e_f1": 0.20000000000000004,
+      "pairs": [
+        {
+          "pred_i": 5,
+          "gold_j": 5,
+          "iou": 0.9554616384915473,
+          "judge_job": 73,
+          "gold_label": "draw a palm tree in the middle of hills with a pen",
+          "pred_label": "Draw palm tree on paper",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 0,
+          "gold_j": 1,
+          "iou": 0.8661779035775602,
+          "judge_job": 74,
+          "gold_label": "draw a sun on the white paper with a pen in the center of the paper",
+          "pred_label": "Draw a sun on the paper",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 4,
+          "gold_j": 4,
+          "iou": 0.8613,
+          "judge_job": 75,
+          "gold_label": "draw curved lines beach at the bottom right of the paper",
+          "pred_label": "draw a hill on the paper",
+          "semantic_match": false,
+          "judge_model": "gemini-3.5-flash"
+        }
+      ]
+    },
+    {
+      "id": "homer_9",
+      "pred_file": "reference_outputs/wgo_homer_v5_1/candidate_selector/homer_9.json",
+      "n_pred": 10,
+      "n_gold": 20,
+      "n_iou_match": 3,
+      "n_semantic_match": 2,
+      "seg_precision": 0.3,
+      "seg_recall": 0.15,
+      "e2e_precision": 0.2,
+      "e2e_recall": 0.1,
+      "e2e_f1": 0.13333333333333333,
+      "pairs": [
+        {
+          "pred_i": 6,
+          "gold_j": 14,
+          "iou": 0.8919166666666664,
+          "judge_job": 76,
+          "gold_label": "rinse the glass in your hand under the running tap",
+          "pred_label": "Rinse the glass under the tap",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 7,
+          "gold_j": 15,
+          "iou": 0.8244023083264578,
+          "judge_job": 77,
+          "gold_label": "place the clear glass in your hand to the left edge of the sink",
+          "pred_label": "wash the glass",
+          "semantic_match": false,
+          "judge_model": "gemini-3.5-flash"
+        },
+        {
+          "pred_i": 1,
+          "gold_j": 4,
+          "iou": 0.7731733333333334,
+          "judge_job": 78,
+          "gold_label": "wash the inside of clear glass using a green dishcloth under",
+          "pred_label": "wash the glass with the sponge",
+          "semantic_match": true,
+          "judge_model": "gemini-3.5-flash"
+        }
+      ]
+    }
+  ],
+  "usage_summary": {
+    "prompt_tokens": 18625,
+    "completion_tokens": 26182,
+    "estimated_cost_usd": 0.2635755,
+    "price_note": "Gemini 3.5 Flash estimate: input $1.5/M tokens, output $9/M tokens."
+  },
+  "judge_pairs": [
+    {
+      "episode_id": "homer_1",
+      "instruction": "Pour water from a pitcher into glasses.",
+      "pred_i": 4,
+      "gold_j": 6,
+      "gold_label": "pour water from the pitcher into the wine glass",
+      "pred_label": "Pour water into wine glass",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 232,
+        "completion_tokens": 320,
+        "total_tokens": 552,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 310
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_1",
+      "instruction": "Pour water from a pitcher into glasses.",
+      "pred_i": 16,
+      "gold_j": 19,
+      "gold_label": "place the pitcher on the center part of the table between the two glasses",
+      "pred_label": "move pitcher to center of table",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 238,
+        "completion_tokens": 386,
+        "total_tokens": 624,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 376
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_1",
+      "instruction": "Pour water from a pitcher into glasses.",
+      "pred_i": 12,
+      "gold_j": 13,
+      "gold_label": "pour water from the pitcher into the tall glass until it's almost full",
+      "pred_label": "Pour water from pitcher into tall glass",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 240,
+        "completion_tokens": 266,
+        "total_tokens": 506,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 256
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_1",
+      "instruction": "Pour water from a pitcher into glasses.",
+      "pred_i": 10,
+      "gold_j": 11,
+      "gold_label": "pour a bit of water from the pitcher into the tall glass",
+      "pred_label": "pour water into wine glass",
+      "match": false,
+      "raw": "```json\n{\"match\": false}\n```",
+      "usage": {
+        "prompt_tokens": 235,
+        "completion_tokens": 476,
+        "total_tokens": 711,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 466
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_1",
+      "instruction": "Pour water from a pitcher into glasses.",
+      "pred_i": 6,
+      "gold_j": 9,
+      "gold_label": "twist the pitcher lid to open it slightly",
+      "pred_label": "close pitcher lid",
+      "match": false,
+      "raw": "{\"match\": false}",
+      "usage": {
+        "prompt_tokens": 230,
+        "completion_tokens": 192,
+        "total_tokens": 422,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 187
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_1",
+      "instruction": "Pour water from a pitcher into glasses.",
+      "pred_i": 11,
+      "gold_j": 12,
+      "gold_label": "move the glass wine 7cm to the left",
+      "pred_label": "pour water into wine glass",
+      "match": false,
+      "raw": "```json\n{\"match\": false}\n```",
+      "usage": {
+        "prompt_tokens": 233,
+        "completion_tokens": 239,
+        "total_tokens": 472,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 229
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_1",
+      "instruction": "Pour water from a pitcher into glasses.",
+      "pred_i": 0,
+      "gold_j": 0,
+      "gold_label": "twist open the pitcher lid",
+      "pred_label": "Close the pitcher lid",
+      "match": false,
+      "raw": "```json\n{\"match\": false}\n```",
+      "usage": {
+        "prompt_tokens": 227,
+        "completion_tokens": 164,
+        "total_tokens": 391,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 154
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_1",
+      "instruction": "Pour water from a pitcher into glasses.",
+      "pred_i": 2,
+      "gold_j": 2,
+      "gold_label": "pour water from the pitcher into the wine glass",
+      "pred_label": "pour water into wine glass",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 233,
+        "completion_tokens": 232,
+        "total_tokens": 465,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 222
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_10",
+      "instruction": "Wipe the countertop and stovetop with a cloth.",
+      "pred_i": 2,
+      "gold_j": 9,
+      "gold_label": "wipe the black glass stovetop with a yellow cloth",
+      "pred_label": "Wipe the stovetop with the cloth",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 239,
+        "completion_tokens": 306,
+        "total_tokens": 545,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 296
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_10",
+      "instruction": "Wipe the countertop and stovetop with a cloth.",
+      "pred_i": 0,
+      "gold_j": 1,
+      "gold_label": "wipe the wooden countertop with a yellow cloth",
+      "pred_label": "Wipe the countertop with the cloth",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 236,
+        "completion_tokens": 370,
+        "total_tokens": 606,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 360
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_11",
+      "instruction": "Transfer various dry goods between jars and containers.",
+      "pred_i": 15,
+      "gold_j": 18,
+      "gold_label": "scoop white powder from the clear container using an orange measuring spoon",
+      "pred_label": "scoop contents from large jar",
+      "match": true,
+      "raw": "{\"match\": true}",
+      "usage": {
+        "prompt_tokens": 238,
+        "completion_tokens": 493,
+        "total_tokens": 731,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 488
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_11",
+      "instruction": "Transfer various dry goods between jars and containers.",
+      "pred_i": 2,
+      "gold_j": 3,
+      "gold_label": "place the small jar with a pink lid you are holding on the left bottom side of tray",
+      "pred_label": "Close the jar with the lid",
+      "match": false,
+      "raw": "```json\n{\"match\": false}\n```",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 261,
+        "total_tokens": 504,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 251
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_11",
+      "instruction": "Transfer various dry goods between jars and containers.",
+      "pred_i": 11,
+      "gold_j": 14,
+      "gold_label": "close the black-pink bottle you are holding",
+      "pred_label": "Close the bottle",
+      "match": true,
+      "raw": "{\"match\": true}",
+      "usage": {
+        "prompt_tokens": 231,
+        "completion_tokens": 297,
+        "total_tokens": 528,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 292
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_11",
+      "instruction": "Transfer various dry goods between jars and containers.",
+      "pred_i": 14,
+      "gold_j": 17,
+      "gold_label": "unscrew the lid from the container you are holding",
+      "pred_label": "Open the container with the orange lid",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 236,
+        "completion_tokens": 499,
+        "total_tokens": 735,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 489
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_11",
+      "instruction": "Transfer various dry goods between jars and containers.",
+      "pred_i": 20,
+      "gold_j": 23,
+      "gold_label": "stir the sugar with a spoon",
+      "pred_label": "Stir the contents of the jar with a spoon",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 235,
+        "completion_tokens": 328,
+        "total_tokens": 563,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 318
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_11",
+      "instruction": "Transfer various dry goods between jars and containers.",
+      "pred_i": 1,
+      "gold_j": 2,
+      "gold_label": "close small jar containing coffee beans in your hand with the pink lid you are holding",
+      "pred_label": "Close the jar with the lid",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 385,
+        "total_tokens": 626,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 375
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_11",
+      "instruction": "Transfer various dry goods between jars and containers.",
+      "pred_i": 10,
+      "gold_j": 13,
+      "gold_label": "open the bottle you are holding",
+      "pred_label": "open pink water bottle",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 230,
+        "completion_tokens": 272,
+        "total_tokens": 502,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 263
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_11",
+      "instruction": "Transfer various dry goods between jars and containers.",
+      "pred_i": 16,
+      "gold_j": 19,
+      "gold_label": "press the orange lid onto the clear plastic container to close it",
+      "pred_label": "Close the container with the orange lid",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 238,
+        "completion_tokens": 267,
+        "total_tokens": 505,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 257
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_11",
+      "instruction": "Transfer various dry goods between jars and containers.",
+      "pred_i": 29,
+      "gold_j": 36,
+      "gold_label": "pick up small jar containing coffee beans from the bottom left of the tray",
+      "pred_label": "Open the jar of beans",
+      "match": false,
+      "raw": "```json\n{\"match\": false}\n```",
+      "usage": {
+        "prompt_tokens": 238,
+        "completion_tokens": 222,
+        "total_tokens": 460,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 212
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_12",
+      "instruction": "Open and close various containers and bottles.",
+      "pred_i": 24,
+      "gold_j": 36,
+      "gold_label": "screw the green cap onto the green bottle",
+      "pred_label": "Close the green bottle",
+      "match": true,
+      "raw": "{\"match\": true}",
+      "usage": {
+        "prompt_tokens": 230,
+        "completion_tokens": 329,
+        "total_tokens": 559,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 324
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_12",
+      "instruction": "Open and close various containers and bottles.",
+      "pred_i": 35,
+      "gold_j": 52,
+      "gold_label": "screw the red lid onto the nescafe container",
+      "pred_label": "Close the jar with the red lid",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 234,
+        "completion_tokens": 303,
+        "total_tokens": 537,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 293
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_12",
+      "instruction": "Open and close various containers and bottles.",
+      "pred_i": 38,
+      "gold_j": 57,
+      "gold_label": "place the metal container on the black countertop to the right of container with blue lid",
+      "pred_label": "Close the silver container",
+      "match": false,
+      "raw": "```json\n{\"match\": false}\n```",
+      "usage": {
+        "prompt_tokens": 238,
+        "completion_tokens": 231,
+        "total_tokens": 469,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 221
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_12",
+      "instruction": "Open and close various containers and bottles.",
+      "pred_i": 22,
+      "gold_j": 35,
+      "gold_label": "unscrew and remove the green cap from the green bottle",
+      "pred_label": "Open the green bottle",
+      "match": true,
+      "raw": "{\"match\": true}",
+      "usage": {
+        "prompt_tokens": 233,
+        "completion_tokens": 301,
+        "total_tokens": 534,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 296
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_12",
+      "instruction": "Open and close various containers and bottles.",
+      "pred_i": 6,
+      "gold_j": 11,
+      "gold_label": "unscrew and remove the black lid from the glass jar",
+      "pred_label": "Open the jar",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 232,
+        "completion_tokens": 332,
+        "total_tokens": 564,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 322
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_12",
+      "instruction": "Open and close various containers and bottles.",
+      "pred_i": 27,
+      "gold_j": 40,
+      "gold_label": "close the blue lid of the plastic container",
+      "pred_label": "Close the blue container",
+      "match": true,
+      "raw": "{\"match\": true}",
+      "usage": {
+        "prompt_tokens": 230,
+        "completion_tokens": 212,
+        "total_tokens": 442,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 207
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_12",
+      "instruction": "Open and close various containers and bottles.",
+      "pred_i": 33,
+      "gold_j": 48,
+      "gold_label": "place the pink lid onto the bottle to close it",
+      "pred_label": "Close the bottle with the pink lid",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 235,
+        "completion_tokens": 204,
+        "total_tokens": 439,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 194
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_12",
+      "instruction": "Open and close various containers and bottles.",
+      "pred_i": 15,
+      "gold_j": 22,
+      "gold_label": "close the plastic food container with the light blue lid",
+      "pred_label": "Close the container with the blue lid",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 235,
+        "completion_tokens": 261,
+        "total_tokens": 496,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 251
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_12",
+      "instruction": "Open and close various containers and bottles.",
+      "pred_i": 34,
+      "gold_j": 51,
+      "gold_label": "unscrew and remove the red lid from the coffee jar",
+      "pred_label": "Open the red-lidded jar",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 236,
+        "completion_tokens": 230,
+        "total_tokens": 466,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 220
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_12",
+      "instruction": "Open and close various containers and bottles.",
+      "pred_i": 12,
+      "gold_j": 19,
+      "gold_label": "remove the blue lid from the rectangular food storage container",
+      "pred_label": "Open the container",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 231,
+        "completion_tokens": 411,
+        "total_tokens": 642,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 401
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_12",
+      "instruction": "Open and close various containers and bottles.",
+      "pred_i": 21,
+      "gold_j": 32,
+      "gold_label": "screw the pink lid onto the plastic bottle",
+      "pred_label": "Close the bottle with the pink lid",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 233,
+        "completion_tokens": 282,
+        "total_tokens": 515,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 272
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_2",
+      "instruction": "Wash dishes and kitchen items under running water.",
+      "pred_i": 15,
+      "gold_j": 20,
+      "gold_label": "scrub the white saucer with a sponge under running water in the sink",
+      "pred_label": "wash the plate",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 236,
+        "completion_tokens": 445,
+        "total_tokens": 681,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 435
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_2",
+      "instruction": "Wash dishes and kitchen items under running water.",
+      "pred_i": 12,
+      "gold_j": 16,
+      "gold_label": "scrub and rinse a clear glass under running water in the sink",
+      "pred_label": "Rinse the glass under running water",
+      "match": true,
+      "raw": "{\"match\": true}",
+      "usage": {
+        "prompt_tokens": 239,
+        "completion_tokens": 362,
+        "total_tokens": 601,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 358
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_2",
+      "instruction": "Wash dishes and kitchen items under running water.",
+      "pred_i": 22,
+      "gold_j": 26,
+      "gold_label": "rinse the white spatula under running water in the sink",
+      "pred_label": "Rinse the cup under running water",
+      "match": false,
+      "raw": "{\"match\": false}",
+      "usage": {
+        "prompt_tokens": 237,
+        "completion_tokens": 202,
+        "total_tokens": 439,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 197
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_2",
+      "instruction": "Wash dishes and kitchen items under running water.",
+      "pred_i": 5,
+      "gold_j": 8,
+      "gold_label": "wash the glass mug with a sponge under running water",
+      "pred_label": "wash the glass",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 232,
+        "completion_tokens": 334,
+        "total_tokens": 566,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 324
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_29",
+      "instruction": "Chop onion on cutting board and scrape into bowl.",
+      "pred_i": 8,
+      "gold_j": 12,
+      "gold_label": "place the white cutting board with the knife on the counter next to the sink",
+      "pred_label": "place the knife on the cutting board",
+      "match": false,
+      "raw": "```json\n{\"match\": false}\n```",
+      "usage": {
+        "prompt_tokens": 243,
+        "completion_tokens": 334,
+        "total_tokens": 577,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 324
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_29",
+      "instruction": "Chop onion on cutting board and scrape into bowl.",
+      "pred_i": 5,
+      "gold_j": 9,
+      "gold_label": "dice the red onion on the cutting board",
+      "pred_label": "dice the onion",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 233,
+        "completion_tokens": 293,
+        "total_tokens": 526,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 283
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_29",
+      "instruction": "Chop onion on cutting board and scrape into bowl.",
+      "pred_i": 7,
+      "gold_j": 11,
+      "gold_label": "scrape the diced onions from the cutting board into the bowl",
+      "pred_label": "transfer onion to bowl",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 236,
+        "completion_tokens": 354,
+        "total_tokens": 590,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 344
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_29",
+      "instruction": "Chop onion on cutting board and scrape into bowl.",
+      "pred_i": 0,
+      "gold_j": 0,
+      "gold_label": "pick up the onion and the knife",
+      "pred_label": "cut the onion",
+      "match": false,
+      "raw": "```json\n{\"match\": false}\n```",
+      "usage": {
+        "prompt_tokens": 231,
+        "completion_tokens": 213,
+        "total_tokens": 444,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 203
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_3",
+      "instruction": "Mix powder and liquid in a pan.",
+      "pred_i": 2,
+      "gold_j": 7,
+      "gold_label": "stir the brown liquid in the pan using a white spatula",
+      "pred_label": "stir the liquid in the bowl",
+      "match": false,
+      "raw": "```json\n{\"match\": false}\n```",
+      "usage": {
+        "prompt_tokens": 235,
+        "completion_tokens": 381,
+        "total_tokens": 616,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 371
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_33",
+      "instruction": "Peel and slice an onion on a cutting board.",
+      "pred_i": 1,
+      "gold_j": 4,
+      "gold_label": "peel the red onion with a knife",
+      "pred_label": "peel onion skin",
+      "match": true,
+      "raw": "{\"match\": true}",
+      "usage": {
+        "prompt_tokens": 233,
+        "completion_tokens": 372,
+        "total_tokens": 605,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 367
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_38",
+      "instruction": "Set the table with plates, glasses, and cutlery.",
+      "pred_i": 0,
+      "gold_j": 0,
+      "gold_label": "pick up the stack of white plates from the counter",
+      "pred_label": "pick up the stack of plates",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 237,
+        "completion_tokens": 348,
+        "total_tokens": 585,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 338
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_38",
+      "instruction": "Set the table with plates, glasses, and cutlery.",
+      "pred_i": 3,
+      "gold_j": 2,
+      "gold_label": "place the bottom white plate on the table in front of the nearest chair to the right",
+      "pred_label": "Place the plate on the table",
+      "match": true,
+      "raw": "{\"match\": true}",
+      "usage": {
+        "prompt_tokens": 244,
+        "completion_tokens": 497,
+        "total_tokens": 741,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 492
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_38",
+      "instruction": "Set the table with plates, glasses, and cutlery.",
+      "pred_i": 4,
+      "gold_j": 3,
+      "gold_label": "place the bottom white plate on the table in front of the nearest chair to the right",
+      "pred_label": "Place the plate on the table",
+      "match": true,
+      "raw": "{\"match\": true}",
+      "usage": {
+        "prompt_tokens": 244,
+        "completion_tokens": 497,
+        "total_tokens": 741,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 492
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_38",
+      "instruction": "Set the table with plates, glasses, and cutlery.",
+      "pred_i": 5,
+      "gold_j": 4,
+      "gold_label": "place the bottom white plate to the head of table closer to you",
+      "pred_label": "place plate on table",
+      "match": true,
+      "raw": "{\"match\": true}",
+      "usage": {
+        "prompt_tokens": 238,
+        "completion_tokens": 497,
+        "total_tokens": 735,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 492
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_39",
+      "instruction": "Wipe the countertop with a cloth.",
+      "pred_i": 5,
+      "gold_j": 9,
+      "gold_label": "wipe the countertop with a blue grey cloth",
+      "pred_label": "Wipe the countertop with a cloth",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 233,
+        "completion_tokens": 250,
+        "total_tokens": 483,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 240
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_39",
+      "instruction": "Wipe the countertop with a cloth.",
+      "pred_i": 21,
+      "gold_j": 35,
+      "gold_label": "wipe the granite countertop with a blue grey cloth",
+      "pred_label": "Wipe the countertop with a cloth",
+      "match": true,
+      "raw": "{\"match\": true}",
+      "usage": {
+        "prompt_tokens": 234,
+        "completion_tokens": 290,
+        "total_tokens": 524,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 285
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_39",
+      "instruction": "Wipe the countertop with a cloth.",
+      "pred_i": 4,
+      "gold_j": 8,
+      "gold_label": "pick up the beige container from the countertop",
+      "pred_label": "Pick up the jar",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 230,
+        "completion_tokens": 371,
+        "total_tokens": 601,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 361
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_39",
+      "instruction": "Wipe the countertop with a cloth.",
+      "pred_i": 3,
+      "gold_j": 6,
+      "gold_label": "wipe the granite countertop with a blue grey sponge next to the fruit bowl",
+      "pred_label": "Wipe countertop with cloth",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 237,
+        "completion_tokens": 271,
+        "total_tokens": 508,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 261
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_39",
+      "instruction": "Wipe the countertop with a cloth.",
+      "pred_i": 13,
+      "gold_j": 26,
+      "gold_label": "pick up the rolling board",
+      "pred_label": "Wipe the countertop with a cloth",
+      "match": false,
+      "raw": "```json\n{\"match\": false}\n```",
+      "usage": {
+        "prompt_tokens": 230,
+        "completion_tokens": 198,
+        "total_tokens": 428,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 188
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_39",
+      "instruction": "Wipe the countertop with a cloth.",
+      "pred_i": 10,
+      "gold_j": 16,
+      "gold_label": "wipe the countertop with a blue grey cloth",
+      "pred_label": "Wipe the countertop with a cloth",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 233,
+        "completion_tokens": 250,
+        "total_tokens": 483,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 240
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_4",
+      "instruction": "Wipe the table and cabinet surfaces with a cloth.",
+      "pred_i": 3,
+      "gold_j": 3,
+      "gold_label": "wipe the inside of the nightstand drawer with a cloth",
+      "pred_label": "Wipe the drawer interior with a cloth",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 240,
+        "completion_tokens": 241,
+        "total_tokens": 481,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 231
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_4",
+      "instruction": "Wipe the table and cabinet surfaces with a cloth.",
+      "pred_i": 5,
+      "gold_j": 5,
+      "gold_label": "wipe the top surface of the wooden nightstand with a white cloth",
+      "pred_label": "Wipe the table with a cloth",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 403,
+        "total_tokens": 644,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 393
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_4",
+      "instruction": "Wipe the table and cabinet surfaces with a cloth.",
+      "pred_i": 8,
+      "gold_j": 9,
+      "gold_label": "wipe the drawer handle of the wooden nightstand with a white cloth",
+      "pred_label": "Wipe the drawer handle with a cloth",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 242,
+        "completion_tokens": 309,
+        "total_tokens": 551,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 299
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_4",
+      "instruction": "Wipe the table and cabinet surfaces with a cloth.",
+      "pred_i": 6,
+      "gold_j": 6,
+      "gold_label": "fold the cloth",
+      "pred_label": "Unfold the cloth",
+      "match": false,
+      "raw": "```json\n{\"match\": false}\n```",
+      "usage": {
+        "prompt_tokens": 228,
+        "completion_tokens": 167,
+        "total_tokens": 395,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 157
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_41",
+      "instruction": "Arrange bottles on the gas stove.",
+      "pred_i": 3,
+      "gold_j": 3,
+      "gold_label": "carry the plastic water bottle and place it on the gas stove",
+      "pred_label": "Place the water bottle on the stove",
+      "match": true,
+      "raw": "{\"match\": true}",
+      "usage": {
+        "prompt_tokens": 236,
+        "completion_tokens": 267,
+        "total_tokens": 503,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 262
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_48",
+      "instruction": "Stack containers and place them on the counter.",
+      "pred_i": 0,
+      "gold_j": 0,
+      "gold_label": "pick up the plastic container with green lid",
+      "pred_label": "Pick up the green lid",
+      "match": false,
+      "raw": "```json\n{\"match\": false}\n```",
+      "usage": {
+        "prompt_tokens": 232,
+        "completion_tokens": 499,
+        "total_tokens": 731,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 489
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_48",
+      "instruction": "Stack containers and place them on the counter.",
+      "pred_i": 1,
+      "gold_j": 1,
+      "gold_label": "place the plastic container with green lid on the counter",
+      "pred_label": "Place the green lid on the table",
+      "match": false,
+      "raw": "```json\n{\"match\": false}\n```",
+      "usage": {
+        "prompt_tokens": 236,
+        "completion_tokens": 394,
+        "total_tokens": 630,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 384
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_5",
+      "instruction": "Wipe the shelf surface with a cloth.",
+      "pred_i": 4,
+      "gold_j": 9,
+      "gold_label": "wipe the white shelf surface with a purple cloth",
+      "pred_label": "Wipe the shelf with a cloth",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 235,
+        "completion_tokens": 278,
+        "total_tokens": 513,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 268
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_5",
+      "instruction": "Wipe the shelf surface with a cloth.",
+      "pred_i": 3,
+      "gold_j": 8,
+      "gold_label": "wipe the middle shelf of the white cabinet with a purple cloth",
+      "pred_label": "Wipe the shelf with a cloth",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 238,
+        "completion_tokens": 345,
+        "total_tokens": 583,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 335
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_5",
+      "instruction": "Wipe the shelf surface with a cloth.",
+      "pred_i": 2,
+      "gold_j": 7,
+      "gold_label": "wipe the white shelf surface around the decorative items with a purple cloth",
+      "pred_label": "Wipe the shelf with a cloth",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 239,
+        "completion_tokens": 263,
+        "total_tokens": 502,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 254
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_50",
+      "instruction": "Assemble and disassemble wheels on toy trucks.",
+      "pred_i": 6,
+      "gold_j": 19,
+      "gold_label": "use a green screwdriver to tighten the screw on the toy excavator's wheel",
+      "pred_label": "Tighten screw on toy truck wheel",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 240,
+        "completion_tokens": 338,
+        "total_tokens": 578,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 328
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_50",
+      "instruction": "Assemble and disassemble wheels on toy trucks.",
+      "pred_i": 10,
+      "gold_j": 26,
+      "gold_label": "tighten the screw on the wheel of the yellow toy excavator using a green screwdriver",
+      "pred_label": "Tighten screw on toy truck wheel",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 388,
+        "total_tokens": 629,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 378
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_50",
+      "instruction": "Assemble and disassemble wheels on toy trucks.",
+      "pred_i": 1,
+      "gold_j": 5,
+      "gold_label": "use a green screwdriver to tighten the screw on the toy excavator's wheel",
+      "pred_label": "Screw the wheel onto the toy truck",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 240,
+        "completion_tokens": 499,
+        "total_tokens": 739,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 489
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_50",
+      "instruction": "Assemble and disassemble wheels on toy trucks.",
+      "pred_i": 4,
+      "gold_j": 12,
+      "gold_label": "use a green screwdriver to tighten the screw on the toy excavator's wheel",
+      "pred_label": "Screw the wheel onto the toy truck",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 240,
+        "completion_tokens": 499,
+        "total_tokens": 739,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 489
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_50",
+      "instruction": "Assemble and disassemble wheels on toy trucks.",
+      "pred_i": 8,
+      "gold_j": 22,
+      "gold_label": "push a black tire onto the left-front wheel hub of the yellow toy excavator",
+      "pred_label": "Attach wheel to toy truck",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 239,
+        "completion_tokens": 501,
+        "total_tokens": 740,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 491
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_50",
+      "instruction": "Assemble and disassemble wheels on toy trucks.",
+      "pred_i": 9,
+      "gold_j": 24,
+      "gold_label": "secure the black wheel with the orange screw",
+      "pred_label": "Insert wheel into toy truck",
+      "match": false,
+      "raw": "{\"match\": false}",
+      "usage": {
+        "prompt_tokens": 231,
+        "completion_tokens": 492,
+        "total_tokens": 723,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 487
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_59",
+      "instruction": "Arrange books and items on the shelf.",
+      "pred_i": 2,
+      "gold_j": 2,
+      "gold_label": "pick the first three books from the case, starting from the left",
+      "pred_label": "Pick up a book from the stack",
+      "match": false,
+      "raw": "{\"match\": false}",
+      "usage": {
+        "prompt_tokens": 238,
+        "completion_tokens": 492,
+        "total_tokens": 730,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 487
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_59",
+      "instruction": "Arrange books and items on the shelf.",
+      "pred_i": 3,
+      "gold_j": 3,
+      "gold_label": "place the three books onto the shelf right next to existing books",
+      "pred_label": "Place books on shelf",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 234,
+        "completion_tokens": 315,
+        "total_tokens": 549,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 305
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_59",
+      "instruction": "Arrange books and items on the shelf.",
+      "pred_i": 1,
+      "gold_j": 1,
+      "gold_label": "place them three books on to the empty shelf",
+      "pred_label": "Place books on shelf",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 231,
+        "completion_tokens": 231,
+        "total_tokens": 462,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 221
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_59",
+      "instruction": "Arrange books and items on the shelf.",
+      "pred_i": 14,
+      "gold_j": 13,
+      "gold_label": "place the three books onto the shelf right next to existing books",
+      "pred_label": "Place books on shelf",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 234,
+        "completion_tokens": 315,
+        "total_tokens": 549,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 305
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_60",
+      "instruction": "Arrange books on the shelf.",
+      "pred_i": 16,
+      "gold_j": 17,
+      "gold_label": "place the four books onto the middle shelf of the white cabinet",
+      "pred_label": "Place books on shelf",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 232,
+        "completion_tokens": 267,
+        "total_tokens": 499,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 257
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_60",
+      "instruction": "Arrange books on the shelf.",
+      "pred_i": 7,
+      "gold_j": 9,
+      "gold_label": "place five books onto the middle shelf of the white cabinet",
+      "pred_label": "Place books on shelf",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 231,
+        "completion_tokens": 361,
+        "total_tokens": 592,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 351
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_60",
+      "instruction": "Arrange books on the shelf.",
+      "pred_i": 4,
+      "gold_j": 5,
+      "gold_label": "place three books onto the middle shelf of the white cabinet",
+      "pred_label": "Place books on shelf",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 231,
+        "completion_tokens": 361,
+        "total_tokens": 592,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 351
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_7",
+      "instruction": "Draw a scene with suns, clouds, and ladders on paper.",
+      "pred_i": 5,
+      "gold_j": 5,
+      "gold_label": "draw a palm tree in the middle of hills with a pen",
+      "pred_label": "Draw palm tree on paper",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 489,
+        "total_tokens": 730,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 479
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_7",
+      "instruction": "Draw a scene with suns, clouds, and ladders on paper.",
+      "pred_i": 0,
+      "gold_j": 1,
+      "gold_label": "draw a sun on the white paper with a pen in the center of the paper",
+      "pred_label": "Draw a sun on the paper",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 246,
+        "completion_tokens": 285,
+        "total_tokens": 531,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 275
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_7",
+      "instruction": "Draw a scene with suns, clouds, and ladders on paper.",
+      "pred_i": 4,
+      "gold_j": 4,
+      "gold_label": "draw curved lines beach at the bottom right of the paper",
+      "pred_label": "draw a hill on the paper",
+      "match": false,
+      "raw": "```json\n{\"match\": false}\n```",
+      "usage": {
+        "prompt_tokens": 241,
+        "completion_tokens": 331,
+        "total_tokens": 572,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 321
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_9",
+      "instruction": "Wash and rinse various kitchen items under running water.",
+      "pred_i": 6,
+      "gold_j": 14,
+      "gold_label": "rinse the glass in your hand under the running tap",
+      "pred_label": "Rinse the glass under the tap",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 238,
+        "completion_tokens": 265,
+        "total_tokens": 503,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 255
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_9",
+      "instruction": "Wash and rinse various kitchen items under running water.",
+      "pred_i": 7,
+      "gold_j": 15,
+      "gold_label": "place the clear glass in your hand to the left edge of the sink",
+      "pred_label": "wash the glass",
+      "match": false,
+      "raw": "```json\n{\"match\": false}\n```",
+      "usage": {
+        "prompt_tokens": 237,
+        "completion_tokens": 260,
+        "total_tokens": 497,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 250
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "homer_9",
+      "instruction": "Wash and rinse various kitchen items under running water.",
+      "pred_i": 1,
+      "gold_j": 4,
+      "gold_label": "wash the inside of clear glass using a green dishcloth under",
+      "pred_label": "wash the glass with the sponge",
+      "match": true,
+      "raw": "```json\n{\"match\": true}\n```",
+      "usage": {
+        "prompt_tokens": 238,
+        "completion_tokens": 497,
+        "total_tokens": 735,
+        "prompt_tokens_details": {
+          "image_tokens": 0,
+          "audio_tokens": 0,
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "image_tokens": 0,
+          "reasoning_tokens": 487
+        }
+      },
+      "cached": true,
+      "model": "gemini-3.5-flash"
+    }
+  ]
+}

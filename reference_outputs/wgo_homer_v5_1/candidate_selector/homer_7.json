@@ -1,0 +1,196 @@
+{
+  "id": "homer_7",
+  "instruction": "draw simple beach and ocean scene using a pencil",
+  "duration_sec": 143.815,
+  "n_sheets": 15,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 9,
+  "segments": [
+    {
+      "start_sec": 1.5,
+      "end_sec": 20,
+      "subtask": "Draw a sun on the paper",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Draw a sun on the paper",
+        "rawprior": "Draw a sun on the paper",
+        "seed": "draw a circle for the sun",
+        "ffmpeg": "draw a sun on the paper"
+      },
+      "candidate_select_meta": {
+        "fps": 59.92420818412544,
+        "nframes": 8618,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 20,
+      "end_sec": 27,
+      "subtask": "draw a cloud on the paper",
+      "candidate_select_source": "D",
+      "candidate_labels": {
+        "raw": "Draw a wave on the paper",
+        "rawprior": "Draw a wave on the paper",
+        "seed": "draw rays around the sun",
+        "ffmpeg": "draw a cloud on the paper"
+      },
+      "candidate_select_meta": {
+        "fps": 59.92420818412544,
+        "nframes": 8618,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 27,
+      "end_sec": 32,
+      "subtask": "Draw a cloud on the paper",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Draw a cloud on the paper",
+        "rawprior": "Draw a cloud on the paper",
+        "seed": "draw a cloud shape",
+        "ffmpeg": "Draw a cloud on the paper"
+      },
+      "candidate_select_meta": {
+        "fps": 59.92420818412544,
+        "nframes": 8618,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 32,
+      "end_sec": 45,
+      "subtask": "Draw clouds on paper",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Draw clouds on paper",
+        "rawprior": "Draw clouds on paper",
+        "seed": "draw a second cloud shape",
+        "ffmpeg": "draw clouds on paper"
+      },
+      "candidate_select_meta": {
+        "fps": 59.92420818412544,
+        "nframes": 8618,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 45,
+      "end_sec": 55,
+      "subtask": "draw a hill on the paper",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "draw a hill on the paper",
+        "rawprior": "draw a hill on the paper",
+        "seed": "draw a horizontal line for the horizon",
+        "ffmpeg": "draw a wave on the paper"
+      },
+      "candidate_select_meta": {
+        "fps": 59.92420818412544,
+        "nframes": 8618,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 55,
+      "end_sec": 87.5,
+      "subtask": "Draw palm tree on paper",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Draw palm tree on paper",
+        "rawprior": "Draw palm tree on paper",
+        "seed": "draw palm tree fronds",
+        "ffmpeg": "Draw a palm tree on the paper"
+      },
+      "candidate_select_meta": {
+        "fps": 59.92420818412544,
+        "nframes": 8618,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 90,
+      "end_sec": 118,
+      "subtask": "Draw waves on the paper",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Draw waves on the paper",
+        "rawprior": "Draw waves on the paper",
+        "seed": "draw wavy lines for the ocean",
+        "ffmpeg": "Draw wavy lines on the paper"
+      },
+      "candidate_select_meta": {
+        "fps": 59.92420818412544,
+        "nframes": 8618,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 118,
+      "end_sec": 137,
+      "subtask": "Draw clouds on the paper",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Draw clouds on the paper",
+        "rawprior": "Draw clouds on the paper",
+        "seed": "draw small details in the sky and water",
+        "ffmpeg": "draw clouds on paper"
+      },
+      "candidate_select_meta": {
+        "fps": 59.92420818412544,
+        "nframes": 8618,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 137,
+      "end_sec": 139,
+      "subtask": "Place the drawing on the table",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the drawing on the table",
+        "rawprior": "Place the drawing on the table",
+        "seed": "place pencil",
+        "ffmpeg": "place drawing on table"
+      },
+      "candidate_select_meta": {
+        "fps": 59.92420818412544,
+        "nframes": 8618,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 139,
+      "end_sec": 143.81,
+      "subtask": "Place pencil on table",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place pencil on table",
+        "rawprior": "Place pencil on table",
+        "seed": "inspect drawing",
+        "ffmpeg": "place pencil on table"
+      },
+      "candidate_select_meta": {
+        "fps": 59.92420818412544,
+        "nframes": 8618,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    }
+  ],
+  "candidate_select_recipe": {
+    "name": "raw_rawprior_seed_ffmpeg_neighbor_selector_397B",
+    "frames_per_sheet": 5,
+    "image_max_side": 1120
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "id": "homer_39",
+  "instruction": "Spray and wipe countertop, clean stovetop, wipe dining table",
+  "duration_sec": 61.12606666666667,
+  "n_sheets": 7,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 3,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 2.5,
+      "subtask": "pick up spray bottle"
+    },
+    {
+      "start_sec": 2.5,
+      "end_sec": 5,
+      "subtask": "spray countertop"
+    },
+    {
+      "start_sec": 5,
+      "end_sec": 6.5,
+      "subtask": "place spray bottle down"
+    },
+    {
+      "start_sec": 6.5,
+      "end_sec": 14.5,
+      "subtask": "wipe countertop"
+    },
+    {
+      "start_sec": 14.5,
+      "end_sec": 16,
+      "subtask": "pick up glass"
+    },
+    {
+      "start_sec": 16,
+      "end_sec": 17.5,
+      "subtask": "place glass in sink"
+    },
+    {
+      "start_sec": 17.5,
+      "end_sec": 20,
+      "subtask": "pick up bowl"
+    },
+    {
+      "start_sec": 20,
+      "end_sec": 21.5,
+      "subtask": "place bowl in sink"
+    },
+    {
+      "start_sec": 21.5,
+      "end_sec": 23,
+      "subtask": "pick up small container"
+    },
+    {
+      "start_sec": 23,
+      "end_sec": 24.5,
+      "subtask": "place container in sink"
+    },
+    {
+      "start_sec": 24.5,
+      "end_sec": 26,
+      "subtask": "pick up sponge"
+    },
+    {
+      "start_sec": 26,
+      "end_sec": 34.5,
+      "subtask": "wipe countertop"
+    },
+    {
+      "start_sec": 34.5,
+      "end_sec": 36,
+      "subtask": "pick up plate"
+    },
+    {
+      "start_sec": 36,
+      "end_sec": 37.5,
+      "subtask": "place plate in sink"
+    },
+    {
+      "start_sec": 37.5,
+      "end_sec": 39,
+      "subtask": "pick up bowl"
+    },
+    {
+      "start_sec": 39,
+      "end_sec": 40.5,
+      "subtask": "place bowl in sink"
+    },
+    {
+      "start_sec": 40.5,
+      "end_sec": 42,
+      "subtask": "pick up sponge"
+    },
+    {
+      "start_sec": 42,
+      "end_sec": 44.5,
+      "subtask": "wipe countertop"
+    },
+    {
+      "start_sec": 44.5,
+      "end_sec": 46,
+      "subtask": "pick up sponge"
+    },
+    {
+      "start_sec": 46,
+      "end_sec": 53.5,
+      "subtask": "wipe stovetop"
+    },
+    {
+      "start_sec": 53.5,
+      "end_sec": 56,
+      "subtask": "fold cloth"
+    },
+    {
+      "start_sec": 56,
+      "end_sec": 61.12606666666667,
+      "subtask": "wipe stovetop"
+    }
+  ]
+}

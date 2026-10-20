@@ -1,0 +1,61 @@
+{
+  "id": "homer_7",
+  "instruction": "draw simple beach and ocean scene using a pencil",
+  "duration_sec": 143.815,
+  "n_sheets": 15,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 9,
+  "segments": [
+    {
+      "start_sec": 1.5,
+      "end_sec": 20,
+      "subtask": "draw a circle for the sun"
+    },
+    {
+      "start_sec": 20,
+      "end_sec": 27,
+      "subtask": "draw rays around the sun"
+    },
+    {
+      "start_sec": 27,
+      "end_sec": 32,
+      "subtask": "draw a cloud shape"
+    },
+    {
+      "start_sec": 32,
+      "end_sec": 45,
+      "subtask": "draw a second cloud shape"
+    },
+    {
+      "start_sec": 45,
+      "end_sec": 55,
+      "subtask": "draw a horizontal line for the horizon"
+    },
+    {
+      "start_sec": 55,
+      "end_sec": 87.5,
+      "subtask": "draw palm tree fronds"
+    },
+    {
+      "start_sec": 90,
+      "end_sec": 118,
+      "subtask": "draw wavy lines for the ocean"
+    },
+    {
+      "start_sec": 118,
+      "end_sec": 137,
+      "subtask": "draw small details in the sky and water"
+    },
+    {
+      "start_sec": 137,
+      "end_sec": 139,
+      "subtask": "place pencil"
+    },
+    {
+      "start_sec": 139,
+      "end_sec": 143.81,
+      "subtask": "inspect drawing"
+    }
+  ]
+}

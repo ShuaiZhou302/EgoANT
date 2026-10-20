@@ -19,8 +19,13 @@ Visible time range: [{t0:.2f}, {t1:.2f}] seconds.
 Episode instruction (context only): {instruction}
 Coarse hypothesis for this window (may be wrong on boundaries): {coarse_hint}
 
-Re-segment ONLY this local window into completed atomic events.
-Prefer shorter events (1-5s). Split if multiple state changes are visible.
+Re-segment this entire local window into completed atomic manipulation events.
+Return a gap-free, non-overlapping timeline that covers the whole visible range from {t0:.2f} to {t1:.2f} seconds.
+Prefer completed world-state changes: pick, place, open, close, pour, wipe, cut, fold, tighten, insert, remove.
+Do NOT create segments for passive inspection, small repositioning, grasp adjustment, hovering, approach, retreat, or camera motion unless a visible object state is completed.
+Do NOT split continuous drawing/cutting/wiping into stroke-level micro-actions unless the object/state target clearly changes.
+If a long continuous manipulation is visible, keep it as one segment rather than many micro-segments.
+Use timestamp boundaries and keep segments sorted.
 Return ONLY JSON:
 {{"segments":[{{"start_sec":0.0,"end_sec":1.0,"subtask":"..."}}]}}
 ```

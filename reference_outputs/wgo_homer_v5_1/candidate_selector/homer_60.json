@@ -1,0 +1,322 @@
+{
+  "id": "homer_60",
+  "instruction": "Record yourself placing items back onto shelves. Show the full approach, positioning, and placement motion with hands visible.",
+  "duration_sec": 71.23333333333333,
+  "n_sheets": 8,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 7,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 5.5,
+      "subtask": "place books on shelf",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "place books on shelf",
+        "rawprior": "place books on shelf",
+        "seed": "Place yellow book on shelf",
+        "ffmpeg": "Place books on shelf"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 2137,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 6.5,
+      "end_sec": 9.5,
+      "subtask": "Place the book on the shelf",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the book on the shelf",
+        "rawprior": "Place the book on the shelf",
+        "seed": "Place white book on shelf",
+        "ffmpeg": "Place books on shelf"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 2137,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 9.5,
+      "end_sec": 14.5,
+      "subtask": "Place the books on the shelf",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the books on the shelf",
+        "rawprior": "Place the books on the shelf",
+        "seed": "Place white book on shelf",
+        "ffmpeg": "Place books on shelf"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 2137,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 15,
+      "end_sec": 17,
+      "subtask": "Pick up books from the floor",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Pick up books from the floor",
+        "rawprior": "Pick up books from the floor",
+        "seed": "Pick up book",
+        "ffmpeg": "Pick up the books from the floor"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 2137,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 17,
+      "end_sec": 22,
+      "subtask": "Place books on shelf",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place books on shelf",
+        "rawprior": "Place books on shelf",
+        "seed": "Place white book on shelf",
+        "ffmpeg": "Place books on shelf"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 2137,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 22.5,
+      "end_sec": 31.5,
+      "subtask": "place books on shelf",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "place books on shelf",
+        "rawprior": "place books on shelf",
+        "seed": "Place book on shelf",
+        "ffmpeg": "Place books on shelf"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 2137,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 32,
+      "end_sec": 34,
+      "subtask": "Place book on shelf",
+      "candidate_select_source": "B",
+      "candidate_labels": {
+        "raw": "Place books on shelf",
+        "rawprior": "Place book on shelf",
+        "seed": "Pick up book from lower shelf",
+        "ffmpeg": "place books on shelf"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 2137,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 34,
+      "end_sec": 41,
+      "subtask": "Place books on shelf",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place books on shelf",
+        "rawprior": "Place books on shelf",
+        "seed": "Place book on upper shelf",
+        "ffmpeg": "Place the books on the shelf"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 2137,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 41.5,
+      "end_sec": 42.5,
+      "subtask": "Pick up the book from the floor",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Pick up the book from the floor",
+        "rawprior": "Pick up the book from the floor",
+        "seed": "Place book on shelf",
+        "ffmpeg": "Place the book on the shelf"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 2137,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 42.5,
+      "end_sec": 43.5,
+      "subtask": "Place the book on the shelf",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the book on the shelf",
+        "rawprior": "Place the book on the shelf",
+        "seed": "Place book on shelf",
+        "ffmpeg": "Place the book on the shelf"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 2137,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 43.5,
+      "end_sec": 45,
+      "subtask": "Place the book on the shelf",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the book on the shelf",
+        "rawprior": "Place the book on the shelf",
+        "seed": "Place book on shelf",
+        "ffmpeg": "Place the book on the shelf"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 2137,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 45,
+      "end_sec": 46,
+      "subtask": "Place books on shelf",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place books on shelf",
+        "rawprior": "Place books on shelf",
+        "seed": "Adjust white book on shelf",
+        "ffmpeg": "Arrange books on shelf"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 2137,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 46,
+      "end_sec": 47,
+      "subtask": "Pick up the book from the floor",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Pick up the book from the floor",
+        "rawprior": "Pick up the book from the floor",
+        "seed": "Pick up small box",
+        "ffmpeg": "Pick up the book from the floor"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 2137,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 47,
+      "end_sec": 48.5,
+      "subtask": "Place the book on the shelf",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the book on the shelf",
+        "rawprior": "Place the book on the shelf",
+        "seed": "Place small box on shelf",
+        "ffmpeg": "Place the book on the shelf"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 2137,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 48.5,
+      "end_sec": 51,
+      "subtask": "Place the book on the shelf",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the book on the shelf",
+        "rawprior": "Place the book on the shelf",
+        "seed": "Place book on shelf",
+        "ffmpeg": "Place the book on the shelf"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 2137,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 51.5,
+      "end_sec": 55,
+      "subtask": "Place the book on the shelf",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the book on the shelf",
+        "rawprior": "Place the book on the shelf",
+        "seed": "Place book on shelf",
+        "ffmpeg": "Place the book on the shelf"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 2137,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 58,
+      "end_sec": 68.5,
+      "subtask": "Place books on shelf",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place books on shelf",
+        "rawprior": "Place books on shelf",
+        "seed": "Place white book on shelf",
+        "ffmpeg": "Place books on shelf"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 2137,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    }
+  ],
+  "candidate_select_recipe": {
+    "name": "raw_rawprior_seed_ffmpeg_neighbor_selector_397B",
+    "frames_per_sheet": 5,
+    "image_max_side": 1120
+  }
+}

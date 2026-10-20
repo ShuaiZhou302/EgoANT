@@ -1,0 +1,610 @@
+{
+  "id": "homer_11",
+  "instruction": "open, inspect and close all containers, bottles and jars in front of you",
+  "duration_sec": 131.685,
+  "n_sheets": 14,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 9,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 6.5,
+      "subtask": "Open the jar of brown beans",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Open the jar of brown beans",
+        "rawprior": "Open the jar of brown beans",
+        "seed": "open small jar with brown lid",
+        "ffmpeg": "Open the jar of grains"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 6.5,
+      "end_sec": 12,
+      "subtask": "Close the jar with the lid",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the jar with the lid",
+        "rawprior": "Close the jar with the lid",
+        "seed": "close small jar with brown lid",
+        "ffmpeg": "Close the jar with the lid"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 12,
+      "end_sec": 14,
+      "subtask": "Close the jar with the lid",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the jar with the lid",
+        "rawprior": "Close the jar with the lid",
+        "seed": "close small jar with white powder",
+        "ffmpeg": "Close the jar with the lid"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 14,
+      "end_sec": 15,
+      "subtask": "Close the small container",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the small container",
+        "rawprior": "Close the small container",
+        "seed": "place lid on table",
+        "ffmpeg": "Close the small container"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 15,
+      "end_sec": 23.5,
+      "subtask": "inspect small jar with white powder",
+      "candidate_select_source": "C",
+      "candidate_labels": {
+        "raw": "Close the jar with the lid",
+        "rawprior": "Close the jar with the lid",
+        "seed": "inspect small jar with white powder",
+        "ffmpeg": "Close the jar with the lid"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 23.5,
+      "end_sec": 24,
+      "subtask": "Close the container",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the container",
+        "rawprior": "Close the container",
+        "seed": "place lid on container",
+        "ffmpeg": "Close the container"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 24,
+      "end_sec": 26.5,
+      "subtask": "Open the jar of peanuts",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Open the jar of peanuts",
+        "rawprior": "Open the jar of peanuts",
+        "seed": "open small jar with brown seeds",
+        "ffmpeg": "Open the jar of peanuts"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 26.5,
+      "end_sec": 32.5,
+      "subtask": "Close the jar of peanuts",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the jar of peanuts",
+        "rawprior": "Close the jar of peanuts",
+        "seed": "close small jar with brown seeds",
+        "ffmpeg": "Close the jar with the lid"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 32.5,
+      "end_sec": 34,
+      "subtask": "Place the jar of peanuts on the table",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the jar of peanuts on the table",
+        "rawprior": "Place the jar of peanuts on the table",
+        "seed": "place small jar with brown seeds on the table",
+        "ffmpeg": "Place the jar of nuts on the table"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 34,
+      "end_sec": 35.5,
+      "subtask": "Close the bottle",
+      "candidate_select_source": "D",
+      "candidate_labels": {
+        "raw": "Close the jar with the lid",
+        "rawprior": "Close the jar with the lid",
+        "seed": "place jar on tray",
+        "ffmpeg": "Close the bottle"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 35.5,
+      "end_sec": 42,
+      "subtask": "open pink water bottle",
+      "candidate_select_source": "C",
+      "candidate_labels": {
+        "raw": "Remove the pink sleeve from the bottle",
+        "rawprior": "Remove the pink sleeve from the bottle",
+        "seed": "open pink water bottle",
+        "ffmpeg": "open the bottle"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 42,
+      "end_sec": 49.5,
+      "subtask": "Close the bottle",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the bottle",
+        "rawprior": "Close the bottle",
+        "seed": "close pink water bottle",
+        "ffmpeg": "Close the bottle"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 49.5,
+      "end_sec": 50,
+      "subtask": "Place the bottle with the pink lid on the tray",
+      "candidate_select_source": "B",
+      "candidate_labels": {
+        "raw": "Close the jar with the pink lid",
+        "rawprior": "Place the bottle with the pink lid on the tray",
+        "seed": "place pink water bottle on tray",
+        "ffmpeg": "Close the jar with the lid"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 50,
+      "end_sec": 54,
+      "subtask": "Open the yellow-lidded jar",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Open the yellow-lidded jar",
+        "rawprior": "Open the yellow-lidded jar",
+        "seed": "pick up large jar with orange lid",
+        "ffmpeg": "Open the yellow-lidded jar"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 54,
+      "end_sec": 62,
+      "subtask": "Open the container with the orange lid",
+      "candidate_select_source": "B",
+      "candidate_labels": {
+        "raw": "Close the container with the orange lid",
+        "rawprior": "Open the container with the orange lid",
+        "seed": "open large jar with orange lid",
+        "ffmpeg": "Open the container"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 62,
+      "end_sec": 69,
+      "subtask": "scoop contents from large jar",
+      "candidate_select_source": "C",
+      "candidate_labels": {
+        "raw": "Open the container",
+        "rawprior": "Open the container",
+        "seed": "scoop contents from large jar",
+        "ffmpeg": "Open the container"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 69,
+      "end_sec": 75,
+      "subtask": "Close the container with the orange lid",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the container with the orange lid",
+        "rawprior": "Close the container with the orange lid",
+        "seed": "close large jar with orange lid",
+        "ffmpeg": "Close the container with the orange lid"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 75,
+      "end_sec": 76,
+      "subtask": "Place the jar on the tray",
+      "candidate_select_source": "D",
+      "candidate_labels": {
+        "raw": "Close the jar with the orange lid",
+        "rawprior": "Close the jar with the orange lid",
+        "seed": "place large jar with orange lid on table",
+        "ffmpeg": "Place the jar on the tray"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 76,
+      "end_sec": 77,
+      "subtask": "Close the orange-lidded jar",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the orange-lidded jar",
+        "rawprior": "Close the orange-lidded jar",
+        "seed": "close jar with orange lid",
+        "ffmpeg": "Close the jar with the orange lid"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 77,
+      "end_sec": 82.5,
+      "subtask": "Open the green-lidded jar",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Open the green-lidded jar",
+        "rawprior": "Open the green-lidded jar",
+        "seed": "open jar with green lid",
+        "ffmpeg": "Open the green-lidded jar"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 82.5,
+      "end_sec": 89.5,
+      "subtask": "Stir the contents of the jar with a spoon",
+      "candidate_select_source": "B",
+      "candidate_labels": {
+        "raw": "Close the jar with the green lid",
+        "rawprior": "Stir the contents of the jar with a spoon",
+        "seed": "stir contents of jar with green lid",
+        "ffmpeg": "stir the powder in the jar"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 89.5,
+      "end_sec": 95.5,
+      "subtask": "Close the jar with the green lid",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the jar with the green lid",
+        "rawprior": "Close the jar with the green lid",
+        "seed": "close jar with green lid",
+        "ffmpeg": "Close the jar with the green lid"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 95.5,
+      "end_sec": 96,
+      "subtask": "Place the small jar on the tray",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the small jar on the tray",
+        "rawprior": "Place the small jar on the tray",
+        "seed": "place jar with green lid",
+        "ffmpeg": "Place the small jar on the tray"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 96,
+      "end_sec": 97,
+      "subtask": "Pick up the jar with the pink lid",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Pick up the jar with the pink lid",
+        "rawprior": "Pick up the jar with the pink lid",
+        "seed": "place jar on table",
+        "ffmpeg": "Move the jar of nuts"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 97,
+      "end_sec": 101,
+      "subtask": "Open the jar of peanuts",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Open the jar of peanuts",
+        "rawprior": "Open the jar of peanuts",
+        "seed": "open small jar with brown seeds",
+        "ffmpeg": "Open the jar of beans"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 101,
+      "end_sec": 109,
+      "subtask": "Close the jar of beans",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the jar of beans",
+        "rawprior": "Close the jar of beans",
+        "seed": "close small jar with brown seeds",
+        "ffmpeg": "Close the jar with the lid"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 109,
+      "end_sec": 110,
+      "subtask": "Place the jar of beans on the tray",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the jar of beans on the tray",
+        "rawprior": "Place the jar of beans on the tray",
+        "seed": "place jar on table",
+        "ffmpeg": "Place the jar of chickpeas on the tray"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 110,
+      "end_sec": 114.5,
+      "subtask": "Open the small jar with the beige lid",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Open the small jar with the beige lid",
+        "rawprior": "Open the small jar with the beige lid",
+        "seed": "open small jar with white powder",
+        "ffmpeg": "Open the jar"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 114.5,
+      "end_sec": 118,
+      "subtask": "Close the jar with the lid",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the jar with the lid",
+        "rawprior": "Close the jar with the lid",
+        "seed": "close small jar with white powder",
+        "ffmpeg": "Close the jar with the lid"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 118,
+      "end_sec": 120,
+      "subtask": "Open the jar of beans",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Open the jar of beans",
+        "rawprior": "Open the jar of beans",
+        "seed": "open the jar with brown seeds",
+        "ffmpeg": "Open the jar of beans"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 120,
+      "end_sec": 124.5,
+      "subtask": "Open the jar of lentils",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Open the jar of lentils",
+        "rawprior": "Open the jar of lentils",
+        "seed": "open small jar with brown seeds",
+        "ffmpeg": "Open the jar of seeds"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 124.5,
+      "end_sec": 129.5,
+      "subtask": "Close the jar with the lid",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Close the jar with the lid",
+        "rawprior": "Close the jar with the lid",
+        "seed": "close small jar with brown seeds",
+        "ffmpeg": "Close the jar with the lid"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 129.5,
+      "end_sec": 131.685,
+      "subtask": "place small jar on tray",
+      "candidate_select_source": "C",
+      "candidate_labels": {
+        "raw": "Close the small jar",
+        "rawprior": "Close the small jar",
+        "seed": "place small jar on tray",
+        "ffmpeg": "Close the small jar"
+      },
+      "candidate_select_meta": {
+        "fps": 29.950260090367163,
+        "nframes": 3944,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    }
+  ],
+  "candidate_select_recipe": {
+    "name": "raw_rawprior_seed_ffmpeg_neighbor_selector_397B",
+    "frames_per_sheet": 5,
+    "image_max_side": 1120
+  }
+}

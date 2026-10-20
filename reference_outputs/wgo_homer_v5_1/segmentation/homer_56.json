@@ -1,0 +1,46 @@
+{
+  "id": "homer_56",
+  "instruction": "",
+  "duration_sec": 55.166666666666664,
+  "n_sheets": 6,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 6,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 13.5,
+      "subtask": "Unfold the pink cloth and spread it flat on the table"
+    },
+    {
+      "start_sec": 13.5,
+      "end_sec": 17.5,
+      "subtask": "Fold the cloth in half lengthwise"
+    },
+    {
+      "start_sec": 17.5,
+      "end_sec": 22,
+      "subtask": "Fold the cloth in half widthwise"
+    },
+    {
+      "start_sec": 22,
+      "end_sec": 25,
+      "subtask": "Fold the cloth in half lengthwise"
+    },
+    {
+      "start_sec": 25,
+      "end_sec": 29.5,
+      "subtask": "Flatten the folded cloth"
+    },
+    {
+      "start_sec": 29.5,
+      "end_sec": 39.5,
+      "subtask": "Fold the cloth in half widthwise again"
+    },
+    {
+      "start_sec": 39.5,
+      "end_sec": 53,
+      "subtask": "Roll the folded cloth into a tight cylinder"
+    }
+  ]
+}

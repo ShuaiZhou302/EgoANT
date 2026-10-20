@@ -1,0 +1,56 @@
+{
+  "id": "homer_29",
+  "instruction": "dice an onion",
+  "duration_sec": 84.93333333333332,
+  "n_sheets": 9,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 6,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 3,
+      "subtask": "pick up the knife"
+    },
+    {
+      "start_sec": 3,
+      "end_sec": 30,
+      "subtask": "peel the onion"
+    },
+    {
+      "start_sec": 30,
+      "end_sec": 33,
+      "subtask": "place the onion on the cutting board"
+    },
+    {
+      "start_sec": 33,
+      "end_sec": 37.5,
+      "subtask": "dispose of the onion peel"
+    },
+    {
+      "start_sec": 37.5,
+      "end_sec": 39,
+      "subtask": "return to the counter"
+    },
+    {
+      "start_sec": 39,
+      "end_sec": 74,
+      "subtask": "dice the onion"
+    },
+    {
+      "start_sec": 74,
+      "end_sec": 75,
+      "subtask": "pick up the cutting board"
+    },
+    {
+      "start_sec": 75,
+      "end_sec": 82.5,
+      "subtask": "transfer the diced onion to a bowl"
+    },
+    {
+      "start_sec": 82.5,
+      "end_sec": 84.93,
+      "subtask": "place the cutting board on the counter"
+    }
+  ]
+}

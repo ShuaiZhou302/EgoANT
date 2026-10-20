@@ -1,0 +1,70 @@
+{
+  "id": "homer_3",
+  "instruction": "use a spoon to stir contents in a bowl",
+  "duration_sec": 137.48544444444443,
+  "n_sheets": 14,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 3,
+  "segments": [
+    {
+      "start_sec": 2.5,
+      "end_sec": 9.5,
+      "subtask": "pour powder from a green packet into the bowl",
+      "candidate_select_source": "C",
+      "candidate_labels": {
+        "raw": "pour cumin into pan",
+        "rawprior": "pour cumin into pan",
+        "seed": "pour powder from a green packet into the bowl",
+        "ffmpeg": "pour the powder into the pan"
+      },
+      "candidate_select_meta": {
+        "fps": 29.98135560208798,
+        "nframes": 4122,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 13.5,
+      "end_sec": 18.5,
+      "subtask": "pour water into pan",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "pour water into pan",
+        "rawprior": "pour water into pan",
+        "seed": "pour water from a cup into the bowl",
+        "ffmpeg": "pour water into pan"
+      },
+      "candidate_select_meta": {
+        "fps": 29.98135560208798,
+        "nframes": 4122,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 20.5,
+      "end_sec": 137.48544444444443,
+      "subtask": "stir the liquid in the bowl",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "stirring the liquid in the bowl",
+        "rawprior": "stir the liquid in the bowl",
+        "seed": "stir the mixture in the bowl with a white spoon",
+        "ffmpeg": "stir the liquid in the bowl"
+      },
+      "candidate_select_meta": {
+        "fps": 29.98135560208798,
+        "nframes": 4122,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    }
+  ],
+  "candidate_select_recipe": {
+    "name": "raw_rawprior_seed_ffmpeg_neighbor_selector_397B",
+    "frames_per_sheet": 5,
+    "image_max_side": 1120
+  }
+}

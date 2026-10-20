@@ -1,0 +1,124 @@
+{
+  "id": "homer_41",
+  "instruction": "",
+  "duration_sec": 54.3,
+  "n_sheets": 6,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 3,
+  "segments": [
+    {
+      "start_sec": 5,
+      "end_sec": 6.5,
+      "subtask": "Pick up the blue bottle",
+      "candidate_select_source": "B",
+      "candidate_labels": {
+        "raw": "Arrange the bottles on the counter",
+        "rawprior": "Pick up the blue bottle",
+        "seed": "pick up water bottle",
+        "ffmpeg": "Arrange the bottles on the counter"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 1629,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 6.5,
+      "end_sec": 15.5,
+      "subtask": "Fill the water bottle at the sink",
+      "candidate_select_source": "B",
+      "candidate_labels": {
+        "raw": "Place the water bottle on the stove",
+        "rawprior": "Fill the water bottle at the sink",
+        "seed": "place water bottle on the stove",
+        "ffmpeg": "Place the bottle on the stove"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 1629,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 17.5,
+      "end_sec": 20.5,
+      "subtask": "Pick up the water bottle",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Pick up the water bottle",
+        "rawprior": "Pick up the water bottle",
+        "seed": "pick up second water bottle",
+        "ffmpeg": "Pick up the water bottle"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 1629,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 20.5,
+      "end_sec": 26.5,
+      "subtask": "Place the water bottle on the stove",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the water bottle on the stove",
+        "rawprior": "Place the water bottle on the stove",
+        "seed": "place the water bottle on the stove",
+        "ffmpeg": "Place the water bottle on the stove"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 1629,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 29.5,
+      "end_sec": 34.5,
+      "subtask": "Pick up the bottle of red liquid",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Pick up the bottle of red liquid",
+        "rawprior": "Pick up the bottle of red liquid",
+        "seed": "pick up red liquid bottle",
+        "ffmpeg": "Pick up the bottle"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 1629,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 34.5,
+      "end_sec": 49.5,
+      "subtask": "Place the bottle on the stove",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the bottle on the stove",
+        "rawprior": "Place the bottle on the stove",
+        "seed": "place red liquid bottle on the stove",
+        "ffmpeg": "Place the bottle on the stove"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 1629,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    }
+  ],
+  "candidate_select_recipe": {
+    "name": "raw_rawprior_seed_ffmpeg_neighbor_selector_397B",
+    "frames_per_sheet": 5,
+    "image_max_side": 1120
+  }
+}

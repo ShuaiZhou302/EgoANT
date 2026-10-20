@@ -1,0 +1,214 @@
+{
+  "id": "homer_50",
+  "instruction": "",
+  "duration_sec": 46.48171111111111,
+  "n_sheets": 5,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 8,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 7.5,
+      "subtask": "Attach wheel to toy truck",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Attach wheel to toy truck",
+        "rawprior": "Attach wheel to toy truck",
+        "seed": "attach the wheel to the toy truck",
+        "ffmpeg": "Attach wheel to toy truck"
+      },
+      "candidate_select_meta": {
+        "fps": 29.990290087809925,
+        "nframes": 1394,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 7.5,
+      "end_sec": 15,
+      "subtask": "Screw the wheel onto the toy truck",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Screw the wheel onto the toy truck",
+        "rawprior": "Screw the wheel onto the toy truck",
+        "seed": "screwing the toy truck",
+        "ffmpeg": "Screw the wheel onto the toy truck"
+      },
+      "candidate_select_meta": {
+        "fps": 29.990290087809925,
+        "nframes": 1394,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 15,
+      "end_sec": 17,
+      "subtask": "Attach wheel to toy truck",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Attach wheel to toy truck",
+        "rawprior": "Attach wheel to toy truck",
+        "seed": "insert the screwdriver into the toy truck",
+        "ffmpeg": "Attach wheel to toy truck"
+      },
+      "candidate_select_meta": {
+        "fps": 29.990290087809925,
+        "nframes": 1394,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 17,
+      "end_sec": 20,
+      "subtask": "Attach excavator arm to truck body",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Attach excavator arm to truck body",
+        "rawprior": "Attach excavator arm to truck body",
+        "seed": "adjusting the toy truck",
+        "ffmpeg": "Attach the excavator arm to the toy truck"
+      },
+      "candidate_select_meta": {
+        "fps": 29.990290087809925,
+        "nframes": 1394,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 20,
+      "end_sec": 26,
+      "subtask": "Screw the wheel onto the toy truck",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Screw the wheel onto the toy truck",
+        "rawprior": "Screw the wheel onto the toy truck",
+        "seed": "screwing the toy truck",
+        "ffmpeg": "Screw the wheel onto the toy truck"
+      },
+      "candidate_select_meta": {
+        "fps": 29.990290087809925,
+        "nframes": 1394,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 26,
+      "end_sec": 32,
+      "subtask": "attach wheel to toy",
+      "candidate_select_source": "B",
+      "candidate_labels": {
+        "raw": "remove wheel from toy",
+        "rawprior": "attach wheel to toy",
+        "seed": "attach the wheel to the toy truck",
+        "ffmpeg": "Attach wheel to toy truck"
+      },
+      "candidate_select_meta": {
+        "fps": 29.990290087809925,
+        "nframes": 1394,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 32,
+      "end_sec": 35.5,
+      "subtask": "Tighten screw on toy truck wheel",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Tighten screw on toy truck wheel",
+        "rawprior": "Tighten screw on toy truck wheel",
+        "seed": "screw the toy truck",
+        "ffmpeg": "Screw the wheel onto the toy truck"
+      },
+      "candidate_select_meta": {
+        "fps": 29.990290087809925,
+        "nframes": 1394,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 35.5,
+      "end_sec": 36.5,
+      "subtask": "Attach wheel to toy truck",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Attach wheel to toy truck",
+        "rawprior": "Attach wheel to toy truck",
+        "seed": "remove the screwdriver from the toy truck",
+        "ffmpeg": "Attach wheel to toy truck"
+      },
+      "candidate_select_meta": {
+        "fps": 29.990290087809925,
+        "nframes": 1394,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 36.5,
+      "end_sec": 38,
+      "subtask": "Attach wheel to toy truck",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Attach wheel to toy truck",
+        "rawprior": "Attach wheel to toy truck",
+        "seed": "adjusting the toy truck",
+        "ffmpeg": "Attach wheel to toy truck"
+      },
+      "candidate_select_meta": {
+        "fps": 29.990290087809925,
+        "nframes": 1394,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 38,
+      "end_sec": 40,
+      "subtask": "Insert wheel into toy truck",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Insert wheel into toy truck",
+        "rawprior": "Insert wheel into toy truck",
+        "seed": "insert the screwdriver into the toy truck",
+        "ffmpeg": "Attach wheel to toy truck"
+      },
+      "candidate_select_meta": {
+        "fps": 29.990290087809925,
+        "nframes": 1394,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 40,
+      "end_sec": 46.48,
+      "subtask": "Tighten screw on toy truck wheel",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Tighten screw on toy truck wheel",
+        "rawprior": "Tighten screw on toy truck wheel",
+        "seed": "screw the toy truck",
+        "ffmpeg": "Tighten screw on toy truck wheel"
+      },
+      "candidate_select_meta": {
+        "fps": 29.990290087809925,
+        "nframes": 1394,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    }
+  ],
+  "candidate_select_recipe": {
+    "name": "raw_rawprior_seed_ffmpeg_neighbor_selector_397B",
+    "frames_per_sheet": 5,
+    "image_max_side": 1120
+  }
+}

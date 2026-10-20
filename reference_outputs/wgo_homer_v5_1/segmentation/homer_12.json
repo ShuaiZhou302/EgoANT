@@ -1,0 +1,206 @@
+{
+  "id": "homer_12",
+  "instruction": "open, inspect and close all containers, bottles and jars in front of you",
+  "duration_sec": 124.66043333333334,
+  "n_sheets": 13,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 22,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 4.5,
+      "subtask": "open blue round container"
+    },
+    {
+      "start_sec": 4.5,
+      "end_sec": 10.5,
+      "subtask": "close blue round container"
+    },
+    {
+      "start_sec": 11.5,
+      "end_sec": 15.5,
+      "subtask": "open red jar"
+    },
+    {
+      "start_sec": 15.5,
+      "end_sec": 16,
+      "subtask": "inspect red jar"
+    },
+    {
+      "start_sec": 16,
+      "end_sec": 17.5,
+      "subtask": "close red jar"
+    },
+    {
+      "start_sec": 17.5,
+      "end_sec": 20.5,
+      "subtask": "place red jar"
+    },
+    {
+      "start_sec": 22.5,
+      "end_sec": 25,
+      "subtask": "open black jar"
+    },
+    {
+      "start_sec": 25,
+      "end_sec": 26.5,
+      "subtask": "inspect black jar"
+    },
+    {
+      "start_sec": 26.5,
+      "end_sec": 29,
+      "subtask": "close black jar"
+    },
+    {
+      "start_sec": 29.5,
+      "end_sec": 33.5,
+      "subtask": "open orange lid container"
+    },
+    {
+      "start_sec": 33.5,
+      "end_sec": 34,
+      "subtask": "inspect orange lid container"
+    },
+    {
+      "start_sec": 34,
+      "end_sec": 38.5,
+      "subtask": "close orange lid container"
+    },
+    {
+      "start_sec": 39.5,
+      "end_sec": 41.5,
+      "subtask": "open blue rectangular container"
+    },
+    {
+      "start_sec": 41.5,
+      "end_sec": 44,
+      "subtask": "inspect blue rectangular container"
+    },
+    {
+      "start_sec": 44,
+      "end_sec": 47,
+      "subtask": "close blue rectangular container"
+    },
+    {
+      "start_sec": 47,
+      "end_sec": 50,
+      "subtask": "place blue rectangular container"
+    },
+    {
+      "start_sec": 51,
+      "end_sec": 54.5,
+      "subtask": "open silver container"
+    },
+    {
+      "start_sec": 54.5,
+      "end_sec": 59.5,
+      "subtask": "close silver container"
+    },
+    {
+      "start_sec": 59.5,
+      "end_sec": 61,
+      "subtask": "place silver container"
+    },
+    {
+      "start_sec": 62,
+      "end_sec": 64.5,
+      "subtask": "open pink lid container"
+    },
+    {
+      "start_sec": 64.5,
+      "end_sec": 67,
+      "subtask": "inspect pink lid container"
+    },
+    {
+      "start_sec": 67,
+      "end_sec": 72,
+      "subtask": "close pink lid container"
+    },
+    {
+      "start_sec": 73,
+      "end_sec": 77.5,
+      "subtask": "open green bottle"
+    },
+    {
+      "start_sec": 77.5,
+      "end_sec": 78,
+      "subtask": "place green bottle"
+    },
+    {
+      "start_sec": 78,
+      "end_sec": 82.5,
+      "subtask": "close green bottle"
+    },
+    {
+      "start_sec": 82.5,
+      "end_sec": 83,
+      "subtask": "place green bottle"
+    },
+    {
+      "start_sec": 84.5,
+      "end_sec": 86.5,
+      "subtask": "open blue round container"
+    },
+    {
+      "start_sec": 86.5,
+      "end_sec": 88.5,
+      "subtask": "close blue round container"
+    },
+    {
+      "start_sec": 89,
+      "end_sec": 91,
+      "subtask": "close blue round container"
+    },
+    {
+      "start_sec": 92,
+      "end_sec": 94.5,
+      "subtask": "open blue rectangular container"
+    },
+    {
+      "start_sec": 94.5,
+      "end_sec": 98,
+      "subtask": "close blue rectangular container"
+    },
+    {
+      "start_sec": 99,
+      "end_sec": 102,
+      "subtask": "open pink lid container"
+    },
+    {
+      "start_sec": 102,
+      "end_sec": 104,
+      "subtask": "inspect pink lid container"
+    },
+    {
+      "start_sec": 104,
+      "end_sec": 108.5,
+      "subtask": "close pink lid container"
+    },
+    {
+      "start_sec": 110,
+      "end_sec": 114,
+      "subtask": "open red jar"
+    },
+    {
+      "start_sec": 114,
+      "end_sec": 117.5,
+      "subtask": "close red jar"
+    },
+    {
+      "start_sec": 120,
+      "end_sec": 121.5,
+      "subtask": "open silver container"
+    },
+    {
+      "start_sec": 121.5,
+      "end_sec": 123,
+      "subtask": "inspect silver container"
+    },
+    {
+      "start_sec": 123,
+      "end_sec": 124.66,
+      "subtask": "close silver container"
+    }
+  ]
+}

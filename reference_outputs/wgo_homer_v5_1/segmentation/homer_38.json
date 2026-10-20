@@ -1,0 +1,71 @@
+{
+  "id": "homer_38",
+  "instruction": "set a table",
+  "duration_sec": 90.79440000000001,
+  "n_sheets": 10,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 4,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 2,
+      "subtask": "pick up stack of plates"
+    },
+    {
+      "start_sec": 2,
+      "end_sec": 6,
+      "subtask": "transport plates to table"
+    },
+    {
+      "start_sec": 6,
+      "end_sec": 8.5,
+      "subtask": "place first plate on table"
+    },
+    {
+      "start_sec": 8.5,
+      "end_sec": 12,
+      "subtask": "place second plate on table"
+    },
+    {
+      "start_sec": 12,
+      "end_sec": 15.5,
+      "subtask": "place third plate on table"
+    },
+    {
+      "start_sec": 15.5,
+      "end_sec": 18.5,
+      "subtask": "place fourth plate on table"
+    },
+    {
+      "start_sec": 23,
+      "end_sec": 29.5,
+      "subtask": "pick up glasses"
+    },
+    {
+      "start_sec": 29.5,
+      "end_sec": 37.5,
+      "subtask": "place glasses on the table"
+    },
+    {
+      "start_sec": 37.5,
+      "end_sec": 42,
+      "subtask": "adjust plates"
+    },
+    {
+      "start_sec": 47.5,
+      "end_sec": 51.5,
+      "subtask": "open drawer"
+    },
+    {
+      "start_sec": 51.5,
+      "end_sec": 66,
+      "subtask": "pick up cutlery"
+    },
+    {
+      "start_sec": 66.5,
+      "end_sec": 89.5,
+      "subtask": "place cutlery on the table"
+    }
+  ]
+}

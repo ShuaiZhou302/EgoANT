@@ -1,0 +1,178 @@
+{
+  "id": "homer_15",
+  "instruction": "fold the laundry items neatly",
+  "duration_sec": 132.3,
+  "n_sheets": 14,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 4,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 29.5,
+      "subtask": "fold the white cloth",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "fold the white cloth",
+        "rawprior": "fold the white cloth",
+        "seed": "fold the white cloth",
+        "ffmpeg": "fold the white cloth"
+      },
+      "candidate_select_meta": {
+        "fps": 20,
+        "nframes": 2646,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 30,
+      "end_sec": 39.5,
+      "subtask": "unfold the patterned cloth",
+      "candidate_select_source": "B",
+      "candidate_labels": {
+        "raw": "unfold the cloth",
+        "rawprior": "unfold the patterned cloth",
+        "seed": "unfold the patterned cloth",
+        "ffmpeg": "unfold the cloth"
+      },
+      "candidate_select_meta": {
+        "fps": 20,
+        "nframes": 2646,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 39.5,
+      "end_sec": 61.5,
+      "subtask": "fold the patterned cloth",
+      "candidate_select_source": "B",
+      "candidate_labels": {
+        "raw": "fold the cloth",
+        "rawprior": "fold the patterned cloth",
+        "seed": "fold the patterned cloth",
+        "ffmpeg": "fold the cloth"
+      },
+      "candidate_select_meta": {
+        "fps": 20,
+        "nframes": 2646,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 62,
+      "end_sec": 69.5,
+      "subtask": "spread the towel on the bed",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "spread the towel on the bed",
+        "rawprior": "spread the towel on the bed",
+        "seed": "unfold the blue cloth",
+        "ffmpeg": "spread the towel on the bed"
+      },
+      "candidate_select_meta": {
+        "fps": 20,
+        "nframes": 2646,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 69.5,
+      "end_sec": 79.5,
+      "subtask": "fold the towel",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "fold the towel",
+        "rawprior": "fold the towel",
+        "seed": "fold the blue cloth",
+        "ffmpeg": "Fold the towel in half"
+      },
+      "candidate_select_meta": {
+        "fps": 20,
+        "nframes": 2646,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 79.5,
+      "end_sec": 87.5,
+      "subtask": "fold the towel",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "fold the towel",
+        "rawprior": "fold the towel",
+        "seed": "fold the blue cloth in half",
+        "ffmpeg": "fold the towel"
+      },
+      "candidate_select_meta": {
+        "fps": 20,
+        "nframes": 2646,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 87.5,
+      "end_sec": 92,
+      "subtask": "fold the towel in half",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "fold the towel in half",
+        "rawprior": "fold the towel in half",
+        "seed": "roll the blue cloth",
+        "ffmpeg": "fold the towel"
+      },
+      "candidate_select_meta": {
+        "fps": 20,
+        "nframes": 2646,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 92,
+      "end_sec": 96.5,
+      "subtask": "pick up the folded blue cloth",
+      "candidate_select_source": "C",
+      "candidate_labels": {
+        "raw": "fold the blue towel",
+        "rawprior": "fold the blue towel",
+        "seed": "pick up the folded blue cloth",
+        "ffmpeg": "put the folded cloth aside"
+      },
+      "candidate_select_meta": {
+        "fps": 20,
+        "nframes": 2646,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 101.5,
+      "end_sec": 132.3,
+      "subtask": "fold the towel",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "fold the towel",
+        "rawprior": "fold the striped towel",
+        "seed": "fold the striped cloth",
+        "ffmpeg": "fold the towel"
+      },
+      "candidate_select_meta": {
+        "fps": 20,
+        "nframes": 2646,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    }
+  ],
+  "candidate_select_recipe": {
+    "name": "raw_rawprior_seed_ffmpeg_neighbor_selector_397B",
+    "frames_per_sheet": 5,
+    "image_max_side": 1120
+  }
+}

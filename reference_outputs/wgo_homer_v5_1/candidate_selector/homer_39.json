@@ -1,0 +1,412 @@
+{
+  "id": "homer_39",
+  "instruction": "Spray and wipe countertop, clean stovetop, wipe dining table",
+  "duration_sec": 61.12606666666667,
+  "n_sheets": 7,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 3,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 2.5,
+      "subtask": "Place the metal cup on the countertop",
+      "candidate_select_source": "D",
+      "candidate_labels": {
+        "raw": "Place the metal cup on the counter",
+        "rawprior": "Place the metal cup on the counter",
+        "seed": "spray countertop",
+        "ffmpeg": "Place the metal cup on the countertop"
+      },
+      "candidate_select_meta": {
+        "fps": 29.987206767216605,
+        "nframes": 1833,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 2.5,
+      "end_sec": 5,
+      "subtask": "Wipe the countertop",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Wipe the countertop",
+        "rawprior": "Wipe the countertop",
+        "seed": "Wipe countertop with cloth",
+        "ffmpeg": "Wipe the countertop with a cloth"
+      },
+      "candidate_select_meta": {
+        "fps": 29.987206767216605,
+        "nframes": 1833,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 5,
+      "end_sec": 6.5,
+      "subtask": "Move metal cup",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Move metal cup",
+        "rawprior": "Move metal cup",
+        "seed": "place spray bottle down",
+        "ffmpeg": "Move metal cup"
+      },
+      "candidate_select_meta": {
+        "fps": 29.987206767216605,
+        "nframes": 1833,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 6.5,
+      "end_sec": 14.5,
+      "subtask": "Wipe countertop with cloth",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Wipe countertop with cloth",
+        "rawprior": "Wipe countertop with cloth",
+        "seed": "spray countertop",
+        "ffmpeg": "Wipe the countertop with a cloth"
+      },
+      "candidate_select_meta": {
+        "fps": 29.987206767216605,
+        "nframes": 1833,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 14.5,
+      "end_sec": 16,
+      "subtask": "Pick up the jar",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Pick up the jar",
+        "rawprior": "Pick up the jar",
+        "seed": "pick up glass",
+        "ffmpeg": "Move the jar"
+      },
+      "candidate_select_meta": {
+        "fps": 29.987206767216605,
+        "nframes": 1833,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 16,
+      "end_sec": 17.5,
+      "subtask": "Wipe the countertop with a cloth",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Wipe the countertop with a cloth",
+        "rawprior": "Wipe the countertop with a cloth",
+        "seed": "place glass on countertop",
+        "ffmpeg": "Wipe the countertop with a cloth"
+      },
+      "candidate_select_meta": {
+        "fps": 29.987206767216605,
+        "nframes": 1833,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 17.5,
+      "end_sec": 20,
+      "subtask": "Place the container on the countertop",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Place the container on the countertop",
+        "rawprior": "Place the container on the countertop",
+        "seed": "place bowl on countertop",
+        "ffmpeg": "Place the jar on the countertop"
+      },
+      "candidate_select_meta": {
+        "fps": 29.987206767216605,
+        "nframes": 1833,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 20,
+      "end_sec": 21.5,
+      "subtask": "Pick up the spray bottle",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Pick up the spray bottle",
+        "rawprior": "Pick up the spray bottle",
+        "seed": "place bowl in sink",
+        "ffmpeg": "Pick up the spray bottle"
+      },
+      "candidate_select_meta": {
+        "fps": 29.987206767216605,
+        "nframes": 1833,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 21.5,
+      "end_sec": 23,
+      "subtask": "Move the small metal container to the back of the counter",
+      "candidate_select_source": "D",
+      "candidate_labels": {
+        "raw": "Move the small metal container",
+        "rawprior": "Move the small metal container",
+        "seed": "pick up small container",
+        "ffmpeg": "Move the small metal container to the back of the counter"
+      },
+      "candidate_select_meta": {
+        "fps": 29.987206767216605,
+        "nframes": 1833,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 23,
+      "end_sec": 24.5,
+      "subtask": "Wipe the countertop with a cloth",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Wipe the countertop with a cloth",
+        "rawprior": "Wipe the countertop with a cloth",
+        "seed": "place container in sink",
+        "ffmpeg": "Wipe the countertop with a cloth"
+      },
+      "candidate_select_meta": {
+        "fps": 29.987206767216605,
+        "nframes": 1833,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 24.5,
+      "end_sec": 26,
+      "subtask": "Wipe the countertop with a cloth",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Wipe the countertop with a cloth",
+        "rawprior": "Wipe the countertop with a cloth",
+        "seed": "wipe countertop with sponge",
+        "ffmpeg": "Wipe the countertop with a cloth"
+      },
+      "candidate_select_meta": {
+        "fps": 29.987206767216605,
+        "nframes": 1833,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 26,
+      "end_sec": 34.5,
+      "subtask": "Wipe the countertop with a cloth",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Wipe the countertop with a cloth",
+        "rawprior": "Wipe the countertop with a cloth",
+        "seed": "wipe countertop",
+        "ffmpeg": "Wipe the countertop with a cloth"
+      },
+      "candidate_select_meta": {
+        "fps": 29.987206767216605,
+        "nframes": 1833,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 34.5,
+      "end_sec": 36,
+      "subtask": "Wipe the countertop with a cloth",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Wipe the countertop with a cloth",
+        "rawprior": "Wipe the countertop with a cloth",
+        "seed": "wipe countertop with cloth",
+        "ffmpeg": "Wipe the countertop with a cloth"
+      },
+      "candidate_select_meta": {
+        "fps": 29.987206767216605,
+        "nframes": 1833,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 36,
+      "end_sec": 37.5,
+      "subtask": "Wipe the countertop with a cloth",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Wipe the countertop with a cloth",
+        "rawprior": "Wipe the countertop with a cloth",
+        "seed": "wipe countertop with cloth",
+        "ffmpeg": "Wipe the countertop with a cloth"
+      },
+      "candidate_select_meta": {
+        "fps": 29.987206767216605,
+        "nframes": 1833,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 37.5,
+      "end_sec": 39,
+      "subtask": "Roll dough with rolling pin",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Roll dough with rolling pin",
+        "rawprior": "Roll dough with rolling pin",
+        "seed": "wipe the plate",
+        "ffmpeg": "Move the cutting board and rolling pin"
+      },
+      "candidate_select_meta": {
+        "fps": 29.987206767216605,
+        "nframes": 1833,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 39,
+      "end_sec": 40.5,
+      "subtask": "Wipe the countertop with a cloth",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Wipe the countertop with a cloth",
+        "rawprior": "Wipe the countertop with a cloth",
+        "seed": "wipe countertop with cloth",
+        "ffmpeg": "Wipe the countertop with a cloth"
+      },
+      "candidate_select_meta": {
+        "fps": 29.987206767216605,
+        "nframes": 1833,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 40.5,
+      "end_sec": 42,
+      "subtask": "Wipe the countertop with a cloth",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Wipe the countertop with a cloth",
+        "rawprior": "Wipe the countertop with a cloth",
+        "seed": "wipe countertop with sponge",
+        "ffmpeg": "Wipe the countertop with a cloth"
+      },
+      "candidate_select_meta": {
+        "fps": 29.987206767216605,
+        "nframes": 1833,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 42,
+      "end_sec": 44.5,
+      "subtask": "Wipe the countertop with a cloth",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Wipe the countertop with a cloth",
+        "rawprior": "Wipe the countertop with a cloth",
+        "seed": "wipe countertop",
+        "ffmpeg": "Wipe the countertop with a cloth"
+      },
+      "candidate_select_meta": {
+        "fps": 29.987206767216605,
+        "nframes": 1833,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 44.5,
+      "end_sec": 46,
+      "subtask": "Wipe the countertop with a cloth",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Wipe the countertop with a cloth",
+        "rawprior": "Wipe the countertop with a cloth",
+        "seed": "wipe stovetop with sponge",
+        "ffmpeg": "Wipe countertop with cloth"
+      },
+      "candidate_select_meta": {
+        "fps": 29.987206767216605,
+        "nframes": 1833,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 46,
+      "end_sec": 53.5,
+      "subtask": "Wipe the countertop with a cloth",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Wipe the countertop with a cloth",
+        "rawprior": "Wipe the countertop with a cloth",
+        "seed": "wipe stovetop",
+        "ffmpeg": "Wipe the countertop with a cloth"
+      },
+      "candidate_select_meta": {
+        "fps": 29.987206767216605,
+        "nframes": 1833,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 53.5,
+      "end_sec": 56,
+      "subtask": "Fold the cloth",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Fold the cloth",
+        "rawprior": "Fold the cloth",
+        "seed": "fold cloth",
+        "ffmpeg": "Fold the cloth"
+      },
+      "candidate_select_meta": {
+        "fps": 29.987206767216605,
+        "nframes": 1833,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 56,
+      "end_sec": 61.12606666666667,
+      "subtask": "Wipe the countertop with a cloth",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Wipe the countertop with a cloth",
+        "rawprior": "Wipe the countertop with a cloth",
+        "seed": "wipe stovetop",
+        "ffmpeg": "Wipe the countertop with a cloth"
+      },
+      "candidate_select_meta": {
+        "fps": 29.987206767216605,
+        "nframes": 1833,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    }
+  ],
+  "candidate_select_recipe": {
+    "name": "raw_rawprior_seed_ffmpeg_neighbor_selector_397B",
+    "frames_per_sheet": 5,
+    "image_max_side": 1120
+  }
+}

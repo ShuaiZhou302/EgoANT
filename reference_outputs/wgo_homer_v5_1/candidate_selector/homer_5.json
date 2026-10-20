@@ -1,0 +1,106 @@
+{
+  "id": "homer_5",
+  "instruction": "use a cloth to dust white shelf",
+  "duration_sec": 129.465,
+  "n_sheets": 13,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 9,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 66,
+      "subtask": "dust the shelf",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "dust the shelf",
+        "rawprior": "dust the shelf",
+        "seed": "wipe the shelf",
+        "ffmpeg": "Wipe the shelf with a cloth"
+      },
+      "candidate_select_meta": {
+        "fps": 30.008110300081103,
+        "nframes": 3885,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 66,
+      "end_sec": 74,
+      "subtask": "dust the shelf with a cloth",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "dust the shelf with a cloth",
+        "rawprior": "dust the shelf with a cloth",
+        "seed": "wipe the bottom shelf",
+        "ffmpeg": "Wipe the shelf with a cloth"
+      },
+      "candidate_select_meta": {
+        "fps": 30.008110300081103,
+        "nframes": 3885,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 74,
+      "end_sec": 91,
+      "subtask": "Wipe the shelf with a cloth",
+      "candidate_select_source": "D",
+      "candidate_labels": {
+        "raw": "dust the blue bowl",
+        "rawprior": "dust the blue bowl",
+        "seed": "wipe the shelf",
+        "ffmpeg": "Wipe the shelf with a cloth"
+      },
+      "candidate_select_meta": {
+        "fps": 30.008110300081103,
+        "nframes": 3885,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 91,
+      "end_sec": 107.5,
+      "subtask": "Wipe the shelf with a cloth",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Wipe the shelf with a cloth",
+        "rawprior": "Wipe the shelf with a cloth",
+        "seed": "wipe the bottom shelf",
+        "ffmpeg": "dust the shelf"
+      },
+      "candidate_select_meta": {
+        "fps": 30.008110300081103,
+        "nframes": 3885,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 107.5,
+      "end_sec": 129.465,
+      "subtask": "Wipe the shelf with a cloth",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Wipe the shelf with a cloth",
+        "rawprior": "Wipe the shelf with a cloth",
+        "seed": "wipe the shelf",
+        "ffmpeg": "dust the white shelf with a cloth"
+      },
+      "candidate_select_meta": {
+        "fps": 30.008110300081103,
+        "nframes": 3885,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    }
+  ],
+  "candidate_select_recipe": {
+    "name": "raw_rawprior_seed_ffmpeg_neighbor_selector_397B",
+    "frames_per_sheet": 5,
+    "image_max_side": 1120
+  }
+}

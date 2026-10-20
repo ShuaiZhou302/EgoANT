@@ -1,0 +1,96 @@
+{
+  "id": "homer_1",
+  "instruction": "use pitcher to pour water into tall glass and wine glass",
+  "duration_sec": 161.18333333333334,
+  "n_sheets": 17,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 10,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 10,
+      "subtask": "open pitcher lid"
+    },
+    {
+      "start_sec": 10,
+      "end_sec": 13,
+      "subtask": "pick up wine glass"
+    },
+    {
+      "start_sec": 13,
+      "end_sec": 21,
+      "subtask": "pour water into wine glass"
+    },
+    {
+      "start_sec": 21,
+      "end_sec": 28,
+      "subtask": "place pitcher on table"
+    },
+    {
+      "start_sec": 28,
+      "end_sec": 62,
+      "subtask": "pour water into wine glass"
+    },
+    {
+      "start_sec": 62,
+      "end_sec": 67,
+      "subtask": "place pitcher on table"
+    },
+    {
+      "start_sec": 67,
+      "end_sec": 73,
+      "subtask": "close pitcher lid"
+    },
+    {
+      "start_sec": 73,
+      "end_sec": 74,
+      "subtask": "place pitcher on table"
+    },
+    {
+      "start_sec": 74,
+      "end_sec": 74.5,
+      "subtask": "place pitcher"
+    },
+    {
+      "start_sec": 74.5,
+      "end_sec": 75,
+      "subtask": "pick up pitcher"
+    },
+    {
+      "start_sec": 75,
+      "end_sec": 80,
+      "subtask": "pour water into tall glass"
+    },
+    {
+      "start_sec": 80,
+      "end_sec": 84,
+      "subtask": "pour water into glass"
+    },
+    {
+      "start_sec": 84,
+      "end_sec": 139.5,
+      "subtask": "pour water into tall glass"
+    },
+    {
+      "start_sec": 139.5,
+      "end_sec": 141,
+      "subtask": "place pitcher on table"
+    },
+    {
+      "start_sec": 141,
+      "end_sec": 142.5,
+      "subtask": "place pitcher"
+    },
+    {
+      "start_sec": 142.5,
+      "end_sec": 152.5,
+      "subtask": "place glass"
+    },
+    {
+      "start_sec": 152.5,
+      "end_sec": 161.18,
+      "subtask": "close pitcher lid"
+    }
+  ]
+}

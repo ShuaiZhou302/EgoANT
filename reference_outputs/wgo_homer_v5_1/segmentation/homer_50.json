@@ -1,0 +1,66 @@
+{
+  "id": "homer_50",
+  "instruction": "",
+  "duration_sec": 46.48171111111111,
+  "n_sheets": 5,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 8,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 7.5,
+      "subtask": "adjusting the toy truck"
+    },
+    {
+      "start_sec": 7.5,
+      "end_sec": 15,
+      "subtask": "screwing the toy truck"
+    },
+    {
+      "start_sec": 15,
+      "end_sec": 17,
+      "subtask": "removing the screwdriver from the toy truck"
+    },
+    {
+      "start_sec": 17,
+      "end_sec": 20,
+      "subtask": "adjusting the toy truck"
+    },
+    {
+      "start_sec": 20,
+      "end_sec": 26,
+      "subtask": "screwing the toy truck"
+    },
+    {
+      "start_sec": 26,
+      "end_sec": 32,
+      "subtask": "adjusting the toy truck"
+    },
+    {
+      "start_sec": 32,
+      "end_sec": 35.5,
+      "subtask": "screwing the toy truck"
+    },
+    {
+      "start_sec": 35.5,
+      "end_sec": 36.5,
+      "subtask": "removing the screwdriver from the toy truck"
+    },
+    {
+      "start_sec": 36.5,
+      "end_sec": 38,
+      "subtask": "adjusting the toy truck"
+    },
+    {
+      "start_sec": 38,
+      "end_sec": 40,
+      "subtask": "inserting the screwdriver into the toy truck"
+    },
+    {
+      "start_sec": 40,
+      "end_sec": 46.48,
+      "subtask": "screwing the toy truck"
+    }
+  ]
+}

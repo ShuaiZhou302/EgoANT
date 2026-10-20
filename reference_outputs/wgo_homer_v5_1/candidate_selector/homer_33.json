@@ -1,0 +1,106 @@
+{
+  "id": "homer_33",
+  "instruction": "dice an onion with a nice",
+  "duration_sec": 72.23333333333333,
+  "n_sheets": 8,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 4,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 12,
+      "subtask": "cut off the root end of the onion",
+      "candidate_select_source": "C",
+      "candidate_labels": {
+        "raw": "cut the onion",
+        "rawprior": "cut the onion",
+        "seed": "cut off the root end of the onion",
+        "ffmpeg": "cut the onion"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 2167,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 12,
+      "end_sec": 42,
+      "subtask": "peel onion skin",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "peel onion skin",
+        "rawprior": "peel onion skin",
+        "seed": "peel the outer skin of the onion",
+        "ffmpeg": "peel onion skin"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 2167,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 42,
+      "end_sec": 48.5,
+      "subtask": "cut onion in half",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "cut onion in half",
+        "rawprior": "cut onion in half",
+        "seed": "cut the onion in half",
+        "ffmpeg": "Peel the onion"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 2167,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 48.5,
+      "end_sec": 49.5,
+      "subtask": "cut the onion",
+      "candidate_select_source": "D",
+      "candidate_labels": {
+        "raw": "place onion on cutting board",
+        "rawprior": "place onion on cutting board",
+        "seed": "separate the onion halves",
+        "ffmpeg": "cut the onion"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 2167,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 49.5,
+      "end_sec": 72.23,
+      "subtask": "dice onion",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "dice onion",
+        "rawprior": "dice onion",
+        "seed": "dice the onion half",
+        "ffmpeg": "Slice the onion"
+      },
+      "candidate_select_meta": {
+        "fps": 30,
+        "nframes": 2167,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    }
+  ],
+  "candidate_select_recipe": {
+    "name": "raw_rawprior_seed_ffmpeg_neighbor_selector_397B",
+    "frames_per_sheet": 5,
+    "image_max_side": 1120
+  }
+}

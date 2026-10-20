@@ -1,0 +1,52 @@
+{
+  "id": "homer_53",
+  "instruction": "",
+  "duration_sec": 47.113733333333336,
+  "n_sheets": 5,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 2,
+  "segments": [
+    {
+      "start_sec": 3.5,
+      "end_sec": 18.5,
+      "subtask": "Tie the shoelaces of the shoe",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Tie the shoelaces of the shoe",
+        "rawprior": "Tie the shoelaces of the shoe",
+        "seed": "tie the left shoe",
+        "ffmpeg": "Tie the shoelaces of the shoe"
+      },
+      "candidate_select_meta": {
+        "fps": 59.94005994005994,
+        "nframes": 2824,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    },
+    {
+      "start_sec": 27,
+      "end_sec": 45.5,
+      "subtask": "Tie the shoelaces of the shoes",
+      "candidate_select_source": "A",
+      "candidate_labels": {
+        "raw": "Tie the shoelaces of the shoes",
+        "rawprior": "Tie the shoelaces of the shoes",
+        "seed": "tie the right shoe",
+        "ffmpeg": "Tie the shoe laces"
+      },
+      "candidate_select_meta": {
+        "fps": 59.94005994005994,
+        "nframes": 2824,
+        "frames_per_sheet": 5,
+        "image_max_side": 1120
+      }
+    }
+  ],
+  "candidate_select_recipe": {
+    "name": "raw_rawprior_seed_ffmpeg_neighbor_selector_397B",
+    "frames_per_sheet": 5,
+    "image_max_side": 1120
+  }
+}

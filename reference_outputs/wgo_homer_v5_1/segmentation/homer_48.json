@@ -1,0 +1,96 @@
+{
+  "id": "homer_48",
+  "instruction": "",
+  "duration_sec": 55.989266666666666,
+  "n_sheets": 6,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 4,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 2.5,
+      "subtask": "pick up green container"
+    },
+    {
+      "start_sec": 2.5,
+      "end_sec": 4.5,
+      "subtask": "pick up green lid"
+    },
+    {
+      "start_sec": 4.5,
+      "end_sec": 9,
+      "subtask": "close green container"
+    },
+    {
+      "start_sec": 9,
+      "end_sec": 11,
+      "subtask": "pick up second green container"
+    },
+    {
+      "start_sec": 11,
+      "end_sec": 14.5,
+      "subtask": "stack green containers"
+    },
+    {
+      "start_sec": 15,
+      "end_sec": 17.5,
+      "subtask": "picking up a white rectangular container"
+    },
+    {
+      "start_sec": 17.5,
+      "end_sec": 22.5,
+      "subtask": "placing the white container on the stack"
+    },
+    {
+      "start_sec": 22.5,
+      "end_sec": 25,
+      "subtask": "picking up another white rectangular container"
+    },
+    {
+      "start_sec": 25,
+      "end_sec": 29,
+      "subtask": "placing the second white container on the stack"
+    },
+    {
+      "start_sec": 29,
+      "end_sec": 30.5,
+      "subtask": "picking up a yellow lid"
+    },
+    {
+      "start_sec": 30.5,
+      "end_sec": 33.5,
+      "subtask": "placing the yellow lid on the stack"
+    },
+    {
+      "start_sec": 34,
+      "end_sec": 39.5,
+      "subtask": "placing small white container on stack"
+    },
+    {
+      "start_sec": 40,
+      "end_sec": 44.5,
+      "subtask": "picking up orange container"
+    },
+    {
+      "start_sec": 44.5,
+      "end_sec": 47,
+      "subtask": "placing lid on container"
+    },
+    {
+      "start_sec": 47,
+      "end_sec": 51,
+      "subtask": "stacking container on top of another"
+    },
+    {
+      "start_sec": 51,
+      "end_sec": 53,
+      "subtask": "picking up second orange container"
+    },
+    {
+      "start_sec": 53,
+      "end_sec": 55.989266666666666,
+      "subtask": "stacking second container on top of stack"
+    }
+  ]
+}

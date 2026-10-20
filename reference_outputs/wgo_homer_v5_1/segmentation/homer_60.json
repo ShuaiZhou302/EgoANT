@@ -1,0 +1,96 @@
+{
+  "id": "homer_60",
+  "instruction": "Record yourself placing items back onto shelves. Show the full approach, positioning, and placement motion with hands visible.",
+  "duration_sec": 71.23333333333333,
+  "n_sheets": 8,
+  "prompt_variant": "refine_full_cover_v1",
+  "coarse_dir": "coarse_predictions",
+  "n_windows_refined": 7,
+  "segments": [
+    {
+      "start_sec": 0,
+      "end_sec": 5.5,
+      "subtask": "Place yellow book on shelf"
+    },
+    {
+      "start_sec": 6.5,
+      "end_sec": 9.5,
+      "subtask": "Pick up white book"
+    },
+    {
+      "start_sec": 9.5,
+      "end_sec": 14.5,
+      "subtask": "Place white book on shelf"
+    },
+    {
+      "start_sec": 15,
+      "end_sec": 17,
+      "subtask": "Pick up white book"
+    },
+    {
+      "start_sec": 17,
+      "end_sec": 22,
+      "subtask": "Place white book on shelf"
+    },
+    {
+      "start_sec": 22.5,
+      "end_sec": 31.5,
+      "subtask": "Place white book on shelf"
+    },
+    {
+      "start_sec": 32,
+      "end_sec": 34,
+      "subtask": "Pick up book from lower shelf"
+    },
+    {
+      "start_sec": 34,
+      "end_sec": 41,
+      "subtask": "Place book on upper shelf"
+    },
+    {
+      "start_sec": 41.5,
+      "end_sec": 42.5,
+      "subtask": "Place white book on shelf"
+    },
+    {
+      "start_sec": 42.5,
+      "end_sec": 43.5,
+      "subtask": "Pick up small box"
+    },
+    {
+      "start_sec": 43.5,
+      "end_sec": 45,
+      "subtask": "Place small box on shelf"
+    },
+    {
+      "start_sec": 45,
+      "end_sec": 46,
+      "subtask": "Adjust white book on shelf"
+    },
+    {
+      "start_sec": 46,
+      "end_sec": 47,
+      "subtask": "Pick up small box"
+    },
+    {
+      "start_sec": 47,
+      "end_sec": 48.5,
+      "subtask": "Place small box on shelf"
+    },
+    {
+      "start_sec": 48.5,
+      "end_sec": 51,
+      "subtask": "Adjust white book on shelf"
+    },
+    {
+      "start_sec": 51.5,
+      "end_sec": 55,
+      "subtask": "Place blue book on shelf"
+    },
+    {
+      "start_sec": 58,
+      "end_sec": 68.5,
+      "subtask": "Place white book on shelf"
+    }
+  ]
+}
